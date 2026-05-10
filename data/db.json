@@ -81,7 +81,8 @@
           "points": 0
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇵🇹"
     },
     "Car Fok": {
       "flag": "es",
@@ -93,7 +94,8 @@
           "points": 138
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇪🇸"
     },
     "Duarte Sardinha": {
       "flag": "pt",
@@ -110,7 +112,8 @@
           "points": 69
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇵🇹"
     },
     "Eetu Väisänen": {
       "flag": "fi",
@@ -132,7 +135,8 @@
           "points": 0
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇫🇮"
     },
     "Eren Aygen": {
       "flag": "tr",
@@ -154,7 +158,8 @@
           "points": 0
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇹🇷"
     },
     "George Konstantaras": {
       "flag": "pt",
@@ -166,7 +171,8 @@
           "points": 0
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇵🇹"
     },
     "Ignacio Urreta": {
       "flag": "es",
@@ -183,7 +189,8 @@
           "points": 31
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇪🇸"
     },
     "Jack TEF": {
       "flag": "gb",
@@ -200,7 +207,8 @@
           "points": 201
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇬🇧"
     },
     "James Atara": {
       "flag": "gb",
@@ -212,7 +220,8 @@
           "points": 60
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇬🇧"
     },
     "Jason Roy": {
       "flag": "gb",
@@ -229,7 +238,8 @@
           "points": 0
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇬🇧"
     },
     "Joshua Nathanial": {
       "flag": "au",
@@ -251,7 +261,8 @@
           "points": 0
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇦🇺"
     },
     "Julian Kondra": {
       "flag": "bg",
@@ -263,7 +274,8 @@
           "points": 0
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇧🇬"
     },
     "Kuba Sepiol": {
       "flag": "pl",
@@ -275,7 +287,8 @@
           "points": 127
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇵🇱"
     },
     "Liam Dela Cruz": {
       "flag": "de",
@@ -292,7 +305,8 @@
           "points": 226
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇩🇪"
     },
     "Lucas Koopman": {
       "flag": "nl",
@@ -304,7 +318,8 @@
           "points": 0
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇳🇱"
     },
     "Luis Guerrero": {
       "flag": "sv",
@@ -316,7 +331,8 @@
           "points": 25
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇸🇻"
     },
     "Lukus Wright": {
       "flag": "us",
@@ -338,7 +354,8 @@
           "points": 0
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇺🇸"
     },
     "Maikel Zwart": {
       "flag": "nl",
@@ -360,7 +377,8 @@
           "points": 0
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇳🇱"
     },
     "Michiii Maradöner": {
       "flag": "gr",
@@ -377,7 +395,8 @@
           "points": 0
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇬🇷"
     },
     "Nick Beier": {
       "flag": "de",
@@ -389,7 +408,8 @@
           "points": 58
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇩🇪"
     },
     "Philippe Verhaeren": {
       "flag": "be",
@@ -406,12 +426,13 @@
           "points": 0
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇧🇪"
     },
     "Quarter Kevu": {
       "flag": "ee",
       "name": "Quarter Kevu",
-      "photo": "https://jrfoster09.github.io/f1cc-wiki.github.io/assets/photos/quarter_kevu.jpg",
+      "photo": "https://jrfoster09.github.io/f1cc-wiki.github.io/assets/photos/quarter-kevu.jpg",
       "seasons": {
         "2024": {
           "team": "vcarb",
@@ -429,7 +450,7 @@
           "points": 0
         }
       },
-      "photo": null
+      "flag_emoji": "🇪🇪"
     },
     "Randy Belacik": {
       "flag": "sk",
@@ -446,7 +467,8 @@
           "points": 14
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇸🇰"
     },
     "Richard Hicks": {
       "flag": "au",
@@ -458,7 +480,8 @@
           "points": 0
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇦🇺"
     },
     "Riley Swansson": {
       "flag": "au",
@@ -475,7 +498,8 @@
           "points": 0
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇦🇺"
     },
     "Robin Keisner": {
       "flag": "de",
@@ -497,7 +521,8 @@
           "points": 0
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇩🇪"
     },
     "Sam Fakt": {
       "flag": "de",
@@ -519,7 +544,8 @@
           "points": 0
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇩🇪"
     },
     "Sarah Springfield": {
       "flag": "us",
@@ -541,7 +567,8 @@
           "points": 0
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇺🇸"
     },
     "Severi Seuranen": {
       "flag": "fi",
@@ -553,7 +580,8 @@
           "points": 177
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇫🇮"
     },
     "Simon Srnicek": {
       "flag": "sk",
@@ -565,7 +593,8 @@
           "points": 101
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇸🇰"
     },
     "Wesley Vandesteene": {
       "flag": "be",
@@ -582,7 +611,8 @@
           "points": 0
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇧🇪"
     },
     "Zhao Lei": {
       "flag": "cn",
@@ -604,7 +634,8 @@
           "points": 0
         }
       },
-      "photo": null
+      "photo": null,
+      "flag_emoji": "🇨🇳"
     }
   },
   "seasons": {
