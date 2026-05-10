@@ -2,20 +2,20 @@
   "meta": {
     "siteName": "F1 Community Career",
     "shortName": "F1CC",
-    "currentSeason": 2025,
+    "currentSeason": 2026,
     "lastUpdated": "2025-05-10"
   },
   "teams": {
-    "racing_bulls": { "id": "racing_bulls", "name": "Racing Bulls Honda RBPT", "short": "Racing Bulls", "color": "#1E68AE", "textColor": "#ffffff" },
+    "racing_bulls": { "id": "racing_bulls", "name": "Racing Bulls", "short": "Racing Bulls", "color": "#1E68AE", "textColor": "#ffffff" },
     "ferrari": { "id": "ferrari", "name": "Ferrari", "short": "Ferrari", "color": "#B41E1E", "textColor": "#ffffff" },
-    "mclaren": { "id": "mclaren", "name": "McLaren Mercedes", "short": "McLaren", "color": "#D26E14", "textColor": "#ffffff" },
+    "mclaren": { "id": "mclaren", "name": "McLaren", "short": "McLaren", "color": "#D26E14", "textColor": "#ffffff" },
     "mercedes": { "id": "mercedes", "name": "Mercedes", "short": "Mercedes", "color": "#009682", "textColor": "#ffffff" },
-    "williams": { "id": "williams", "name": "Williams Mercedes", "short": "Williams", "color": "#0050A0", "textColor": "#ffffff" },
-    "red_bull": { "id": "red_bull", "name": "Red Bull Racing Honda RBPT", "short": "Red Bull", "color": "#1E3CA0", "textColor": "#ffffff" },
-    "haas": { "id": "haas", "name": "Haas Ferrari", "short": "Haas", "color": "#B0B0B0", "textColor": "#111111" },
-    "aston_martin": { "id": "aston_martin", "name": "Aston Martin Aramco Mercedes", "short": "Aston Martin", "color": "#2D826E", "textColor": "#ffffff" },
-    "alpine": { "id": "alpine", "name": "Alpine Renault", "short": "Alpine", "color": "#0078C8", "textColor": "#ffffff" },
-    "kick_sauber": { "id": "kick_sauber", "name": "Kick Sauber", "short": "Kick Sauber", "color": "#00A04A", "textColor": "#ffffff" },
+    "williams": { "id": "williams", "name": "Williams", "short": "Williams", "color": "#0050A0", "textColor": "#ffffff" },
+    "red_bull": { "id": "red_bull", "name": "Red Bull Racing", "short": "Red Bull", "color": "#1E3CA0", "textColor": "#ffffff" },
+    "haas": { "id": "haas", "name": "Haas", "short": "Haas", "color": "#B0B0B0", "textColor": "#111111" },
+    "aston_martin": { "id": "aston_martin", "name": "Aston Martin", "short": "Aston Martin", "color": "#2D826E", "textColor": "#ffffff" },
+    "alpine": { "id": "alpine", "name": "Alpine", "short": "Alpine", "color": "#0078C8", "textColor": "#ffffff" },
+    "kick_sauber": { "id": "kick_sauber", "name": "Audi Sport", "short": "Audi", "color": "#D40000", "textColor": "#ffffff" },
     "reserve": { "id": "reserve", "name": "Reserve", "short": "Reserve", "color": "#555577", "textColor": "#ffffff" }
   },
   "drivers": {
@@ -38,10 +38,10 @@
     },
     "jack_tef": {
       "id": "jack_tef", "name": "Jack TEF", "nationality": "GB", "flag": "🇬🇧",
-      "bio": "A consistent top-three finisher for Reserve in 2025, Jack TEF secured third in the drivers' championship.",
+      "bio": "A consistent top-three finisher for Williams in 2025, Jack TEF secured third in the drivers' championship.",
       "seasons": {
-        "2024": { "team": "reserve", "number": 94 },
-        "2025": { "team": "reserve", "number": 94 }
+        "2024": { "team": "williams", "number": 94 },
+        "2025": { "team": "williams", "number": 94 }
       }
     },
     "maikel_zwart": {
@@ -57,7 +57,7 @@
       "id": "eren_aygen", "name": "Eren Aygen", "nationality": "TR", "flag": "🇹🇷",
       "bio": "Williams Mercedes driver who impressed in 2025, finishing 5th in the championship with a stellar late-season run.",
       "seasons": {
-        "2024": { "team": "williams", "number": 18 },
+        "2024": { "team": "haas", "number": 18 },
         "2025": { "team": "williams", "number": 18 },
         "2026": { "team": "williams", "number": 18 }
       }
