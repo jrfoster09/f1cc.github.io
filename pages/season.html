@@ -116,7 +116,7 @@ function renderSeason(year) {
 
   // Driver standings
   if (s.driver_standings && s.driver_standings.length) {
-    const leader = s.driver_standings[0].points;
+    const leader = s.driver_standings[0]?.points || 0;
     let html = `<table class="standings-table"><thead><tr>
       <th style="width:40px">Pos</th><th>Driver</th><th>Team</th>
       <th>Wins</th><th>Podiums</th><th>Races</th><th>Points</th><th>Gap</th>
@@ -146,7 +146,7 @@ function renderSeason(year) {
 
   // Constructor standings
   if (s.constructor_standings && s.constructor_standings.length) {
-    const leader = s.constructor_standings[0].points;
+    const leader = s.constructor_standings[0]?.points || 0;
     let html = `<table class="standings-table"><thead><tr>
       <th style="width:40px">Pos</th><th>Constructor</th><th>Points</th><th>Gap</th>
     </tr></thead><tbody>`;
