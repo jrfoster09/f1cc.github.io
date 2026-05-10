@@ -1,7 +1,7 @@
 {
   "meta": {
     "last_updated": "2026-05-10",
-    "current_season": 2026
+    "currentSeason": 2026
   },
   "teams": {
     "red_bull": {
@@ -190,154 +190,13 @@
       "name": "Zhao Lei"
     }
   },
-  "seasons": [
-    {
+  "seasons": {
+    "2024": {
       "year": 2024,
       "rounds": 28,
-      "champion": "Lukus Wright",
-      "constructor_champion": null,
-      "calendar": [
-        {
-          "round": 1,
-          "code": "BAH",
-          "sprint": false
-        },
-        {
-          "round": 2,
-          "code": "SAU",
-          "sprint": false
-        },
-        {
-          "round": 3,
-          "code": "AUS",
-          "sprint": false
-        },
-        {
-          "round": 4,
-          "code": "JAP",
-          "sprint": false
-        },
-        {
-          "round": 5,
-          "code": "CHNS",
-          "sprint": true
-        },
-        {
-          "round": 6,
-          "code": "CHI",
-          "sprint": false
-        },
-        {
-          "round": 7,
-          "code": "MIAS",
-          "sprint": true
-        },
-        {
-          "round": 8,
-          "code": "MIA",
-          "sprint": false
-        },
-        {
-          "round": 9,
-          "code": "IMO",
-          "sprint": false
-        },
-        {
-          "round": 10,
-          "code": "MON",
-          "sprint": false
-        },
-        {
-          "round": 11,
-          "code": "CAN",
-          "sprint": false
-        },
-        {
-          "round": 12,
-          "code": "SPA",
-          "sprint": false
-        },
-        {
-          "round": 13,
-          "code": "AUTS",
-          "sprint": true
-        },
-        {
-          "round": 14,
-          "code": "AUT",
-          "sprint": false
-        },
-        {
-          "round": 15,
-          "code": "GBR",
-          "sprint": false
-        },
-        {
-          "round": 16,
-          "code": "HUN",
-          "sprint": false
-        },
-        {
-          "round": 17,
-          "code": "NED",
-          "sprint": false
-        },
-        {
-          "round": 18,
-          "code": "ITA",
-          "sprint": false
-        },
-        {
-          "round": 19,
-          "code": "AZE",
-          "sprint": false
-        },
-        {
-          "round": 20,
-          "code": "SGP",
-          "sprint": false
-        },
-        {
-          "round": 21,
-          "code": "USAS",
-          "sprint": true
-        },
-        {
-          "round": 22,
-          "code": "USA",
-          "sprint": false
-        },
-        {
-          "round": 23,
-          "code": "MEX",
-          "sprint": false
-        },
-        {
-          "round": 24,
-          "code": "BRAS",
-          "sprint": true
-        },
-        {
-          "round": 25,
-          "code": "BRA",
-          "sprint": false
-        },
-        {
-          "round": 26,
-          "code": "VEG",
-          "sprint": false
-        },
-        {
-          "round": 27,
-          "code": "QAT",
-          "sprint": false
-        },
-        {
-          "round": 28,
-          "code": "UAE",
-          "sprint": false
-        }
-      ],
+      "status": "complete",
+      "champion_driver": "Lukus Wright",
+      "champion_constructor": null,
       "driver_standings": [
         {
           "pos": 1,
@@ -680,42 +539,37 @@
           "wins": 0,
           "podiums": 0
         }
-      ]
-    },
-    {
-      "year": 2025,
-      "rounds": 30,
-      "champion": "Quarter Kevu",
-      "constructor_champion": null,
+      ],
+      "constructor_standings": [],
       "calendar": [
         {
           "round": 1,
-          "code": "AUS",
-          "sprint": false
-        },
-        {
-          "round": 2,
-          "code": "CHNS",
-          "sprint": true
-        },
-        {
-          "round": 3,
-          "code": "CHN",
-          "sprint": false
-        },
-        {
-          "round": 4,
-          "code": "JPN",
-          "sprint": false
-        },
-        {
-          "round": 5,
           "code": "BAH",
           "sprint": false
         },
         {
-          "round": 6,
+          "round": 2,
           "code": "SAU",
+          "sprint": false
+        },
+        {
+          "round": 3,
+          "code": "AUS",
+          "sprint": false
+        },
+        {
+          "round": 4,
+          "code": "JAP",
+          "sprint": false
+        },
+        {
+          "round": 5,
+          "code": "CHNS",
+          "sprint": true
+        },
+        {
+          "round": 6,
+          "code": "CHI",
           "sprint": false
         },
         {
@@ -740,105 +594,102 @@
         },
         {
           "round": 11,
-          "code": "SPA",
-          "sprint": false
-        },
-        {
-          "round": 12,
           "code": "CAN",
           "sprint": false
         },
         {
-          "round": 13,
-          "code": "AUS",
+          "round": 12,
+          "code": "SPA",
           "sprint": false
         },
         {
+          "round": 13,
+          "code": "AUTS",
+          "sprint": true
+        },
+        {
           "round": 14,
-          "code": "BRI",
+          "code": "AUT",
           "sprint": false
         },
         {
           "round": 15,
-          "code": "BELS",
-          "sprint": true
-        },
-        {
-          "round": 16,
-          "code": "BEL",
+          "code": "GBR",
           "sprint": false
         },
         {
-          "round": 17,
+          "round": 16,
           "code": "HUN",
           "sprint": false
         },
         {
-          "round": 18,
-          "code": "NET",
+          "round": 17,
+          "code": "NED",
           "sprint": false
         },
         {
-          "round": 19,
+          "round": 18,
           "code": "ITA",
           "sprint": false
         },
         {
-          "round": 20,
+          "round": 19,
           "code": "AZE",
           "sprint": false
         },
         {
-          "round": 21,
-          "code": "SIN",
+          "round": 20,
+          "code": "SGP",
           "sprint": false
         },
         {
-          "round": 22,
+          "round": 21,
           "code": "USAS",
           "sprint": true
         },
         {
-          "round": 23,
+          "round": 22,
           "code": "USA",
           "sprint": false
         },
         {
-          "round": 24,
+          "round": 23,
           "code": "MEX",
           "sprint": false
         },
         {
-          "round": 25,
+          "round": 24,
           "code": "BRAS",
           "sprint": true
         },
         {
-          "round": 26,
+          "round": 25,
           "code": "BRA",
           "sprint": false
         },
         {
-          "round": 27,
-          "code": "LVG",
+          "round": 26,
+          "code": "VEG",
           "sprint": false
         },
         {
-          "round": 28,
-          "code": "QATS",
-          "sprint": true
-        },
-        {
-          "round": 29,
+          "round": 27,
           "code": "QAT",
           "sprint": false
         },
         {
-          "round": 30,
-          "code": "ABU",
+          "round": 28,
+          "code": "UAE",
           "sprint": false
         }
-      ],
+      ]
+    },
+    "2025": {
+      "year": 2025,
+      "rounds": 30,
+      "status": "complete",
+      "champion_driver": "Quarter Kevu",
+      "champion_constructor": null,
       "driver_standings": [
         {
           "pos": 1,
@@ -1252,13 +1103,8 @@
           "wins": 0,
           "podiums": 0
         }
-      ]
-    },
-    {
-      "year": 2026,
-      "rounds": 28,
-      "champion": null,
-      "constructor_champion": null,
+      ],
+      "constructor_standings": [],
       "calendar": [
         {
           "round": 1,
@@ -1287,13 +1133,13 @@
         },
         {
           "round": 6,
-          "code": "SAUS",
-          "sprint": true
+          "code": "SAU",
+          "sprint": false
         },
         {
           "round": 7,
-          "code": "SAU",
-          "sprint": false
+          "code": "MIAS",
+          "sprint": true
         },
         {
           "round": 8,
@@ -1302,7 +1148,7 @@
         },
         {
           "round": 9,
-          "code": "CAN",
+          "code": "IMO",
           "sprint": false
         },
         {
@@ -1317,8 +1163,8 @@
         },
         {
           "round": 12,
-          "code": "AUSS",
-          "sprint": true
+          "code": "CAN",
+          "sprint": false
         },
         {
           "round": 13,
@@ -1332,18 +1178,18 @@
         },
         {
           "round": 15,
+          "code": "BELS",
+          "sprint": true
+        },
+        {
+          "round": 16,
           "code": "BEL",
           "sprint": false
         },
         {
-          "round": 16,
+          "round": 17,
           "code": "HUN",
           "sprint": false
-        },
-        {
-          "round": 17,
-          "code": "NETS",
-          "sprint": true
         },
         {
           "round": 18,
@@ -1397,10 +1243,27 @@
         },
         {
           "round": 28,
+          "code": "QATS",
+          "sprint": true
+        },
+        {
+          "round": 29,
+          "code": "QAT",
+          "sprint": false
+        },
+        {
+          "round": 30,
           "code": "ABU",
           "sprint": false
         }
-      ],
+      ]
+    },
+    "2026": {
+      "year": 2026,
+      "rounds": 28,
+      "status": "live",
+      "champion_driver": null,
+      "champion_constructor": null,
       "driver_standings": [
         {
           "driver": "Quarter Kevu",
@@ -1702,7 +1565,150 @@
           "wins": 0,
           "podiums": 0
         }
+      ],
+      "constructor_standings": [],
+      "calendar": [
+        {
+          "round": 1,
+          "code": "AUS",
+          "sprint": false
+        },
+        {
+          "round": 2,
+          "code": "CHNS",
+          "sprint": true
+        },
+        {
+          "round": 3,
+          "code": "CHN",
+          "sprint": false
+        },
+        {
+          "round": 4,
+          "code": "JPN",
+          "sprint": false
+        },
+        {
+          "round": 5,
+          "code": "BAH",
+          "sprint": false
+        },
+        {
+          "round": 6,
+          "code": "SAUS",
+          "sprint": true
+        },
+        {
+          "round": 7,
+          "code": "SAU",
+          "sprint": false
+        },
+        {
+          "round": 8,
+          "code": "MIA",
+          "sprint": false
+        },
+        {
+          "round": 9,
+          "code": "CAN",
+          "sprint": false
+        },
+        {
+          "round": 10,
+          "code": "MON",
+          "sprint": false
+        },
+        {
+          "round": 11,
+          "code": "SPA",
+          "sprint": false
+        },
+        {
+          "round": 12,
+          "code": "AUSS",
+          "sprint": true
+        },
+        {
+          "round": 13,
+          "code": "AUS",
+          "sprint": false
+        },
+        {
+          "round": 14,
+          "code": "BRI",
+          "sprint": false
+        },
+        {
+          "round": 15,
+          "code": "BEL",
+          "sprint": false
+        },
+        {
+          "round": 16,
+          "code": "HUN",
+          "sprint": false
+        },
+        {
+          "round": 17,
+          "code": "NETS",
+          "sprint": true
+        },
+        {
+          "round": 18,
+          "code": "NET",
+          "sprint": false
+        },
+        {
+          "round": 19,
+          "code": "ITA",
+          "sprint": false
+        },
+        {
+          "round": 20,
+          "code": "AZE",
+          "sprint": false
+        },
+        {
+          "round": 21,
+          "code": "SIN",
+          "sprint": false
+        },
+        {
+          "round": 22,
+          "code": "USAS",
+          "sprint": true
+        },
+        {
+          "round": 23,
+          "code": "USA",
+          "sprint": false
+        },
+        {
+          "round": 24,
+          "code": "MEX",
+          "sprint": false
+        },
+        {
+          "round": 25,
+          "code": "BRAS",
+          "sprint": true
+        },
+        {
+          "round": 26,
+          "code": "BRA",
+          "sprint": false
+        },
+        {
+          "round": 27,
+          "code": "LVG",
+          "sprint": false
+        },
+        {
+          "round": 28,
+          "code": "ABU",
+          "sprint": false
+        }
       ]
     }
-  ]
+  }
 }
