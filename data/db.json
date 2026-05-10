@@ -1,7 +1,7 @@
 {
   "meta": {
     "last_updated": "2026-05-10",
-    "currentSeason": 2026
+    "currentSeason": "2026"
   },
   "teams": {
     "red_bull": {
@@ -1278,7 +1278,8 @@
           ],
           "team": "vcarb",
           "wins": 0,
-          "podiums": 0
+          "podiums": 0,
+          "pos": 1
         },
         {
           "driver": "Lukus Wright",
@@ -1293,7 +1294,8 @@
           ],
           "team": "vcarb",
           "wins": 0,
-          "podiums": 0
+          "podiums": 0,
+          "pos": 2
         },
         {
           "driver": "Eetu Väisänen",
@@ -1308,7 +1310,8 @@
           ],
           "team": "ferrari",
           "wins": 0,
-          "podiums": 0
+          "podiums": 0,
+          "pos": 3
         },
         {
           "driver": "Afonso Cachinho",
@@ -1323,7 +1326,8 @@
           ],
           "team": "ferrari",
           "wins": 0,
-          "podiums": 0
+          "podiums": 0,
+          "pos": 4
         },
         {
           "driver": "Eren Aygen",
@@ -1338,7 +1342,8 @@
           ],
           "team": "williams",
           "wins": 0,
-          "podiums": 0
+          "podiums": 0,
+          "pos": 5
         },
         {
           "driver": "Lucas Koopman",
@@ -1353,7 +1358,8 @@
           ],
           "team": "williams",
           "wins": 0,
-          "podiums": 0
+          "podiums": 0,
+          "pos": 6
         },
         {
           "driver": "Jason Roy",
@@ -1368,7 +1374,8 @@
           ],
           "team": "red_bull",
           "wins": 0,
-          "podiums": 0
+          "podiums": 0,
+          "pos": 7
         },
         {
           "driver": "Philippe Verhaeren",
@@ -1383,7 +1390,8 @@
           ],
           "team": "red_bull",
           "wins": 0,
-          "podiums": 0
+          "podiums": 0,
+          "pos": 8
         },
         {
           "driver": "Joshua Nathanial",
@@ -1398,7 +1406,8 @@
           ],
           "team": "mclaren",
           "wins": 0,
-          "podiums": 0
+          "podiums": 0,
+          "pos": 9
         },
         {
           "driver": "Zhao Lei",
@@ -1413,7 +1422,8 @@
           ],
           "team": "mclaren",
           "wins": 0,
-          "podiums": 0
+          "podiums": 0,
+          "pos": 10
         },
         {
           "driver": "Maikel Zwart",
@@ -1428,7 +1438,8 @@
           ],
           "team": "mercedes",
           "wins": 0,
-          "podiums": 0
+          "podiums": 0,
+          "pos": 11
         },
         {
           "driver": "Wesley Vandesteene",
@@ -1443,7 +1454,8 @@
           ],
           "team": "mercedes",
           "wins": 0,
-          "podiums": 0
+          "podiums": 0,
+          "pos": 12
         },
         {
           "driver": "George Konstantaras",
@@ -1458,7 +1470,8 @@
           ],
           "team": "haas",
           "wins": 0,
-          "podiums": 0
+          "podiums": 0,
+          "pos": 13
         },
         {
           "driver": "Riley Swansson",
@@ -1473,7 +1486,8 @@
           ],
           "team": "haas",
           "wins": 0,
-          "podiums": 0
+          "podiums": 0,
+          "pos": 14
         },
         {
           "driver": "Sam Fakt",
@@ -1488,7 +1502,8 @@
           ],
           "team": "aston_martin",
           "wins": 0,
-          "podiums": 0
+          "podiums": 0,
+          "pos": 15
         },
         {
           "driver": "Sarah Springfield",
@@ -1503,7 +1518,8 @@
           ],
           "team": "aston_martin",
           "wins": 0,
-          "podiums": 0
+          "podiums": 0,
+          "pos": 16
         },
         {
           "driver": "Richard Hicks",
@@ -1518,7 +1534,8 @@
           ],
           "team": "audi",
           "wins": 0,
-          "podiums": 0
+          "podiums": 0,
+          "pos": 17
         },
         {
           "driver": "Robin Keisner",
@@ -1533,7 +1550,8 @@
           ],
           "team": "audi",
           "wins": 0,
-          "podiums": 0
+          "podiums": 0,
+          "pos": 18
         },
         {
           "driver": "Julian Kondra",
@@ -1548,7 +1566,8 @@
           ],
           "team": "alpine",
           "wins": 0,
-          "podiums": 0
+          "podiums": 0,
+          "pos": 19
         },
         {
           "driver": "Michiii Maradöner",
@@ -1563,7 +1582,8 @@
           ],
           "team": "alpine",
           "wins": 0,
-          "podiums": 0
+          "podiums": 0,
+          "pos": 20
         }
       ],
       "constructor_standings": [],
