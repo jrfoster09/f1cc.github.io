@@ -158,7 +158,7 @@
           "points": 0
         }
       },
-      "photo": null,
+      "photo": "assets/photos/eren-aygen.png",
       "flag_emoji": "🇹🇷"
     },
     "George Konstantaras": {
@@ -189,7 +189,7 @@
           "points": 31
         }
       },
-      "photo": null,
+      "photo": "assets/photos/ignacio-urreta.png",
       "flag_emoji": "🇪🇸"
     },
     "Jack TEF": {
@@ -261,7 +261,7 @@
           "points": 0
         }
       },
-      "photo": null,
+      "photo": "assets/photos/joshua-nathaniel.png",
       "flag_emoji": "🇦🇺"
     },
     "Julian Kondra": {
@@ -354,7 +354,7 @@
           "points": 0
         }
       },
-      "photo": null,
+      "photo": "assets/photos/lukus-wright.jpg",
       "flag_emoji": "🇺🇸"
     },
     "Maikel Zwart": {
@@ -377,7 +377,7 @@
           "points": 0
         }
       },
-      "photo": null,
+      "photo": "assets/photos/maikel-zwart.jpg",
       "flag_emoji": "🇳🇱"
     },
     "Michiii Maradöner": {
@@ -431,8 +431,7 @@
     },
     "Quarter Kevu": {
       "flag": "ee",
-      "name": "Quarter Kevu",
-      "photo": null,
+      "name": "Quarter Kevu"
       "seasons": {
         "2024": {
           "team": "vcarb",
@@ -450,6 +449,7 @@
           "points": 0
         }
       },
+      "photo": "assets/photos/quarter-kevu.png"
       "flag_emoji": "🇪🇪"
     },
     "Randy Belacik": {
@@ -467,7 +467,7 @@
           "points": 14
         }
       },
-      "photo": null,
+      "photo": "assets/photos/randy-belacik.png",
       "flag_emoji": "🇸🇰"
     },
     "Richard Hicks": {
@@ -498,7 +498,7 @@
           "points": 0
         }
       },
-      "photo": null,
+      "photo": "assets/photos/riley-swansson.png",
       "flag_emoji": "🇦🇺"
     },
     "Robin Keisner": {
@@ -593,7 +593,7 @@
           "points": 101
         }
       },
-      "photo": null,
+      "photo": "assets/photos/simon-srnicek.avif",
       "flag_emoji": "🇸🇰"
     },
     "Wesley Vandesteene": {
