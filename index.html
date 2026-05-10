@@ -211,7 +211,7 @@ async function init() {
     return `<div class="champ-card">
       <div class="champ-num">${year}</div>
       <div class="champ-info">
-        <div class="champ-name">${d ? countryFlag(d.flag) + ' ' + d.name : '—'}</div>
+        <div class="champ-name">${d ? d.flag_emoji + ' ' + d.name : '—'}</div>
         <div class="champ-meta">${t ? t.short : '—'}</div>
       </div>
     </div>`;
@@ -236,7 +236,7 @@ async function init() {
       const cls = i===0?'p1':i===1?'p2':i===2?'p3':'';
       html += `<tr class="${i===0?'leader':''}">
         <td><div class="pos-badge ${cls}">${s.pos}</div></td>
-        <td><div style="display:flex;align-items:center;gap:6px"><span>${d?countryFlag(d.flag):''}</span><a class="driver-name-link" href="pages/driver.html?id=${s.driver}">${d?d.name:s.driver}</a></div></td>
+        <td><div style="display:flex;align-items:center;gap:6px"><span>${d?d.flag_emoji:''}</span><a class="driver-name-link" href="pages/driver.html?id=${s.driver}">${d?d.name:s.driver}</a></div></td>
         <td><span class="team-pill" style="background:rgba(${r},${g},${b2},0.18);color:${tc};border-color:rgba(${r},${g},${b2},0.4)">${t?t.short:s.team}</span></td>
         <td class="pts-cell">${s.points}</td>
         <td class="gap-cell">${gap}</td>
@@ -263,7 +263,7 @@ async function init() {
         const labels = ['1st','2nd','3rd'];
         html += `<div class="podium-mini-row">
           <span class="podium-mini-pos ${cols[i]}">${labels[i]}</span>
-          <span style="color:var(--text-primary)">${d?countryFlag(d.flag)+' '+d.name:r.driver}</span>
+          <span style="color:var(--text-primary)">${d?d.flag_emoji+' '+d.name:r.driver}</span>
         </div>`;
       });
       html += `</div><div style="margin-top:10px"><a href="pages/race.html?id=${race.id}&season=${currentYear}" class="btn btn-ghost" style="font-size:12px;padding:5px 12px">Full result →</a></div>`;
