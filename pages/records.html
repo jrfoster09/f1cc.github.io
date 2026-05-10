@@ -69,7 +69,7 @@ function makeCard(icon, title, rows) {
 }
 
 async function init() {
-  const DB = await fetch('../data/db.json').then(r=>r.json());
+  DB = await fetch('../data/db.json').then(r=>r.json());
 
   // Aggregate career stats per driver across all seasons
   const driverStats = {};
