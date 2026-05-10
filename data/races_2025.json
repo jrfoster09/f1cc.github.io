@@ -2,84 +2,100 @@
   "races": [
     {
       "round": 1,
+      "id": "aus_r1",
       "name": "AUS",
-      "sprint": true,
+      "flag": "🇦🇺",
+      "circuit": "Albert Park",
+      "date": "2025",
+      "sprint": false,
+      "status": "complete",
       "results": [
         {
           "driver": "Liam Dela Cruz",
           "pos": 1,
           "team": "ferrari",
           "fastest_lap": false,
-          "points": 8
+          "quali_pos": 3,
+          "points": 25
         },
         {
           "driver": "Eetu Väisänen",
           "pos": 2,
           "team": "ferrari",
           "fastest_lap": false,
-          "points": 7
+          "quali_pos": 4,
+          "points": 18
         },
         {
           "driver": "Eren Aygen",
           "pos": 3,
           "team": "williams",
           "fastest_lap": false,
-          "points": 6
+          "quali_pos": 11,
+          "points": 15
         },
         {
           "driver": "Lukus Wright",
           "pos": 4,
           "team": "vcarb",
           "fastest_lap": false,
-          "points": 5
+          "quali_pos": 7,
+          "points": 12
         },
         {
           "driver": "Sam Fakt",
           "pos": 5,
           "team": "aston_martin",
           "fastest_lap": false,
-          "points": 4
+          "quali_pos": 14,
+          "points": 10
         },
         {
           "driver": "Simon Srnicek",
           "pos": 6,
           "team": "red_bull",
           "fastest_lap": false,
-          "points": 3
+          "quali_pos": 18,
+          "points": 8
         },
         {
           "driver": "Zhao Lei",
           "pos": 7,
           "team": "mclaren",
           "fastest_lap": false,
-          "points": 2
+          "quali_pos": 19,
+          "points": 6
         },
         {
           "driver": "Ignacio Urreta",
           "pos": 8,
           "team": "mercedes",
           "fastest_lap": false,
-          "points": 1
+          "quali_pos": 2,
+          "points": 4
         },
         {
           "driver": "Maikel Zwart",
           "pos": 9,
           "team": "mercedes",
           "fastest_lap": false,
-          "points": 0
+          "quali_pos": 1,
+          "points": 2
         },
         {
           "driver": "Joshua Nathanial",
           "pos": 10,
           "team": "mclaren",
           "fastest_lap": false,
-          "points": 0
+          "quali_pos": 8,
+          "points": 1
         },
         {
           "driver": "Duarte Sardinha",
           "pos": 11,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 9,
           "points": 0
         },
         {
@@ -87,6 +103,7 @@
           "pos": 12,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 12,
           "points": 0
         },
         {
@@ -94,13 +111,15 @@
           "pos": 13,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 15,
           "points": 0
         },
         {
           "driver": "Quarter Kevu",
           "pos": 14,
           "team": "vcarb",
-          "fastest_lap": false,
+          "fastest_lap": true,
+          "quali_pos": 13,
           "points": 0
         },
         {
@@ -108,6 +127,7 @@
           "pos": 15,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 20,
           "points": 0
         },
         {
@@ -115,6 +135,7 @@
           "pos": 16,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 16,
           "points": 0
         },
         {
@@ -122,6 +143,7 @@
           "pos": 17,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 6,
           "points": 0
         },
         {
@@ -129,6 +151,7 @@
           "pos": 18,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 10,
           "points": 0
         },
         {
@@ -136,6 +159,7 @@
           "pos": "DSQ",
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 5,
           "points": 0
         },
         {
@@ -143,25 +167,27 @@
           "pos": "DSQ",
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 17,
           "points": 0
         }
-      ],
-      "status": "complete",
-      "id": "aus_r1",
-      "flag": "🇦🇺",
-      "circuit": "Albert Park",
-      "date": "2025"
+      ]
     },
     {
       "round": 2,
+      "id": "chns_r2",
       "name": "CHNS",
+      "flag": "🇨🇳",
+      "circuit": "Shanghai Sprint",
+      "date": "2025",
       "sprint": true,
+      "status": "complete",
       "results": [
         {
           "driver": "Liam Dela Cruz",
           "pos": 1,
           "team": "ferrari",
-          "fastest_lap": false,
+          "fastest_lap": true,
+          "quali_pos": 1,
           "points": 8
         },
         {
@@ -169,6 +195,7 @@
           "pos": 2,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 5,
           "points": 7
         },
         {
@@ -176,6 +203,7 @@
           "pos": 3,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 4,
           "points": 6
         },
         {
@@ -183,6 +211,7 @@
           "pos": 4,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 2,
           "points": 5
         },
         {
@@ -190,6 +219,7 @@
           "pos": 5,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 6,
           "points": 4
         },
         {
@@ -197,6 +227,7 @@
           "pos": 6,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 3,
           "points": 3
         },
         {
@@ -204,6 +235,7 @@
           "pos": 7,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 10,
           "points": 2
         },
         {
@@ -211,6 +243,7 @@
           "pos": 8,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 11,
           "points": 1
         },
         {
@@ -218,6 +251,7 @@
           "pos": 9,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 7,
           "points": 0
         },
         {
@@ -225,6 +259,7 @@
           "pos": 10,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 8,
           "points": 0
         },
         {
@@ -232,6 +267,7 @@
           "pos": 11,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 16,
           "points": 0
         },
         {
@@ -239,6 +275,7 @@
           "pos": 12,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 9,
           "points": 0
         },
         {
@@ -246,6 +283,7 @@
           "pos": 13,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 17,
           "points": 0
         },
         {
@@ -253,6 +291,7 @@
           "pos": 14,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 13,
           "points": 0
         },
         {
@@ -260,6 +299,7 @@
           "pos": 15,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 12,
           "points": 0
         },
         {
@@ -267,6 +307,7 @@
           "pos": 16,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 15,
           "points": 0
         },
         {
@@ -274,6 +315,7 @@
           "pos": 17,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 18,
           "points": 0
         },
         {
@@ -281,6 +323,7 @@
           "pos": 18,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 20,
           "points": 0
         },
         {
@@ -288,6 +331,7 @@
           "pos": 19,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 14,
           "points": 0
         },
         {
@@ -295,25 +339,27 @@
           "pos": 20,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 19,
           "points": 0
         }
-      ],
-      "status": "complete",
-      "id": "chns_r2",
-      "flag": "🇨🇳",
-      "circuit": "Shanghai Sprint",
-      "date": "2025"
+      ]
     },
     {
       "round": 3,
+      "id": "chn_r3",
       "name": "CHN",
+      "flag": "🏁",
+      "circuit": "CHN",
+      "date": "2025",
       "sprint": false,
+      "status": "complete",
       "results": [
         {
           "driver": "Simon Srnicek",
           "pos": 1,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 4,
           "points": 25
         },
         {
@@ -321,6 +367,7 @@
           "pos": 2,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 3,
           "points": 18
         },
         {
@@ -328,6 +375,7 @@
           "pos": 3,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 1,
           "points": 15
         },
         {
@@ -335,6 +383,7 @@
           "pos": 4,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 10,
           "points": 12
         },
         {
@@ -342,6 +391,7 @@
           "pos": 5,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 7,
           "points": 10
         },
         {
@@ -349,6 +399,7 @@
           "pos": 6,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 8,
           "points": 8
         },
         {
@@ -356,6 +407,7 @@
           "pos": 7,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 13,
           "points": 6
         },
         {
@@ -363,6 +415,7 @@
           "pos": 8,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 2,
           "points": 4
         },
         {
@@ -370,6 +423,7 @@
           "pos": 9,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 18,
           "points": 2
         },
         {
@@ -377,6 +431,7 @@
           "pos": 10,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 5,
           "points": 1
         },
         {
@@ -384,6 +439,7 @@
           "pos": 11,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 19,
           "points": 0
         },
         {
@@ -391,6 +447,7 @@
           "pos": 12,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 14,
           "points": 0
         },
         {
@@ -398,6 +455,7 @@
           "pos": 13,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 16,
           "points": 0
         },
         {
@@ -405,6 +463,7 @@
           "pos": 14,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 6,
           "points": 0
         },
         {
@@ -412,6 +471,7 @@
           "pos": 15,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 12,
           "points": 0
         },
         {
@@ -419,13 +479,15 @@
           "pos": 16,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 17,
           "points": 0
         },
         {
           "driver": "Riley Swansson",
           "pos": 17,
           "team": "haas",
-          "fastest_lap": false,
+          "fastest_lap": true,
+          "quali_pos": 11,
           "points": 0
         },
         {
@@ -433,6 +495,7 @@
           "pos": 18,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 20,
           "points": 0
         },
         {
@@ -440,6 +503,7 @@
           "pos": 19,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 15,
           "points": 0
         },
         {
@@ -447,25 +511,27 @@
           "pos": "DNF",
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 9,
           "points": 0
         }
-      ],
-      "status": "complete",
-      "id": "chn_r3",
-      "flag": "🇨🇳",
-      "circuit": "Shanghai",
-      "date": "2025"
+      ]
     },
     {
       "round": 4,
+      "id": "jpn_r4",
       "name": "JPN",
+      "flag": "🏁",
+      "circuit": "JPN",
+      "date": "2025",
       "sprint": false,
+      "status": "complete",
       "results": [
         {
           "driver": "Eren Aygen",
           "pos": 1,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 6,
           "points": 25
         },
         {
@@ -473,6 +539,7 @@
           "pos": 2,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 3,
           "points": 18
         },
         {
@@ -480,6 +547,7 @@
           "pos": 3,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 14,
           "points": 15
         },
         {
@@ -487,6 +555,7 @@
           "pos": 4,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 4,
           "points": 12
         },
         {
@@ -494,6 +563,7 @@
           "pos": 5,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 12,
           "points": 10
         },
         {
@@ -501,6 +571,7 @@
           "pos": 6,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 20,
           "points": 8
         },
         {
@@ -508,6 +579,7 @@
           "pos": 7,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 13,
           "points": 6
         },
         {
@@ -515,6 +587,7 @@
           "pos": 8,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 15,
           "points": 4
         },
         {
@@ -522,6 +595,7 @@
           "pos": 9,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 9,
           "points": 2
         },
         {
@@ -529,6 +603,7 @@
           "pos": 10,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 10,
           "points": 1
         },
         {
@@ -536,6 +611,7 @@
           "pos": 11,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 18,
           "points": 0
         },
         {
@@ -543,6 +619,7 @@
           "pos": 12,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 16,
           "points": 0
         },
         {
@@ -550,13 +627,15 @@
           "pos": 13,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 19,
           "points": 0
         },
         {
           "driver": "Liam Dela Cruz",
           "pos": 14,
           "team": "ferrari",
-          "fastest_lap": false,
+          "fastest_lap": true,
+          "quali_pos": 17,
           "points": 0
         },
         {
@@ -564,6 +643,7 @@
           "pos": 15,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 11,
           "points": 0
         },
         {
@@ -571,6 +651,7 @@
           "pos": "DNF",
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 8,
           "points": 0
         },
         {
@@ -578,6 +659,7 @@
           "pos": "DNF",
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 2,
           "points": 0
         },
         {
@@ -585,6 +667,7 @@
           "pos": "DNF",
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 1,
           "points": 0
         },
         {
@@ -592,6 +675,7 @@
           "pos": "DNF",
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 5,
           "points": 0
         },
         {
@@ -599,25 +683,27 @@
           "pos": "DNF",
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 7,
           "points": 0
         }
-      ],
-      "status": "complete",
-      "id": "jpn_r4",
-      "flag": "🇯🇵",
-      "circuit": "Suzuka",
-      "date": "2025"
+      ]
     },
     {
       "round": 5,
+      "id": "bah_r5",
       "name": "BAH",
+      "flag": "🇧🇭",
+      "circuit": "Bahrain International",
+      "date": "2025",
       "sprint": false,
+      "status": "complete",
       "results": [
         {
           "driver": "Jack TEF",
           "pos": 1,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 2,
           "points": 25
         },
         {
@@ -625,6 +711,7 @@
           "pos": 2,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 14,
           "points": 18
         },
         {
@@ -632,6 +719,7 @@
           "pos": 3,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 17,
           "points": 15
         },
         {
@@ -639,6 +727,7 @@
           "pos": 4,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 4,
           "points": 12
         },
         {
@@ -646,6 +735,7 @@
           "pos": 5,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 7,
           "points": 10
         },
         {
@@ -653,6 +743,7 @@
           "pos": 6,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 12,
           "points": 8
         },
         {
@@ -660,6 +751,7 @@
           "pos": 7,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 11,
           "points": 6
         },
         {
@@ -667,6 +759,7 @@
           "pos": 8,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 13,
           "points": 4
         },
         {
@@ -674,6 +767,7 @@
           "pos": 9,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 1,
           "points": 2
         },
         {
@@ -681,6 +775,7 @@
           "pos": 10,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 6,
           "points": 1
         },
         {
@@ -688,6 +783,7 @@
           "pos": 11,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 16,
           "points": 0
         },
         {
@@ -695,6 +791,7 @@
           "pos": 12,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 20,
           "points": 0
         },
         {
@@ -702,6 +799,7 @@
           "pos": 13,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 19,
           "points": 0
         },
         {
@@ -709,13 +807,15 @@
           "pos": 14,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 8,
           "points": 0
         },
         {
           "driver": "Ignacio Urreta",
           "pos": 15,
           "team": "mercedes",
-          "fastest_lap": false,
+          "fastest_lap": true,
+          "quali_pos": 18,
           "points": 0
         },
         {
@@ -723,6 +823,7 @@
           "pos": 16,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 5,
           "points": 0
         },
         {
@@ -730,6 +831,7 @@
           "pos": 17,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 3,
           "points": 0
         },
         {
@@ -737,6 +839,7 @@
           "pos": 18,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 9,
           "points": 0
         },
         {
@@ -744,6 +847,7 @@
           "pos": 19,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 10,
           "points": 0
         },
         {
@@ -751,25 +855,27 @@
           "pos": 20,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 15,
           "points": 0
         }
-      ],
-      "status": "complete",
-      "id": "bah_r5",
-      "flag": "🇧🇭",
-      "circuit": "Bahrain International",
-      "date": "2025"
+      ]
     },
     {
       "round": 6,
+      "id": "sau_r6",
       "name": "SAU",
+      "flag": "🇸🇦",
+      "circuit": "Jeddah Street",
+      "date": "2025",
       "sprint": false,
+      "status": "complete",
       "results": [
         {
           "driver": "Liam Dela Cruz",
           "pos": 1,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 12,
           "points": 25
         },
         {
@@ -777,6 +883,7 @@
           "pos": 2,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 2,
           "points": 18
         },
         {
@@ -784,6 +891,7 @@
           "pos": 3,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 5,
           "points": 15
         },
         {
@@ -791,6 +899,7 @@
           "pos": 4,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 6,
           "points": 12
         },
         {
@@ -798,6 +907,7 @@
           "pos": 5,
           "team": "williams",
           "fastest_lap": true,
+          "quali_pos": 10,
           "points": 11
         },
         {
@@ -805,6 +915,7 @@
           "pos": 6,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 18,
           "points": 8
         },
         {
@@ -812,6 +923,7 @@
           "pos": 7,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 7,
           "points": 6
         },
         {
@@ -819,6 +931,7 @@
           "pos": 8,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 13,
           "points": 4
         },
         {
@@ -826,6 +939,7 @@
           "pos": 9,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 9,
           "points": 2
         },
         {
@@ -833,6 +947,7 @@
           "pos": 10,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 15,
           "points": 1
         },
         {
@@ -840,6 +955,7 @@
           "pos": 11,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 20,
           "points": 0
         },
         {
@@ -847,6 +963,7 @@
           "pos": 12,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 8,
           "points": 0
         },
         {
@@ -854,6 +971,7 @@
           "pos": 13,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 14,
           "points": 0
         },
         {
@@ -861,6 +979,7 @@
           "pos": 14,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 19,
           "points": 0
         },
         {
@@ -868,6 +987,7 @@
           "pos": 15,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 1,
           "points": 0
         },
         {
@@ -875,6 +995,7 @@
           "pos": 16,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 17,
           "points": 0
         },
         {
@@ -882,6 +1003,7 @@
           "pos": 17,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 11,
           "points": 0
         },
         {
@@ -889,6 +1011,7 @@
           "pos": "DNF",
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 4,
           "points": 0
         },
         {
@@ -896,6 +1019,7 @@
           "pos": "DNF",
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 16,
           "points": 0
         },
         {
@@ -903,25 +1027,27 @@
           "pos": "DNF",
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 3,
           "points": 0
         }
-      ],
-      "status": "complete",
-      "id": "sau_r6",
-      "flag": "🇸🇦",
-      "circuit": "Jeddah Street",
-      "date": "2025"
+      ]
     },
     {
       "round": 7,
+      "id": "mias_r7",
       "name": "MIAS",
+      "flag": "🇺🇸",
+      "circuit": "Miami Sprint",
+      "date": "2025",
       "sprint": true,
+      "status": "complete",
       "results": [
         {
           "driver": "Quarter Kevu",
           "pos": 1,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 5,
           "points": 8
         },
         {
@@ -929,6 +1055,7 @@
           "pos": 2,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 2,
           "points": 7
         },
         {
@@ -936,6 +1063,7 @@
           "pos": 3,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 8,
           "points": 6
         },
         {
@@ -943,6 +1071,7 @@
           "pos": 4,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 4,
           "points": 5
         },
         {
@@ -950,6 +1079,7 @@
           "pos": 5,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 6,
           "points": 4
         },
         {
@@ -957,6 +1087,7 @@
           "pos": 6,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 1,
           "points": 3
         },
         {
@@ -964,6 +1095,7 @@
           "pos": 7,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 3,
           "points": 2
         },
         {
@@ -971,6 +1103,7 @@
           "pos": 8,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 10,
           "points": 1
         },
         {
@@ -978,6 +1111,7 @@
           "pos": 9,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 7,
           "points": 0
         },
         {
@@ -985,6 +1119,7 @@
           "pos": 10,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 15,
           "points": 0
         },
         {
@@ -992,6 +1127,7 @@
           "pos": 11,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 9,
           "points": 0
         },
         {
@@ -999,6 +1135,7 @@
           "pos": 12,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 13,
           "points": 0
         },
         {
@@ -1006,6 +1143,7 @@
           "pos": 13,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 18,
           "points": 0
         },
         {
@@ -1013,6 +1151,7 @@
           "pos": 14,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 14,
           "points": 0
         },
         {
@@ -1020,6 +1159,7 @@
           "pos": 15,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 11,
           "points": 0
         },
         {
@@ -1027,6 +1167,7 @@
           "pos": 16,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 12,
           "points": 0
         },
         {
@@ -1034,6 +1175,7 @@
           "pos": 17,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 19,
           "points": 0
         },
         {
@@ -1041,6 +1183,7 @@
           "pos": 18,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 16,
           "points": 0
         },
         {
@@ -1048,32 +1191,35 @@
           "pos": 19,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 20,
           "points": 0
         },
         {
           "driver": "Eren Aygen",
           "pos": 20,
           "team": "williams",
-          "fastest_lap": false,
+          "fastest_lap": true,
+          "quali_pos": 17,
           "points": 0
         }
-      ],
-      "status": "complete",
-      "id": "mias_r7",
-      "flag": "🇺🇸",
-      "circuit": "Miami Sprint",
-      "date": "2025"
+      ]
     },
     {
       "round": 8,
+      "id": "mia_r8",
       "name": "MIA",
+      "flag": "🇺🇸",
+      "circuit": "Miami International",
+      "date": "2025",
       "sprint": false,
+      "status": "complete",
       "results": [
         {
           "driver": "Jack TEF",
           "pos": 1,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 5,
           "points": 25
         },
         {
@@ -1081,6 +1227,7 @@
           "pos": 2,
           "team": "mclaren",
           "fastest_lap": true,
+          "quali_pos": 4,
           "points": 19
         },
         {
@@ -1088,6 +1235,7 @@
           "pos": 3,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 1,
           "points": 15
         },
         {
@@ -1095,6 +1243,7 @@
           "pos": 4,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 14,
           "points": 12
         },
         {
@@ -1102,6 +1251,7 @@
           "pos": 5,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 13,
           "points": 10
         },
         {
@@ -1109,6 +1259,7 @@
           "pos": 6,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 2,
           "points": 8
         },
         {
@@ -1116,6 +1267,7 @@
           "pos": 7,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 10,
           "points": 6
         },
         {
@@ -1123,6 +1275,7 @@
           "pos": 8,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 16,
           "points": 4
         },
         {
@@ -1130,6 +1283,7 @@
           "pos": 9,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 3,
           "points": 2
         },
         {
@@ -1137,6 +1291,7 @@
           "pos": 10,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 8,
           "points": 1
         },
         {
@@ -1144,6 +1299,7 @@
           "pos": 11,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 18,
           "points": 0
         },
         {
@@ -1151,6 +1307,7 @@
           "pos": 12,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 6,
           "points": 0
         },
         {
@@ -1158,6 +1315,7 @@
           "pos": 13,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 12,
           "points": 0
         },
         {
@@ -1165,6 +1323,7 @@
           "pos": 14,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 20,
           "points": 0
         },
         {
@@ -1172,6 +1331,7 @@
           "pos": 15,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 7,
           "points": 0
         },
         {
@@ -1179,6 +1339,7 @@
           "pos": 16,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 15,
           "points": 0
         },
         {
@@ -1186,6 +1347,7 @@
           "pos": 17,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 19,
           "points": 0
         },
         {
@@ -1193,6 +1355,7 @@
           "pos": 18,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 9,
           "points": 0
         },
         {
@@ -1200,6 +1363,7 @@
           "pos": "DNF",
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 17,
           "points": 0
         },
         {
@@ -1207,25 +1371,27 @@
           "pos": "DNF",
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 11,
           "points": 0
         }
-      ],
-      "status": "complete",
-      "id": "mia_r8",
-      "flag": "🇺🇸",
-      "circuit": "Miami International",
-      "date": "2025"
+      ]
     },
     {
       "round": 9,
+      "id": "imo_r9",
       "name": "IMO",
+      "flag": "🇮🇹",
+      "circuit": "Imola",
+      "date": "2025",
       "sprint": false,
+      "status": "complete",
       "results": [
         {
           "driver": "Eetu Väisänen",
           "pos": 1,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 1,
           "points": 25
         },
         {
@@ -1233,6 +1399,7 @@
           "pos": 2,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 3,
           "points": 18
         },
         {
@@ -1240,6 +1407,7 @@
           "pos": 3,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 2,
           "points": 15
         },
         {
@@ -1247,6 +1415,7 @@
           "pos": 4,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 6,
           "points": 12
         },
         {
@@ -1254,6 +1423,7 @@
           "pos": 5,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 4,
           "points": 10
         },
         {
@@ -1261,6 +1431,7 @@
           "pos": 6,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 13,
           "points": 8
         },
         {
@@ -1268,6 +1439,7 @@
           "pos": 7,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 10,
           "points": 6
         },
         {
@@ -1275,6 +1447,7 @@
           "pos": 8,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 20,
           "points": 4
         },
         {
@@ -1282,6 +1455,7 @@
           "pos": 9,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 11,
           "points": 2
         },
         {
@@ -1289,6 +1463,7 @@
           "pos": 10,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 17,
           "points": 1
         },
         {
@@ -1296,6 +1471,7 @@
           "pos": 11,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 18,
           "points": 0
         },
         {
@@ -1303,6 +1479,7 @@
           "pos": 12,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 14,
           "points": 0
         },
         {
@@ -1310,6 +1487,7 @@
           "pos": 13,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 7,
           "points": 0
         },
         {
@@ -1317,13 +1495,15 @@
           "pos": 14,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 16,
           "points": 0
         },
         {
           "driver": "Liam Dela Cruz",
           "pos": 15,
           "team": "ferrari",
-          "fastest_lap": false,
+          "fastest_lap": true,
+          "quali_pos": 15,
           "points": 0
         },
         {
@@ -1331,6 +1511,7 @@
           "pos": 16,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 9,
           "points": 0
         },
         {
@@ -1338,6 +1519,7 @@
           "pos": 17,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 12,
           "points": 0
         },
         {
@@ -1345,6 +1527,7 @@
           "pos": 18,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 8,
           "points": 0
         },
         {
@@ -1352,6 +1535,7 @@
           "pos": 19,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 19,
           "points": 0
         },
         {
@@ -1359,25 +1543,27 @@
           "pos": "DNF",
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 5,
           "points": 0
         }
-      ],
-      "status": "complete",
-      "id": "imo_r9",
-      "flag": "🇮🇹",
-      "circuit": "Imola",
-      "date": "2025"
+      ]
     },
     {
       "round": 10,
+      "id": "mon_r10",
       "name": "MON",
+      "flag": "🇲🇨",
+      "circuit": "Monaco",
+      "date": "2025",
       "sprint": false,
+      "status": "complete",
       "results": [
         {
           "driver": "Jack TEF",
           "pos": 1,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 1,
           "points": 25
         },
         {
@@ -1385,6 +1571,7 @@
           "pos": 2,
           "team": "ferrari",
           "fastest_lap": true,
+          "quali_pos": 3,
           "points": 19
         },
         {
@@ -1392,6 +1579,7 @@
           "pos": 3,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 2,
           "points": 15
         },
         {
@@ -1399,6 +1587,7 @@
           "pos": 4,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 5,
           "points": 12
         },
         {
@@ -1406,6 +1595,7 @@
           "pos": 5,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 9,
           "points": 10
         },
         {
@@ -1413,6 +1603,7 @@
           "pos": 6,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 16,
           "points": 8
         },
         {
@@ -1420,6 +1611,7 @@
           "pos": 7,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 7,
           "points": 6
         },
         {
@@ -1427,6 +1619,7 @@
           "pos": 8,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 10,
           "points": 4
         },
         {
@@ -1434,6 +1627,7 @@
           "pos": 9,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 12,
           "points": 2
         },
         {
@@ -1441,6 +1635,7 @@
           "pos": 10,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 13,
           "points": 1
         },
         {
@@ -1448,6 +1643,7 @@
           "pos": 11,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 17,
           "points": 0
         },
         {
@@ -1455,6 +1651,7 @@
           "pos": 12,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 4,
           "points": 0
         },
         {
@@ -1462,6 +1659,7 @@
           "pos": 13,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 14,
           "points": 0
         },
         {
@@ -1469,6 +1667,7 @@
           "pos": 14,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 15,
           "points": 0
         },
         {
@@ -1476,6 +1675,7 @@
           "pos": 15,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 11,
           "points": 0
         },
         {
@@ -1483,6 +1683,7 @@
           "pos": 16,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 18,
           "points": 0
         },
         {
@@ -1490,6 +1691,7 @@
           "pos": 17,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 8,
           "points": 0
         },
         {
@@ -1497,6 +1699,7 @@
           "pos": 18,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 20,
           "points": 0
         },
         {
@@ -1504,6 +1707,7 @@
           "pos": 19,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 6,
           "points": 0
         },
         {
@@ -1511,25 +1715,27 @@
           "pos": "DNF",
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 19,
           "points": 0
         }
-      ],
-      "status": "complete",
-      "id": "mon_r10",
-      "flag": "🇲🇨",
-      "circuit": "Circuit de Monaco",
-      "date": "2025"
+      ]
     },
     {
       "round": 11,
+      "id": "spa_r11",
       "name": "SPA",
+      "flag": "🇪🇸",
+      "circuit": "Circuit de Barcelona",
+      "date": "2025",
       "sprint": false,
+      "status": "complete",
       "results": [
         {
           "driver": "Simon Srnicek",
           "pos": 1,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 4,
           "points": 25
         },
         {
@@ -1537,6 +1743,7 @@
           "pos": 2,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 8,
           "points": 18
         },
         {
@@ -1544,6 +1751,7 @@
           "pos": 3,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 14,
           "points": 15
         },
         {
@@ -1551,6 +1759,7 @@
           "pos": 4,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 1,
           "points": 12
         },
         {
@@ -1558,6 +1767,7 @@
           "pos": 5,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 11,
           "points": 10
         },
         {
@@ -1565,6 +1775,7 @@
           "pos": 6,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 12,
           "points": 8
         },
         {
@@ -1572,6 +1783,7 @@
           "pos": 7,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 15,
           "points": 6
         },
         {
@@ -1579,6 +1791,7 @@
           "pos": 8,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 19,
           "points": 4
         },
         {
@@ -1586,6 +1799,7 @@
           "pos": 9,
           "team": "red_bull",
           "fastest_lap": true,
+          "quali_pos": 17,
           "points": 3
         },
         {
@@ -1593,6 +1807,7 @@
           "pos": 10,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 2,
           "points": 1
         },
         {
@@ -1600,6 +1815,7 @@
           "pos": 11,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 5,
           "points": 0
         },
         {
@@ -1607,6 +1823,7 @@
           "pos": 12,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 9,
           "points": 0
         },
         {
@@ -1614,6 +1831,7 @@
           "pos": 13,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 6,
           "points": 0
         },
         {
@@ -1621,6 +1839,7 @@
           "pos": 14,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 18,
           "points": 0
         },
         {
@@ -1628,6 +1847,7 @@
           "pos": 15,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 7,
           "points": 0
         },
         {
@@ -1635,6 +1855,7 @@
           "pos": 16,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 3,
           "points": 0
         },
         {
@@ -1642,6 +1863,7 @@
           "pos": 17,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 10,
           "points": 0
         },
         {
@@ -1649,6 +1871,7 @@
           "pos": 18,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 13,
           "points": 0
         },
         {
@@ -1656,6 +1879,7 @@
           "pos": 19,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 16,
           "points": 0
         },
         {
@@ -1663,25 +1887,27 @@
           "pos": "DNF",
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 20,
           "points": 0
         }
-      ],
-      "status": "complete",
-      "id": "spa_r11",
-      "flag": "🇪🇸",
-      "circuit": "Circuit de Barcelona",
-      "date": "2025"
+      ]
     },
     {
       "round": 12,
+      "id": "can_r12",
       "name": "CAN",
+      "flag": "🇨🇦",
+      "circuit": "Circuit Gilles Villeneuve",
+      "date": "2025",
       "sprint": false,
+      "status": "complete",
       "results": [
         {
           "driver": "Quarter Kevu",
           "pos": 1,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 3,
           "points": 25
         },
         {
@@ -1689,6 +1915,7 @@
           "pos": 2,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 12,
           "points": 18
         },
         {
@@ -1696,6 +1923,7 @@
           "pos": 3,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 8,
           "points": 15
         },
         {
@@ -1703,6 +1931,7 @@
           "pos": 4,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 11,
           "points": 12
         },
         {
@@ -1710,6 +1939,7 @@
           "pos": 5,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 1,
           "points": 10
         },
         {
@@ -1717,6 +1947,7 @@
           "pos": 6,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 5,
           "points": 8
         },
         {
@@ -1724,6 +1955,7 @@
           "pos": 7,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 7,
           "points": 6
         },
         {
@@ -1731,6 +1963,7 @@
           "pos": 8,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 9,
           "points": 4
         },
         {
@@ -1738,6 +1971,7 @@
           "pos": 9,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 17,
           "points": 2
         },
         {
@@ -1745,6 +1979,7 @@
           "pos": 10,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 19,
           "points": 1
         },
         {
@@ -1752,6 +1987,7 @@
           "pos": 11,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 20,
           "points": 0
         },
         {
@@ -1759,6 +1995,7 @@
           "pos": 12,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 6,
           "points": 0
         },
         {
@@ -1766,6 +2003,7 @@
           "pos": 13,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 13,
           "points": 0
         },
         {
@@ -1773,6 +2011,7 @@
           "pos": 14,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 18,
           "points": 0
         },
         {
@@ -1780,6 +2019,7 @@
           "pos": 15,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 2,
           "points": 0
         },
         {
@@ -1787,6 +2027,7 @@
           "pos": 16,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 15,
           "points": 0
         },
         {
@@ -1794,13 +2035,15 @@
           "pos": 17,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 4,
           "points": 0
         },
         {
           "driver": "Liam Dela Cruz",
           "pos": 18,
           "team": "ferrari",
-          "fastest_lap": false,
+          "fastest_lap": true,
+          "quali_pos": 14,
           "points": 0
         },
         {
@@ -1808,6 +2051,7 @@
           "pos": 19,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 16,
           "points": 0
         },
         {
@@ -1815,95 +2059,107 @@
           "pos": 20,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 10,
           "points": 0
         }
-      ],
-      "status": "complete",
-      "id": "can_r12",
-      "flag": "🇨🇦",
-      "circuit": "Circuit Gilles Villeneuve",
-      "date": "2025"
+      ]
     },
     {
       "round": 13,
+      "id": "aus_r13",
       "name": "AUS",
-      "sprint": true,
+      "flag": "🇦🇺",
+      "circuit": "Albert Park",
+      "date": "2025",
+      "sprint": false,
+      "status": "complete",
       "results": [
         {
           "driver": "Maikel Zwart",
           "pos": 1,
           "team": "mercedes",
           "fastest_lap": false,
-          "points": 8
+          "quali_pos": 3,
+          "points": 25
         },
         {
           "driver": "Quarter Kevu",
           "pos": 2,
           "team": "vcarb",
           "fastest_lap": false,
-          "points": 7
+          "quali_pos": 2,
+          "points": 18
         },
         {
           "driver": "Jason Roy",
           "pos": 3,
           "team": "vcarb",
           "fastest_lap": false,
-          "points": 6
+          "quali_pos": 4,
+          "points": 15
         },
         {
           "driver": "Zhao Lei",
           "pos": 4,
           "team": "mclaren",
           "fastest_lap": false,
-          "points": 5
+          "quali_pos": 9,
+          "points": 12
         },
         {
           "driver": "Afonso Cachinho",
           "pos": 5,
           "team": "haas",
           "fastest_lap": false,
-          "points": 4
+          "quali_pos": 13,
+          "points": 10
         },
         {
           "driver": "Wesley Vandesteene",
           "pos": 6,
           "team": "mercedes",
           "fastest_lap": false,
-          "points": 3
+          "quali_pos": 15,
+          "points": 8
         },
         {
           "driver": "Lukus Wright",
           "pos": 7,
           "team": "red_bull",
           "fastest_lap": false,
-          "points": 2
+          "quali_pos": 10,
+          "points": 6
         },
         {
           "driver": "Sam Fakt",
           "pos": 8,
           "team": "aston_martin",
           "fastest_lap": false,
-          "points": 1
+          "quali_pos": 20,
+          "points": 4
         },
         {
           "driver": "Michiii MaraDöner",
           "pos": 9,
           "team": "alpine",
           "fastest_lap": false,
-          "points": 0
+          "quali_pos": 11,
+          "points": 2
         },
         {
           "driver": "Riley Swansson",
           "pos": 10,
           "team": "haas",
           "fastest_lap": true,
-          "points": 0
+          "quali_pos": 17,
+          "points": 2
         },
         {
           "driver": "Robin Keisner",
           "pos": 11,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 7,
           "points": 0
         },
         {
@@ -1911,6 +2167,7 @@
           "pos": 12,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 1,
           "points": 0
         },
         {
@@ -1918,6 +2175,7 @@
           "pos": 13,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 5,
           "points": 0
         },
         {
@@ -1925,6 +2183,7 @@
           "pos": 14,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 12,
           "points": 0
         },
         {
@@ -1932,6 +2191,7 @@
           "pos": 15,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 6,
           "points": 0
         },
         {
@@ -1939,6 +2199,7 @@
           "pos": 16,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 16,
           "points": 0
         },
         {
@@ -1946,6 +2207,7 @@
           "pos": 17,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 19,
           "points": 0
         },
         {
@@ -1953,6 +2215,7 @@
           "pos": 18,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 14,
           "points": 0
         },
         {
@@ -1960,6 +2223,7 @@
           "pos": "DNF",
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 8,
           "points": 0
         },
         {
@@ -1967,25 +2231,27 @@
           "pos": "DNF",
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 18,
           "points": 0
         }
-      ],
-      "status": "complete",
-      "id": "aus_r13",
-      "flag": "🇦🇺",
-      "circuit": "Albert Park",
-      "date": "2025"
+      ]
     },
     {
       "round": 14,
+      "id": "bri_r14",
       "name": "BRI",
+      "flag": "🇬🇧",
+      "circuit": "Silverstone",
+      "date": "2025",
       "sprint": false,
+      "status": "complete",
       "results": [
         {
           "driver": "Eetu Väisänen",
           "pos": 1,
           "team": "ferrari",
           "fastest_lap": true,
+          "quali_pos": 1,
           "points": 26
         },
         {
@@ -1993,6 +2259,7 @@
           "pos": 2,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 9,
           "points": 18
         },
         {
@@ -2000,6 +2267,7 @@
           "pos": 3,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 2,
           "points": 15
         },
         {
@@ -2007,6 +2275,7 @@
           "pos": 4,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 8,
           "points": 12
         },
         {
@@ -2014,6 +2283,7 @@
           "pos": 5,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 5,
           "points": 10
         },
         {
@@ -2021,6 +2291,7 @@
           "pos": 6,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 14,
           "points": 8
         },
         {
@@ -2028,6 +2299,7 @@
           "pos": 7,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 11,
           "points": 6
         },
         {
@@ -2035,6 +2307,7 @@
           "pos": 8,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 13,
           "points": 4
         },
         {
@@ -2042,6 +2315,7 @@
           "pos": 9,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 6,
           "points": 2
         },
         {
@@ -2049,6 +2323,7 @@
           "pos": 10,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 4,
           "points": 1
         },
         {
@@ -2056,6 +2331,7 @@
           "pos": 11,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 10,
           "points": 0
         },
         {
@@ -2063,6 +2339,7 @@
           "pos": 12,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 18,
           "points": 0
         },
         {
@@ -2070,6 +2347,7 @@
           "pos": 13,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 15,
           "points": 0
         },
         {
@@ -2077,6 +2355,7 @@
           "pos": 14,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 16,
           "points": 0
         },
         {
@@ -2084,6 +2363,7 @@
           "pos": 15,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 12,
           "points": 0
         },
         {
@@ -2091,6 +2371,7 @@
           "pos": 16,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 7,
           "points": 0
         },
         {
@@ -2098,6 +2379,7 @@
           "pos": 17,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 20,
           "points": 0
         },
         {
@@ -2105,6 +2387,7 @@
           "pos": 18,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 19,
           "points": 0
         },
         {
@@ -2112,6 +2395,7 @@
           "pos": 19,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 3,
           "points": 0
         },
         {
@@ -2119,25 +2403,27 @@
           "pos": 20,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 17,
           "points": 0
         }
-      ],
-      "status": "complete",
-      "id": "bri_r14",
-      "flag": "🇬🇧",
-      "circuit": "Silverstone",
-      "date": "2025"
+      ]
     },
     {
       "round": 15,
+      "id": "bels_r15",
       "name": "BELS",
+      "flag": "🇧🇪",
+      "circuit": "Spa Sprint",
+      "date": "2025",
       "sprint": true,
+      "status": "complete",
       "results": [
         {
           "driver": "Liam Dela Cruz",
           "pos": 1,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 1,
           "points": 8
         },
         {
@@ -2145,6 +2431,7 @@
           "pos": 2,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 6,
           "points": 7
         },
         {
@@ -2152,6 +2439,7 @@
           "pos": 3,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 4,
           "points": 6
         },
         {
@@ -2159,6 +2447,7 @@
           "pos": 4,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 7,
           "points": 5
         },
         {
@@ -2166,6 +2455,7 @@
           "pos": 5,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 2,
           "points": 4
         },
         {
@@ -2173,6 +2463,7 @@
           "pos": 6,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 5,
           "points": 3
         },
         {
@@ -2180,6 +2471,7 @@
           "pos": 7,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 3,
           "points": 2
         },
         {
@@ -2187,6 +2479,7 @@
           "pos": 8,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 16,
           "points": 1
         },
         {
@@ -2194,6 +2487,7 @@
           "pos": 9,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 9,
           "points": 0
         },
         {
@@ -2201,6 +2495,7 @@
           "pos": 10,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 8,
           "points": 0
         },
         {
@@ -2208,6 +2503,7 @@
           "pos": 11,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 10,
           "points": 0
         },
         {
@@ -2215,6 +2511,7 @@
           "pos": 12,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 15,
           "points": 0
         },
         {
@@ -2222,6 +2519,7 @@
           "pos": 13,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 14,
           "points": 0
         },
         {
@@ -2229,6 +2527,7 @@
           "pos": 14,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 20,
           "points": 0
         },
         {
@@ -2236,13 +2535,15 @@
           "pos": 15,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 18,
           "points": 0
         },
         {
           "driver": "Jason Roy",
           "pos": 16,
           "team": "vcarb",
-          "fastest_lap": false,
+          "fastest_lap": true,
+          "quali_pos": 17,
           "points": 0
         },
         {
@@ -2250,6 +2551,7 @@
           "pos": 17,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 12,
           "points": 0
         },
         {
@@ -2257,6 +2559,7 @@
           "pos": 18,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 13,
           "points": 0
         },
         {
@@ -2264,6 +2567,7 @@
           "pos": 19,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 19,
           "points": 0
         },
         {
@@ -2271,25 +2575,27 @@
           "pos": 20,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 11,
           "points": 0
         }
-      ],
-      "status": "complete",
-      "id": "bels_r15",
-      "flag": "🇧🇪",
-      "circuit": "Spa-Francorchamps Sprint",
-      "date": "2025"
+      ]
     },
     {
       "round": 16,
+      "id": "bel_r16",
       "name": "BEL",
+      "flag": "🇧🇪",
+      "circuit": "Spa-Francorchamps",
+      "date": "2025",
       "sprint": false,
+      "status": "complete",
       "results": [
         {
           "driver": "Jason Roy",
           "pos": 1,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 1,
           "points": 25
         },
         {
@@ -2297,6 +2603,7 @@
           "pos": 2,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 8,
           "points": 18
         },
         {
@@ -2304,6 +2611,7 @@
           "pos": 3,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 2,
           "points": 15
         },
         {
@@ -2311,6 +2619,7 @@
           "pos": 4,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 3,
           "points": 12
         },
         {
@@ -2318,6 +2627,7 @@
           "pos": 5,
           "team": "vcarb",
           "fastest_lap": true,
+          "quali_pos": 6,
           "points": 11
         },
         {
@@ -2325,6 +2635,7 @@
           "pos": 6,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 10,
           "points": 8
         },
         {
@@ -2332,6 +2643,7 @@
           "pos": 7,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 9,
           "points": 6
         },
         {
@@ -2339,6 +2651,7 @@
           "pos": 8,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 12,
           "points": 4
         },
         {
@@ -2346,6 +2659,7 @@
           "pos": 9,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 7,
           "points": 2
         },
         {
@@ -2353,6 +2667,7 @@
           "pos": 10,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 19,
           "points": 1
         },
         {
@@ -2360,6 +2675,7 @@
           "pos": 11,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 16,
           "points": 0
         },
         {
@@ -2367,6 +2683,7 @@
           "pos": 12,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 20,
           "points": 0
         },
         {
@@ -2374,6 +2691,7 @@
           "pos": 13,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 11,
           "points": 0
         },
         {
@@ -2381,6 +2699,7 @@
           "pos": 14,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 14,
           "points": 0
         },
         {
@@ -2388,6 +2707,7 @@
           "pos": 15,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 17,
           "points": 0
         },
         {
@@ -2395,6 +2715,7 @@
           "pos": 16,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 4,
           "points": 0
         },
         {
@@ -2402,6 +2723,7 @@
           "pos": 17,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 18,
           "points": 0
         },
         {
@@ -2409,6 +2731,7 @@
           "pos": 18,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 15,
           "points": 0
         },
         {
@@ -2416,6 +2739,7 @@
           "pos": 19,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 13,
           "points": 0
         },
         {
@@ -2423,25 +2747,27 @@
           "pos": 20,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 5,
           "points": 0
         }
-      ],
-      "status": "complete",
-      "id": "bel_r16",
-      "flag": "🇧🇪",
-      "circuit": "Spa-Francorchamps",
-      "date": "2025"
+      ]
     },
     {
       "round": 17,
+      "id": "hun_r17",
       "name": "HUN",
+      "flag": "🇭🇺",
+      "circuit": "Hungaroring",
+      "date": "2025",
       "sprint": false,
+      "status": "complete",
       "results": [
         {
           "driver": "Zhao Lei",
           "pos": 1,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 9,
           "points": 25
         },
         {
@@ -2449,6 +2775,7 @@
           "pos": 2,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 1,
           "points": 18
         },
         {
@@ -2456,6 +2783,7 @@
           "pos": 3,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 3,
           "points": 15
         },
         {
@@ -2463,6 +2791,7 @@
           "pos": 4,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 12,
           "points": 12
         },
         {
@@ -2470,6 +2799,7 @@
           "pos": 5,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 8,
           "points": 10
         },
         {
@@ -2477,6 +2807,7 @@
           "pos": 6,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 14,
           "points": 8
         },
         {
@@ -2484,6 +2815,7 @@
           "pos": 7,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 10,
           "points": 6
         },
         {
@@ -2491,6 +2823,7 @@
           "pos": 8,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 4,
           "points": 4
         },
         {
@@ -2498,6 +2831,7 @@
           "pos": 9,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 11,
           "points": 2
         },
         {
@@ -2505,6 +2839,7 @@
           "pos": 10,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 17,
           "points": 1
         },
         {
@@ -2512,6 +2847,7 @@
           "pos": 11,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 5,
           "points": 0
         },
         {
@@ -2519,6 +2855,7 @@
           "pos": 12,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 7,
           "points": 0
         },
         {
@@ -2526,6 +2863,7 @@
           "pos": 13,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 18,
           "points": 0
         },
         {
@@ -2533,6 +2871,7 @@
           "pos": 14,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 15,
           "points": 0
         },
         {
@@ -2540,6 +2879,7 @@
           "pos": 15,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 16,
           "points": 0
         },
         {
@@ -2547,13 +2887,15 @@
           "pos": 16,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 20,
           "points": 0
         },
         {
           "driver": "Joshua Nathanial",
           "pos": 17,
           "team": "mclaren",
-          "fastest_lap": false,
+          "fastest_lap": true,
+          "quali_pos": 2,
           "points": 0
         },
         {
@@ -2561,6 +2903,7 @@
           "pos": 18,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 19,
           "points": 0
         },
         {
@@ -2568,6 +2911,7 @@
           "pos": 19,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 6,
           "points": 0
         },
         {
@@ -2575,25 +2919,27 @@
           "pos": 20,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 13,
           "points": 0
         }
-      ],
-      "status": "complete",
-      "id": "hun_r17",
-      "flag": "🇭🇺",
-      "circuit": "Hungaroring",
-      "date": "2025"
+      ]
     },
     {
       "round": 18,
+      "id": "net_r18",
       "name": "NET",
+      "flag": "🇳🇱",
+      "circuit": "Zandvoort",
+      "date": "2025",
       "sprint": false,
+      "status": "complete",
       "results": [
         {
           "driver": "Liam Dela Cruz",
           "pos": 1,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 5,
           "points": 25
         },
         {
@@ -2601,6 +2947,7 @@
           "pos": 2,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 1,
           "points": 18
         },
         {
@@ -2608,6 +2955,7 @@
           "pos": 3,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 2,
           "points": 15
         },
         {
@@ -2615,6 +2963,7 @@
           "pos": 4,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 14,
           "points": 12
         },
         {
@@ -2622,6 +2971,7 @@
           "pos": 5,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 4,
           "points": 10
         },
         {
@@ -2629,6 +2979,7 @@
           "pos": 6,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 10,
           "points": 8
         },
         {
@@ -2636,6 +2987,7 @@
           "pos": 7,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 19,
           "points": 6
         },
         {
@@ -2643,6 +2995,7 @@
           "pos": 8,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 6,
           "points": 4
         },
         {
@@ -2650,6 +3003,7 @@
           "pos": 9,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 17,
           "points": 2
         },
         {
@@ -2657,6 +3011,7 @@
           "pos": 10,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 15,
           "points": 1
         },
         {
@@ -2664,6 +3019,7 @@
           "pos": 11,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 18,
           "points": 0
         },
         {
@@ -2671,6 +3027,7 @@
           "pos": 12,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 20,
           "points": 0
         },
         {
@@ -2678,6 +3035,7 @@
           "pos": 13,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 7,
           "points": 0
         },
         {
@@ -2685,6 +3043,7 @@
           "pos": 14,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 9,
           "points": 0
         },
         {
@@ -2692,6 +3051,7 @@
           "pos": 15,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 16,
           "points": 0
         },
         {
@@ -2699,6 +3059,7 @@
           "pos": 16,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 13,
           "points": 0
         },
         {
@@ -2706,6 +3067,7 @@
           "pos": 17,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 12,
           "points": 0
         },
         {
@@ -2713,6 +3075,7 @@
           "pos": 18,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 10,
           "points": 0
         },
         {
@@ -2720,32 +3083,35 @@
           "pos": 19,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 8,
           "points": 0
         },
         {
           "driver": "Eren Aygen",
           "pos": 20,
           "team": "williams",
-          "fastest_lap": false,
+          "fastest_lap": true,
+          "quali_pos": 3,
           "points": 0
         }
-      ],
-      "status": "complete",
-      "id": "net_r18",
-      "flag": "🇳🇱",
-      "circuit": "Zandvoort",
-      "date": "2025"
+      ]
     },
     {
       "round": 19,
+      "id": "ita_r19",
       "name": "ITA",
+      "flag": "🇮🇹",
+      "circuit": "Monza",
+      "date": "2025",
       "sprint": false,
+      "status": "complete",
       "results": [
         {
           "driver": "Quarter Kevu",
           "pos": 1,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 7,
           "points": 25
         },
         {
@@ -2753,6 +3119,7 @@
           "pos": 2,
           "team": "williams",
           "fastest_lap": true,
+          "quali_pos": 6,
           "points": 19
         },
         {
@@ -2760,6 +3127,7 @@
           "pos": 3,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 11,
           "points": 15
         },
         {
@@ -2767,6 +3135,7 @@
           "pos": 4,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 18,
           "points": 12
         },
         {
@@ -2774,6 +3143,7 @@
           "pos": 5,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 15,
           "points": 10
         },
         {
@@ -2781,6 +3151,7 @@
           "pos": 6,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 16,
           "points": 8
         },
         {
@@ -2788,6 +3159,7 @@
           "pos": 7,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 9,
           "points": 6
         },
         {
@@ -2795,6 +3167,7 @@
           "pos": 8,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 10,
           "points": 4
         },
         {
@@ -2802,6 +3175,7 @@
           "pos": 9,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 1,
           "points": 2
         },
         {
@@ -2809,6 +3183,7 @@
           "pos": 10,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 4,
           "points": 1
         },
         {
@@ -2816,6 +3191,7 @@
           "pos": 11,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 19,
           "points": 0
         },
         {
@@ -2823,6 +3199,7 @@
           "pos": 12,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 20,
           "points": 0
         },
         {
@@ -2830,6 +3207,7 @@
           "pos": 13,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 17,
           "points": 0
         },
         {
@@ -2837,6 +3215,7 @@
           "pos": 14,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 14,
           "points": 0
         },
         {
@@ -2844,6 +3223,7 @@
           "pos": 15,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 13,
           "points": 0
         },
         {
@@ -2851,6 +3231,7 @@
           "pos": 16,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 2,
           "points": 0
         },
         {
@@ -2858,6 +3239,7 @@
           "pos": 17,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 5,
           "points": 0
         },
         {
@@ -2865,6 +3247,7 @@
           "pos": "DNF",
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 8,
           "points": 0
         },
         {
@@ -2872,6 +3255,7 @@
           "pos": "DNF",
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 3,
           "points": 0
         },
         {
@@ -2879,25 +3263,27 @@
           "pos": "DNF",
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 12,
           "points": 0
         }
-      ],
-      "status": "complete",
-      "id": "ita_r19",
-      "flag": "🇮🇹",
-      "circuit": "Monza",
-      "date": "2025"
+      ]
     },
     {
       "round": 20,
+      "id": "aze_r20",
       "name": "AZE",
+      "flag": "🇦🇿",
+      "circuit": "Baku",
+      "date": "2025",
       "sprint": false,
+      "status": "complete",
       "results": [
         {
           "driver": "Philippe Verhaeren",
           "pos": 1,
           "team": "red_bull",
           "fastest_lap": true,
+          "quali_pos": 8,
           "points": 26
         },
         {
@@ -2905,6 +3291,7 @@
           "pos": 2,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 3,
           "points": 18
         },
         {
@@ -2912,6 +3299,7 @@
           "pos": 3,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 2,
           "points": 15
         },
         {
@@ -2919,6 +3307,7 @@
           "pos": 4,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 5,
           "points": 12
         },
         {
@@ -2926,6 +3315,7 @@
           "pos": 5,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 4,
           "points": 10
         },
         {
@@ -2933,6 +3323,7 @@
           "pos": 6,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 10,
           "points": 8
         },
         {
@@ -2940,6 +3331,7 @@
           "pos": 7,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 14,
           "points": 6
         },
         {
@@ -2947,6 +3339,7 @@
           "pos": 8,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 15,
           "points": 4
         },
         {
@@ -2954,6 +3347,7 @@
           "pos": 9,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 16,
           "points": 2
         },
         {
@@ -2961,6 +3355,7 @@
           "pos": 10,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 18,
           "points": 1
         },
         {
@@ -2968,6 +3363,7 @@
           "pos": 11,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 1,
           "points": 0
         },
         {
@@ -2975,6 +3371,7 @@
           "pos": 12,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 6,
           "points": 0
         },
         {
@@ -2982,6 +3379,7 @@
           "pos": 13,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 9,
           "points": 0
         },
         {
@@ -2989,6 +3387,7 @@
           "pos": 14,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 13,
           "points": 0
         },
         {
@@ -2996,6 +3395,7 @@
           "pos": 15,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 7,
           "points": 0
         },
         {
@@ -3003,6 +3403,7 @@
           "pos": 16,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 19,
           "points": 0
         },
         {
@@ -3010,6 +3411,7 @@
           "pos": "DNF",
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 12,
           "points": 0
         },
         {
@@ -3017,6 +3419,7 @@
           "pos": "DNF",
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 20,
           "points": 0
         },
         {
@@ -3024,6 +3427,7 @@
           "pos": "DNF",
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 17,
           "points": 0
         },
         {
@@ -3031,25 +3435,27 @@
           "pos": "DNF",
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 11,
           "points": 0
         }
-      ],
-      "status": "complete",
-      "id": "aze_r20",
-      "flag": "🇦🇿",
-      "circuit": "Baku Street",
-      "date": "2025"
+      ]
     },
     {
       "round": 21,
+      "id": "sin_r21",
       "name": "SIN",
+      "flag": "🇸🇬",
+      "circuit": "Marina Bay",
+      "date": "2025",
       "sprint": false,
+      "status": "complete",
       "results": [
         {
           "driver": "Jason Roy",
           "pos": 1,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 4,
           "points": 25
         },
         {
@@ -3057,6 +3463,7 @@
           "pos": 2,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 11,
           "points": 18
         },
         {
@@ -3064,6 +3471,7 @@
           "pos": 3,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 20,
           "points": 15
         },
         {
@@ -3071,6 +3479,7 @@
           "pos": 4,
           "team": "red_bull",
           "fastest_lap": true,
+          "quali_pos": 13,
           "points": 13
         },
         {
@@ -3078,6 +3487,7 @@
           "pos": 5,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 5,
           "points": 10
         },
         {
@@ -3085,6 +3495,7 @@
           "pos": 6,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 6,
           "points": 8
         },
         {
@@ -3092,6 +3503,7 @@
           "pos": 7,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 9,
           "points": 6
         },
         {
@@ -3099,6 +3511,7 @@
           "pos": 8,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 2,
           "points": 4
         },
         {
@@ -3106,6 +3519,7 @@
           "pos": 9,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 8,
           "points": 2
         },
         {
@@ -3113,6 +3527,7 @@
           "pos": 10,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 7,
           "points": 1
         },
         {
@@ -3120,6 +3535,7 @@
           "pos": 11,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 18,
           "points": 0
         },
         {
@@ -3127,6 +3543,7 @@
           "pos": 12,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 10,
           "points": 0
         },
         {
@@ -3134,6 +3551,7 @@
           "pos": 13,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 14,
           "points": 0
         },
         {
@@ -3141,6 +3559,7 @@
           "pos": 14,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 16,
           "points": 0
         },
         {
@@ -3148,6 +3567,7 @@
           "pos": 15,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 19,
           "points": 0
         },
         {
@@ -3155,6 +3575,7 @@
           "pos": 16,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 12,
           "points": 0
         },
         {
@@ -3162,6 +3583,7 @@
           "pos": "DNF",
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 1,
           "points": 0
         },
         {
@@ -3169,6 +3591,7 @@
           "pos": "DNF",
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 15,
           "points": 0
         },
         {
@@ -3176,6 +3599,7 @@
           "pos": "DNF",
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 3,
           "points": 0
         },
         {
@@ -3183,25 +3607,27 @@
           "pos": "DNF",
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 17,
           "points": 0
         }
-      ],
-      "status": "complete",
-      "id": "sin_r21",
-      "flag": "🇸🇬",
-      "circuit": "Marina Bay",
-      "date": "2025"
+      ]
     },
     {
       "round": 22,
+      "id": "usas_r22",
       "name": "USAS",
+      "flag": "🇺🇸",
+      "circuit": "COTA Sprint",
+      "date": "2025",
       "sprint": true,
+      "status": "complete",
       "results": [
         {
           "driver": "Liam Dela Cruz",
           "pos": 1,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 1,
           "points": 8
         },
         {
@@ -3209,6 +3635,7 @@
           "pos": 2,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 3,
           "points": 7
         },
         {
@@ -3216,6 +3643,7 @@
           "pos": 3,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 6,
           "points": 6
         },
         {
@@ -3223,6 +3651,7 @@
           "pos": 4,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 8,
           "points": 5
         },
         {
@@ -3230,6 +3659,7 @@
           "pos": 5,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 2,
           "points": 4
         },
         {
@@ -3237,6 +3667,7 @@
           "pos": 6,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 4,
           "points": 3
         },
         {
@@ -3244,6 +3675,7 @@
           "pos": 7,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 7,
           "points": 2
         },
         {
@@ -3251,6 +3683,7 @@
           "pos": 8,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 11,
           "points": 1
         },
         {
@@ -3258,6 +3691,7 @@
           "pos": 9,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 12,
           "points": 0
         },
         {
@@ -3265,6 +3699,7 @@
           "pos": 10,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 16,
           "points": 0
         },
         {
@@ -3272,6 +3707,7 @@
           "pos": 11,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 13,
           "points": 0
         },
         {
@@ -3279,6 +3715,7 @@
           "pos": 12,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 5,
           "points": 0
         },
         {
@@ -3286,6 +3723,7 @@
           "pos": 13,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 18,
           "points": 0
         },
         {
@@ -3293,6 +3731,7 @@
           "pos": 14,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 14,
           "points": 0
         },
         {
@@ -3300,6 +3739,7 @@
           "pos": 15,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 20,
           "points": 0
         },
         {
@@ -3307,6 +3747,7 @@
           "pos": 16,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 17,
           "points": 0
         },
         {
@@ -3314,6 +3755,7 @@
           "pos": 17,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 15,
           "points": 0
         },
         {
@@ -3321,6 +3763,7 @@
           "pos": 18,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 19,
           "points": 0
         },
         {
@@ -3328,32 +3771,35 @@
           "pos": 19,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 10,
           "points": 0
         },
         {
           "driver": "Quarter Kevu",
           "pos": 20,
           "team": "vcarb",
-          "fastest_lap": false,
+          "fastest_lap": true,
+          "quali_pos": 9,
           "points": 0
         }
-      ],
-      "status": "complete",
-      "id": "usas_r22",
-      "flag": "🇺🇸",
-      "circuit": "COTA Sprint",
-      "date": "2025"
+      ]
     },
     {
       "round": 23,
+      "id": "usa_r23",
       "name": "USA",
+      "flag": "🇺🇸",
+      "circuit": "Circuit of the Americas",
+      "date": "2025",
       "sprint": false,
+      "status": "complete",
       "results": [
         {
           "driver": "Zhao Lei",
           "pos": 1,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 2,
           "points": 25
         },
         {
@@ -3361,6 +3807,7 @@
           "pos": 2,
           "team": "vcarb",
           "fastest_lap": true,
+          "quali_pos": 16,
           "points": 19
         },
         {
@@ -3368,6 +3815,7 @@
           "pos": 3,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 18,
           "points": 15
         },
         {
@@ -3375,6 +3823,7 @@
           "pos": 4,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 17,
           "points": 12
         },
         {
@@ -3382,6 +3831,7 @@
           "pos": 5,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 4,
           "points": 10
         },
         {
@@ -3389,6 +3839,7 @@
           "pos": 6,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 10,
           "points": 8
         },
         {
@@ -3396,6 +3847,7 @@
           "pos": 7,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 8,
           "points": 6
         },
         {
@@ -3403,6 +3855,7 @@
           "pos": 8,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 9,
           "points": 4
         },
         {
@@ -3410,6 +3863,7 @@
           "pos": 9,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 6,
           "points": 2
         },
         {
@@ -3417,6 +3871,7 @@
           "pos": 10,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 1,
           "points": 1
         },
         {
@@ -3424,6 +3879,7 @@
           "pos": 11,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 7,
           "points": 0
         },
         {
@@ -3431,6 +3887,7 @@
           "pos": 12,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 12,
           "points": 0
         },
         {
@@ -3438,6 +3895,7 @@
           "pos": 13,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 13,
           "points": 0
         },
         {
@@ -3445,6 +3903,7 @@
           "pos": 14,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 14,
           "points": 0
         },
         {
@@ -3452,6 +3911,7 @@
           "pos": 15,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 11,
           "points": 0
         },
         {
@@ -3459,6 +3919,7 @@
           "pos": 16,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 19,
           "points": 0
         },
         {
@@ -3466,6 +3927,7 @@
           "pos": 17,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 3,
           "points": 0
         },
         {
@@ -3473,6 +3935,7 @@
           "pos": 18,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 5,
           "points": 0
         },
         {
@@ -3480,6 +3943,7 @@
           "pos": 19,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 20,
           "points": 0
         },
         {
@@ -3487,25 +3951,27 @@
           "pos": "DNF",
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 15,
           "points": 0
         }
-      ],
-      "status": "complete",
-      "id": "usa_r23",
-      "flag": "🇺🇸",
-      "circuit": "Circuit of the Americas",
-      "date": "2025"
+      ]
     },
     {
       "round": 24,
+      "id": "mex_r24",
       "name": "MEX",
+      "flag": "🇲🇽",
+      "circuit": "Hermanos Rodriguez",
+      "date": "2025",
       "sprint": false,
+      "status": "complete",
       "results": [
         {
           "driver": "Sarah Springfield",
           "pos": 1,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 12,
           "points": 25
         },
         {
@@ -3513,6 +3979,7 @@
           "pos": 2,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 7,
           "points": 18
         },
         {
@@ -3520,6 +3987,7 @@
           "pos": 3,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 8,
           "points": 15
         },
         {
@@ -3527,6 +3995,7 @@
           "pos": 4,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 10,
           "points": 12
         },
         {
@@ -3534,20 +4003,23 @@
           "pos": 5,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 4,
           "points": 10
         },
         {
           "driver": "Wesley Vandesteene",
           "pos": 6,
           "team": "mercedes",
-          "fastest_lap": false,
-          "points": 8
+          "fastest_lap": true,
+          "quali_pos": 9,
+          "points": 9
         },
         {
           "driver": "Riley Swansson",
           "pos": 7,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 11,
           "points": 6
         },
         {
@@ -3555,6 +4027,7 @@
           "pos": 8,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 13,
           "points": 4
         },
         {
@@ -3562,6 +4035,7 @@
           "pos": 9,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 18,
           "points": 2
         },
         {
@@ -3569,6 +4043,7 @@
           "pos": 10,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 2,
           "points": 1
         },
         {
@@ -3576,6 +4051,7 @@
           "pos": 11,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 17,
           "points": 0
         },
         {
@@ -3583,6 +4059,7 @@
           "pos": 12,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 1,
           "points": 0
         },
         {
@@ -3590,6 +4067,7 @@
           "pos": 13,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 6,
           "points": 0
         },
         {
@@ -3597,6 +4075,7 @@
           "pos": 14,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 20,
           "points": 0
         },
         {
@@ -3604,6 +4083,7 @@
           "pos": 15,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 3,
           "points": 0
         },
         {
@@ -3611,6 +4091,7 @@
           "pos": 16,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 5,
           "points": 0
         },
         {
@@ -3618,6 +4099,7 @@
           "pos": "DNF",
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 15,
           "points": 0
         },
         {
@@ -3625,6 +4107,7 @@
           "pos": "DNF",
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 16,
           "points": 0
         },
         {
@@ -3632,6 +4115,7 @@
           "pos": "DNF",
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 14,
           "points": 0
         },
         {
@@ -3639,633 +4123,715 @@
           "pos": "DNF",
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 19,
           "points": 0
         }
-      ],
-      "status": "complete",
-      "id": "mex_r24",
-      "flag": "🇲🇽",
-      "circuit": "Autodromo Hermanos Rodriguez",
-      "date": "2025"
+      ]
     },
     {
       "round": 25,
-      "name": "BRAS",
-      "sprint": true,
-      "results": [
-        {
-          "driver": "Liam Dela Cruz",
-          "pos": 1,
-          "team": "ferrari",
-          "fastest_lap": false,
-          "points": 8
-        },
-        {
-          "driver": "Lukus Wright",
-          "pos": 2,
-          "team": "red_bull",
-          "fastest_lap": false,
-          "points": 7
-        },
-        {
-          "driver": "Riley Swansson",
-          "pos": 3,
-          "team": "haas",
-          "fastest_lap": false,
-          "points": 6
-        },
-        {
-          "driver": "Michiii MaraDöner",
-          "pos": 4,
-          "team": "alpine",
-          "fastest_lap": false,
-          "points": 5
-        },
-        {
-          "driver": "Eetu Väisänen",
-          "pos": 5,
-          "team": "ferrari",
-          "fastest_lap": false,
-          "points": 4
-        },
-        {
-          "driver": "Zhao Lei",
-          "pos": 6,
-          "team": "mclaren",
-          "fastest_lap": false,
-          "points": 3
-        },
-        {
-          "driver": "Joshua Nathanial",
-          "pos": 7,
-          "team": "mclaren",
-          "fastest_lap": false,
-          "points": 2
-        },
-        {
-          "driver": "Jason Roy",
-          "pos": 8,
-          "team": "vcarb",
-          "fastest_lap": false,
-          "points": 1
-        },
-        {
-          "driver": "Sarah Springfield",
-          "pos": 9,
-          "team": "aston_martin",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Philippe Verhaeren",
-          "pos": 10,
-          "team": "red_bull",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Wesley Vandesteene",
-          "pos": 11,
-          "team": "mercedes",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Robin Keisner",
-          "pos": 12,
-          "team": "kick_sauber",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Maikel Zwart",
-          "pos": 13,
-          "team": "williams",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Afonso Cachinho",
-          "pos": 14,
-          "team": "haas",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Eren Aygen",
-          "pos": 15,
-          "team": "mercedes",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Nick Beier",
-          "pos": 16,
-          "team": "alpine",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Duarte Sardinha",
-          "pos": 17,
-          "team": "kick_sauber",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Jack TEF",
-          "pos": 18,
-          "team": "williams",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Quarter Kevu",
-          "pos": 19,
-          "team": "vcarb",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Sam Fakt",
-          "pos": 20,
-          "team": "aston_martin",
-          "fastest_lap": false,
-          "points": 0
-        }
-      ],
-      "status": "complete",
       "id": "bras_r25",
+      "name": "BRAS",
       "flag": "🇧🇷",
       "circuit": "Interlagos Sprint",
-      "date": "2025"
-    },
-    {
-      "round": 26,
-      "name": "BRA",
-      "sprint": false,
-      "results": [
-        {
-          "driver": "Nick Beier",
-          "pos": 1,
-          "team": "alpine",
-          "fastest_lap": false,
-          "points": 25
-        },
-        {
-          "driver": "Afonso Cachinho",
-          "pos": 2,
-          "team": "haas",
-          "fastest_lap": false,
-          "points": 18
-        },
-        {
-          "driver": "Wesley Vandesteene",
-          "pos": 3,
-          "team": "mercedes",
-          "fastest_lap": false,
-          "points": 15
-        },
-        {
-          "driver": "Riley Swansson",
-          "pos": 4,
-          "team": "haas",
-          "fastest_lap": false,
-          "points": 12
-        },
-        {
-          "driver": "Joshua Nathanial",
-          "pos": 5,
-          "team": "mclaren",
-          "fastest_lap": false,
-          "points": 10
-        },
-        {
-          "driver": "Duarte Sardinha",
-          "pos": 6,
-          "team": "kick_sauber",
-          "fastest_lap": false,
-          "points": 8
-        },
-        {
-          "driver": "Lukus Wright",
-          "pos": 7,
-          "team": "red_bull",
-          "fastest_lap": false,
-          "points": 6
-        },
-        {
-          "driver": "Michiii MaraDöner",
-          "pos": 8,
-          "team": "alpine",
-          "fastest_lap": false,
-          "points": 4
-        },
-        {
-          "driver": "Eren Aygen",
-          "pos": 9,
-          "team": "mercedes",
-          "fastest_lap": false,
-          "points": 2
-        },
-        {
-          "driver": "Maikel Zwart",
-          "pos": 10,
-          "team": "williams",
-          "fastest_lap": false,
-          "points": 1
-        },
-        {
-          "driver": "Quarter Kevu",
-          "pos": 11,
-          "team": "vcarb",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Jack TEF",
-          "pos": 12,
-          "team": "williams",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Sarah Springfield",
-          "pos": 13,
-          "team": "aston_martin",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Sam Fakt",
-          "pos": 14,
-          "team": "aston_martin",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Philippe Verhaeren",
-          "pos": 15,
-          "team": "red_bull",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Jason Roy",
-          "pos": 16,
-          "team": "vcarb",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Eetu Väisänen",
-          "pos": "DNF",
-          "team": "ferrari",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Liam Dela Cruz",
-          "pos": "DNF",
-          "team": "ferrari",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Zhao Lei",
-          "pos": "DNF",
-          "team": "mclaren",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Robin Keisner",
-          "pos": "DNF",
-          "team": "kick_sauber",
-          "fastest_lap": false,
-          "points": 0
-        }
-      ],
-      "status": "complete",
-      "id": "bra_r26",
-      "flag": "🇧🇷",
-      "circuit": "Interlagos",
-      "date": "2025"
-    },
-    {
-      "round": 27,
-      "name": "LVG",
-      "sprint": false,
-      "results": [
-        {
-          "driver": "Philippe Verhaeren",
-          "pos": 1,
-          "team": "red_bull",
-          "fastest_lap": false,
-          "points": 25
-        },
-        {
-          "driver": "Robin Keisner",
-          "pos": 2,
-          "team": "kick_sauber",
-          "fastest_lap": false,
-          "points": 18
-        },
-        {
-          "driver": "Afonso Cachinho",
-          "pos": 3,
-          "team": "haas",
-          "fastest_lap": false,
-          "points": 15
-        },
-        {
-          "driver": "Sarah Springfield",
-          "pos": 4,
-          "team": "aston_martin",
-          "fastest_lap": false,
-          "points": 12
-        },
-        {
-          "driver": "Joshua Nathanial",
-          "pos": 5,
-          "team": "mclaren",
-          "fastest_lap": false,
-          "points": 10
-        },
-        {
-          "driver": "Maikel Zwart",
-          "pos": 6,
-          "team": "williams",
-          "fastest_lap": false,
-          "points": 8
-        },
-        {
-          "driver": "Eren Aygen",
-          "pos": 7,
-          "team": "mercedes",
-          "fastest_lap": false,
-          "points": 6
-        },
-        {
-          "driver": "Sam Fakt",
-          "pos": 8,
-          "team": "aston_martin",
-          "fastest_lap": false,
-          "points": 4
-        },
-        {
-          "driver": "Zhao Lei",
-          "pos": 9,
-          "team": "mclaren",
-          "fastest_lap": false,
-          "points": 2
-        },
-        {
-          "driver": "Michiii MaraDöner",
-          "pos": 10,
-          "team": "alpine",
-          "fastest_lap": false,
-          "points": 1
-        },
-        {
-          "driver": "Quarter Kevu",
-          "pos": 11,
-          "team": "vcarb",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Jason Roy",
-          "pos": 12,
-          "team": "vcarb",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Eetu Väisänen",
-          "pos": 13,
-          "team": "ferrari",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Jack TEF",
-          "pos": 14,
-          "team": "williams",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Duarte Sardinha",
-          "pos": 15,
-          "team": "kick_sauber",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Riley Swansson",
-          "pos": 16,
-          "team": "haas",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Liam Dela Cruz",
-          "pos": 17,
-          "team": "ferrari",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Lukus Wright",
-          "pos": "DNF",
-          "team": "red_bull",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Wesley Vandesteene",
-          "pos": "DNF",
-          "team": "mercedes",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Nick Beier",
-          "pos": "DNF",
-          "team": "alpine",
-          "fastest_lap": false,
-          "points": 0
-        }
-      ],
-      "status": "complete",
-      "id": "lvg_r27",
-      "flag": "🇺🇸",
-      "circuit": "Las Vegas Street",
-      "date": "2025"
-    },
-    {
-      "round": 28,
-      "name": "QATS",
+      "date": "2025",
       "sprint": true,
-      "results": [
-        {
-          "driver": "Quarter Kevu",
-          "pos": 1,
-          "team": "vcarb",
-          "fastest_lap": false,
-          "points": 8
-        },
-        {
-          "driver": "Liam Dela Cruz",
-          "pos": 2,
-          "team": "ferrari",
-          "fastest_lap": false,
-          "points": 7
-        },
-        {
-          "driver": "Zhao Lei",
-          "pos": 3,
-          "team": "mclaren",
-          "fastest_lap": false,
-          "points": 6
-        },
-        {
-          "driver": "Eren Aygen",
-          "pos": 4,
-          "team": "mercedes",
-          "fastest_lap": false,
-          "points": 5
-        },
-        {
-          "driver": "Joshua Nathanial",
-          "pos": 5,
-          "team": "mclaren",
-          "fastest_lap": false,
-          "points": 4
-        },
-        {
-          "driver": "Robin Keisner",
-          "pos": 6,
-          "team": "kick_sauber",
-          "fastest_lap": false,
-          "points": 3
-        },
-        {
-          "driver": "Sarah Springfield",
-          "pos": 7,
-          "team": "aston_martin",
-          "fastest_lap": false,
-          "points": 2
-        },
-        {
-          "driver": "Eetu Väisänen",
-          "pos": 8,
-          "team": "ferrari",
-          "fastest_lap": false,
-          "points": 1
-        },
-        {
-          "driver": "Nick Beier",
-          "pos": 9,
-          "team": "alpine",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Duarte Sardinha",
-          "pos": 10,
-          "team": "kick_sauber",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Lukus Wright",
-          "pos": 11,
-          "team": "red_bull",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Afonso Cachinho",
-          "pos": 12,
-          "team": "haas",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Jason Roy",
-          "pos": 13,
-          "team": "vcarb",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Philippe Verhaeren",
-          "pos": 14,
-          "team": "red_bull",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Riley Swansson",
-          "pos": 15,
-          "team": "haas",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Michiii MaraDöner",
-          "pos": 16,
-          "team": "alpine",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Jack TEF",
-          "pos": 17,
-          "team": "williams",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Maikel Zwart",
-          "pos": 18,
-          "team": "williams",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Sam Fakt",
-          "pos": 19,
-          "team": "aston_martin",
-          "fastest_lap": false,
-          "points": 0
-        },
-        {
-          "driver": "Wesley Vandesteene",
-          "pos": 20,
-          "team": "mercedes",
-          "fastest_lap": false,
-          "points": 0
-        }
-      ],
       "status": "complete",
-      "id": "qats_r28",
-      "flag": "🇶🇦",
-      "circuit": "Losail Sprint",
-      "date": "2025"
-    },
-    {
-      "round": 29,
-      "name": "QAT",
-      "sprint": false,
       "results": [
         {
           "driver": "Liam Dela Cruz",
           "pos": 1,
           "team": "ferrari",
           "fastest_lap": true,
+          "quali_pos": 3,
+          "points": 8
+        },
+        {
+          "driver": "Lukus Wright",
+          "pos": 2,
+          "team": "red_bull",
+          "fastest_lap": false,
+          "quali_pos": 6,
+          "points": 7
+        },
+        {
+          "driver": "Riley Swansson",
+          "pos": 3,
+          "team": "haas",
+          "fastest_lap": false,
+          "quali_pos": 8,
+          "points": 6
+        },
+        {
+          "driver": "Michiii MaraDöner",
+          "pos": 4,
+          "team": "alpine",
+          "fastest_lap": false,
+          "quali_pos": 4,
+          "points": 5
+        },
+        {
+          "driver": "Eetu Väisänen",
+          "pos": 5,
+          "team": "ferrari",
+          "fastest_lap": false,
+          "quali_pos": 1,
+          "points": 4
+        },
+        {
+          "driver": "Zhao Lei",
+          "pos": 6,
+          "team": "mclaren",
+          "fastest_lap": false,
+          "quali_pos": 2,
+          "points": 3
+        },
+        {
+          "driver": "Joshua Nathanial",
+          "pos": 7,
+          "team": "mclaren",
+          "fastest_lap": false,
+          "quali_pos": 7,
+          "points": 2
+        },
+        {
+          "driver": "Jason Roy",
+          "pos": 8,
+          "team": "vcarb",
+          "fastest_lap": false,
+          "quali_pos": 13,
+          "points": 1
+        },
+        {
+          "driver": "Sarah Springfield",
+          "pos": 9,
+          "team": "aston_martin",
+          "fastest_lap": false,
+          "quali_pos": 10,
+          "points": 0
+        },
+        {
+          "driver": "Philippe Verhaeren",
+          "pos": 10,
+          "team": "red_bull",
+          "fastest_lap": false,
+          "quali_pos": 9,
+          "points": 0
+        },
+        {
+          "driver": "Wesley Vandesteene",
+          "pos": 11,
+          "team": "mercedes",
+          "fastest_lap": false,
+          "quali_pos": 11,
+          "points": 0
+        },
+        {
+          "driver": "Robin Keisner",
+          "pos": 12,
+          "team": "kick_sauber",
+          "fastest_lap": false,
+          "quali_pos": 14,
+          "points": 0
+        },
+        {
+          "driver": "Maikel Zwart",
+          "pos": 13,
+          "team": "williams",
+          "fastest_lap": false,
+          "quali_pos": 16,
+          "points": 0
+        },
+        {
+          "driver": "Afonso Cachinho",
+          "pos": 14,
+          "team": "haas",
+          "fastest_lap": false,
+          "quali_pos": 15,
+          "points": 0
+        },
+        {
+          "driver": "Eren Aygen",
+          "pos": 15,
+          "team": "mercedes",
+          "fastest_lap": false,
+          "quali_pos": 18,
+          "points": 0
+        },
+        {
+          "driver": "Nick Beier",
+          "pos": 16,
+          "team": "alpine",
+          "fastest_lap": false,
+          "quali_pos": 17,
+          "points": 0
+        },
+        {
+          "driver": "Duarte Sardinha",
+          "pos": 17,
+          "team": "kick_sauber",
+          "fastest_lap": false,
+          "quali_pos": 12,
+          "points": 0
+        },
+        {
+          "driver": "Jack TEF",
+          "pos": 18,
+          "team": "williams",
+          "fastest_lap": true,
+          "quali_pos": 5,
+          "points": 0
+        },
+        {
+          "driver": "Quarter Kevu",
+          "pos": 19,
+          "team": "vcarb",
+          "fastest_lap": false,
+          "quali_pos": 19,
+          "points": 0
+        },
+        {
+          "driver": "Sam Fakt",
+          "pos": 20,
+          "team": "aston_martin",
+          "fastest_lap": false,
+          "quali_pos": 20,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "round": 26,
+      "id": "bra_r26",
+      "name": "BRA",
+      "flag": "🇧🇷",
+      "circuit": "Interlagos",
+      "date": "2025",
+      "sprint": false,
+      "status": "complete",
+      "results": [
+        {
+          "driver": "Nick Beier",
+          "pos": 1,
+          "team": "alpine",
+          "fastest_lap": false,
+          "quali_pos": 13,
+          "points": 25
+        },
+        {
+          "driver": "Afonso Cachinho",
+          "pos": 2,
+          "team": "haas",
+          "fastest_lap": false,
+          "quali_pos": 9,
+          "points": 18
+        },
+        {
+          "driver": "Wesley Vandesteene",
+          "pos": 3,
+          "team": "mercedes",
+          "fastest_lap": true,
+          "quali_pos": 11,
+          "points": 16
+        },
+        {
+          "driver": "Riley Swansson",
+          "pos": 4,
+          "team": "haas",
+          "fastest_lap": false,
+          "quali_pos": 17,
+          "points": 12
+        },
+        {
+          "driver": "Joshua Nathanial",
+          "pos": 5,
+          "team": "mclaren",
+          "fastest_lap": false,
+          "quali_pos": 16,
+          "points": 10
+        },
+        {
+          "driver": "Duarte Sardinha",
+          "pos": 6,
+          "team": "kick_sauber",
+          "fastest_lap": false,
+          "quali_pos": 8,
+          "points": 8
+        },
+        {
+          "driver": "Lukus Wright",
+          "pos": 7,
+          "team": "red_bull",
+          "fastest_lap": false,
+          "quali_pos": 7,
+          "points": 6
+        },
+        {
+          "driver": "Michiii MaraDöner",
+          "pos": 8,
+          "team": "alpine",
+          "fastest_lap": false,
+          "quali_pos": 5,
+          "points": 4
+        },
+        {
+          "driver": "Eren Aygen",
+          "pos": 9,
+          "team": "mercedes",
+          "fastest_lap": false,
+          "quali_pos": 10,
+          "points": 2
+        },
+        {
+          "driver": "Maikel Zwart",
+          "pos": 10,
+          "team": "williams",
+          "fastest_lap": false,
+          "quali_pos": 14,
+          "points": 1
+        },
+        {
+          "driver": "Quarter Kevu",
+          "pos": 11,
+          "team": "vcarb",
+          "fastest_lap": false,
+          "quali_pos": 19,
+          "points": 0
+        },
+        {
+          "driver": "Jack TEF",
+          "pos": 12,
+          "team": "williams",
+          "fastest_lap": false,
+          "quali_pos": 18,
+          "points": 0
+        },
+        {
+          "driver": "Sarah Springfield",
+          "pos": 13,
+          "team": "aston_martin",
+          "fastest_lap": false,
+          "quali_pos": 4,
+          "points": 0
+        },
+        {
+          "driver": "Sam Fakt",
+          "pos": 14,
+          "team": "aston_martin",
+          "fastest_lap": false,
+          "quali_pos": 20,
+          "points": 0
+        },
+        {
+          "driver": "Philippe Verhaeren",
+          "pos": 15,
+          "team": "red_bull",
+          "fastest_lap": false,
+          "quali_pos": 3,
+          "points": 0
+        },
+        {
+          "driver": "Jason Roy",
+          "pos": 16,
+          "team": "vcarb",
+          "fastest_lap": false,
+          "quali_pos": 6,
+          "points": 0
+        },
+        {
+          "driver": "Eetu Väisänen",
+          "pos": "DNF",
+          "team": "ferrari",
+          "fastest_lap": false,
+          "quali_pos": 12,
+          "points": 0
+        },
+        {
+          "driver": "Liam Dela Cruz",
+          "pos": "DNF",
+          "team": "ferrari",
+          "fastest_lap": false,
+          "quali_pos": 15,
+          "points": 0
+        },
+        {
+          "driver": "Zhao Lei",
+          "pos": "DNF",
+          "team": "mclaren",
+          "fastest_lap": false,
+          "quali_pos": 1,
+          "points": 0
+        },
+        {
+          "driver": "Robin Keisner",
+          "pos": "DNF",
+          "team": "kick_sauber",
+          "fastest_lap": false,
+          "quali_pos": 2,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "round": 27,
+      "id": "lvg_r27",
+      "name": "LVG",
+      "flag": "🇺🇸",
+      "circuit": "Las Vegas Street",
+      "date": "2025",
+      "sprint": false,
+      "status": "complete",
+      "results": [
+        {
+          "driver": "Philippe Verhaeren",
+          "pos": 1,
+          "team": "red_bull",
+          "fastest_lap": false,
+          "quali_pos": 15,
+          "points": 25
+        },
+        {
+          "driver": "Robin Keisner",
+          "pos": 2,
+          "team": "kick_sauber",
+          "fastest_lap": false,
+          "quali_pos": 5,
+          "points": 18
+        },
+        {
+          "driver": "Afonso Cachinho",
+          "pos": 3,
+          "team": "haas",
+          "fastest_lap": false,
+          "quali_pos": 16,
+          "points": 15
+        },
+        {
+          "driver": "Sarah Springfield",
+          "pos": 4,
+          "team": "aston_martin",
+          "fastest_lap": false,
+          "quali_pos": 7,
+          "points": 12
+        },
+        {
+          "driver": "Joshua Nathanial",
+          "pos": 5,
+          "team": "mclaren",
+          "fastest_lap": false,
+          "quali_pos": 3,
+          "points": 10
+        },
+        {
+          "driver": "Maikel Zwart",
+          "pos": 6,
+          "team": "williams",
+          "fastest_lap": false,
+          "quali_pos": 19,
+          "points": 8
+        },
+        {
+          "driver": "Eren Aygen",
+          "pos": 7,
+          "team": "mercedes",
+          "fastest_lap": false,
+          "quali_pos": 10,
+          "points": 6
+        },
+        {
+          "driver": "Sam Fakt",
+          "pos": 8,
+          "team": "aston_martin",
+          "fastest_lap": false,
+          "quali_pos": 14,
+          "points": 4
+        },
+        {
+          "driver": "Zhao Lei",
+          "pos": 9,
+          "team": "mclaren",
+          "fastest_lap": false,
+          "quali_pos": 1,
+          "points": 2
+        },
+        {
+          "driver": "Michiii MaraDöner",
+          "pos": 10,
+          "team": "alpine",
+          "fastest_lap": false,
+          "quali_pos": 20,
+          "points": 1
+        },
+        {
+          "driver": "Quarter Kevu",
+          "pos": 11,
+          "team": "vcarb",
+          "fastest_lap": false,
+          "quali_pos": 18,
+          "points": 0
+        },
+        {
+          "driver": "Jason Roy",
+          "pos": 12,
+          "team": "vcarb",
+          "fastest_lap": false,
+          "quali_pos": 6,
+          "points": 0
+        },
+        {
+          "driver": "Eetu Väisänen",
+          "pos": 13,
+          "team": "ferrari",
+          "fastest_lap": false,
+          "quali_pos": 8,
+          "points": 0
+        },
+        {
+          "driver": "Jack TEF",
+          "pos": 14,
+          "team": "williams",
+          "fastest_lap": false,
+          "quali_pos": 13,
+          "points": 0
+        },
+        {
+          "driver": "Duarte Sardinha",
+          "pos": 15,
+          "team": "kick_sauber",
+          "fastest_lap": false,
+          "quali_pos": 9,
+          "points": 0
+        },
+        {
+          "driver": "Riley Swansson",
+          "pos": 16,
+          "team": "haas",
+          "fastest_lap": true,
+          "quali_pos": 4,
+          "points": 0
+        },
+        {
+          "driver": "Liam Dela Cruz",
+          "pos": 17,
+          "team": "ferrari",
+          "fastest_lap": false,
+          "quali_pos": 17,
+          "points": 0
+        },
+        {
+          "driver": "Lukus Wright",
+          "pos": "DNF",
+          "team": "red_bull",
+          "fastest_lap": false,
+          "quali_pos": 2,
+          "points": 0
+        },
+        {
+          "driver": "Wesley Vandesteene",
+          "pos": "DNF",
+          "team": "mercedes",
+          "fastest_lap": false,
+          "quali_pos": 12,
+          "points": 0
+        },
+        {
+          "driver": "Nick Beier",
+          "pos": "DNF",
+          "team": "alpine",
+          "fastest_lap": false,
+          "quali_pos": 11,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "round": 28,
+      "id": "qats_r28",
+      "name": "QATS",
+      "flag": "🇶🇦",
+      "circuit": "Losail Sprint",
+      "date": "2025",
+      "sprint": true,
+      "status": "complete",
+      "results": [
+        {
+          "driver": "Quarter Kevu",
+          "pos": 1,
+          "team": "vcarb",
+          "fastest_lap": true,
+          "quali_pos": 1,
+          "points": 8
+        },
+        {
+          "driver": "Liam Dela Cruz",
+          "pos": 2,
+          "team": "ferrari",
+          "fastest_lap": false,
+          "quali_pos": 3,
+          "points": 7
+        },
+        {
+          "driver": "Zhao Lei",
+          "pos": 3,
+          "team": "mclaren",
+          "fastest_lap": false,
+          "quali_pos": 2,
+          "points": 6
+        },
+        {
+          "driver": "Eren Aygen",
+          "pos": 4,
+          "team": "mercedes",
+          "fastest_lap": false,
+          "quali_pos": 5,
+          "points": 5
+        },
+        {
+          "driver": "Joshua Nathanial",
+          "pos": 5,
+          "team": "mclaren",
+          "fastest_lap": false,
+          "quali_pos": 8,
+          "points": 4
+        },
+        {
+          "driver": "Robin Keisner",
+          "pos": 6,
+          "team": "kick_sauber",
+          "fastest_lap": false,
+          "quali_pos": 4,
+          "points": 3
+        },
+        {
+          "driver": "Sarah Springfield",
+          "pos": 7,
+          "team": "aston_martin",
+          "fastest_lap": false,
+          "quali_pos": 9,
+          "points": 2
+        },
+        {
+          "driver": "Eetu Väisänen",
+          "pos": 8,
+          "team": "ferrari",
+          "fastest_lap": false,
+          "quali_pos": 12,
+          "points": 1
+        },
+        {
+          "driver": "Nick Beier",
+          "pos": 9,
+          "team": "alpine",
+          "fastest_lap": false,
+          "quali_pos": 10,
+          "points": 0
+        },
+        {
+          "driver": "Duarte Sardinha",
+          "pos": 10,
+          "team": "kick_sauber",
+          "fastest_lap": false,
+          "quali_pos": 6,
+          "points": 0
+        },
+        {
+          "driver": "Lukus Wright",
+          "pos": 11,
+          "team": "red_bull",
+          "fastest_lap": false,
+          "quali_pos": 13,
+          "points": 0
+        },
+        {
+          "driver": "Afonso Cachinho",
+          "pos": 12,
+          "team": "haas",
+          "fastest_lap": false,
+          "quali_pos": 14,
+          "points": 0
+        },
+        {
+          "driver": "Jason Roy",
+          "pos": 13,
+          "team": "vcarb",
+          "fastest_lap": false,
+          "quali_pos": 11,
+          "points": 0
+        },
+        {
+          "driver": "Philippe Verhaeren",
+          "pos": 14,
+          "team": "red_bull",
+          "fastest_lap": false,
+          "quali_pos": 20,
+          "points": 0
+        },
+        {
+          "driver": "Riley Swansson",
+          "pos": 15,
+          "team": "haas",
+          "fastest_lap": false,
+          "quali_pos": 17,
+          "points": 0
+        },
+        {
+          "driver": "Michiii MaraDöner",
+          "pos": 16,
+          "team": "alpine",
+          "fastest_lap": false,
+          "quali_pos": 18,
+          "points": 0
+        },
+        {
+          "driver": "Jack TEF",
+          "pos": 17,
+          "team": "williams",
+          "fastest_lap": false,
+          "quali_pos": 19,
+          "points": 0
+        },
+        {
+          "driver": "Maikel Zwart",
+          "pos": 18,
+          "team": "williams",
+          "fastest_lap": false,
+          "quali_pos": 7,
+          "points": 0
+        },
+        {
+          "driver": "Sam Fakt",
+          "pos": 19,
+          "team": "aston_martin",
+          "fastest_lap": false,
+          "quali_pos": 16,
+          "points": 0
+        },
+        {
+          "driver": "Wesley Vandesteene",
+          "pos": 20,
+          "team": "mercedes",
+          "fastest_lap": false,
+          "quali_pos": 15,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "round": 29,
+      "id": "qat_r29",
+      "name": "QAT",
+      "flag": "🇶🇦",
+      "circuit": "Losail",
+      "date": "2025",
+      "sprint": false,
+      "status": "complete",
+      "results": [
+        {
+          "driver": "Liam Dela Cruz",
+          "pos": 1,
+          "team": "ferrari",
+          "fastest_lap": true,
+          "quali_pos": 3,
           "points": 26
         },
         {
@@ -4273,6 +4839,7 @@
           "pos": 2,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 5,
           "points": 18
         },
         {
@@ -4280,6 +4847,7 @@
           "pos": 3,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 1,
           "points": 15
         },
         {
@@ -4287,6 +4855,7 @@
           "pos": 4,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 12,
           "points": 12
         },
         {
@@ -4294,6 +4863,7 @@
           "pos": 5,
           "team": "red_bull",
           "fastest_lap": false,
+          "quali_pos": 19,
           "points": 10
         },
         {
@@ -4301,6 +4871,7 @@
           "pos": 6,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 2,
           "points": 8
         },
         {
@@ -4308,6 +4879,7 @@
           "pos": 7,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 10,
           "points": 6
         },
         {
@@ -4315,6 +4887,7 @@
           "pos": 8,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 9,
           "points": 4
         },
         {
@@ -4322,6 +4895,7 @@
           "pos": 9,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 14,
           "points": 2
         },
         {
@@ -4329,6 +4903,7 @@
           "pos": 10,
           "team": "ferrari",
           "fastest_lap": false,
+          "quali_pos": 7,
           "points": 1
         },
         {
@@ -4336,6 +4911,7 @@
           "pos": 11,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 11,
           "points": 0
         },
         {
@@ -4343,6 +4919,7 @@
           "pos": 12,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 18,
           "points": 0
         },
         {
@@ -4350,6 +4927,7 @@
           "pos": 13,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 4,
           "points": 0
         },
         {
@@ -4357,6 +4935,7 @@
           "pos": 14,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 15,
           "points": 0
         },
         {
@@ -4364,6 +4943,7 @@
           "pos": 14,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 13,
           "points": 0
         },
         {
@@ -4371,6 +4951,7 @@
           "pos": 15,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 20,
           "points": 0
         },
         {
@@ -4378,6 +4959,7 @@
           "pos": 16,
           "team": "williams",
           "fastest_lap": false,
+          "quali_pos": 17,
           "points": 0
         },
         {
@@ -4385,6 +4967,7 @@
           "pos": "DNF",
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 8,
           "points": 0
         },
         {
@@ -4392,6 +4975,7 @@
           "pos": "DNF",
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 16,
           "points": 0
         },
         {
@@ -4399,95 +4983,107 @@
           "pos": "DNF",
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 6,
           "points": 0
         }
-      ],
-      "status": "complete",
-      "id": "qat_r29",
-      "flag": "🇶🇦",
-      "circuit": "Losail",
-      "date": "2025"
+      ]
     },
     {
       "round": 30,
+      "id": "abu_r30",
       "name": "ABU",
+      "flag": "🇦🇪",
+      "circuit": "Yas Marina",
+      "date": "2025",
       "sprint": false,
+      "status": "complete",
       "results": [
         {
           "driver": "Eren Aygen",
           "pos": 1,
           "team": "mercedes",
           "fastest_lap": false,
-          "points": 25
+          "quali_pos": 9,
+          "points": 50
         },
         {
           "driver": "Lukus Wright",
           "pos": 2,
           "team": "red_bull",
           "fastest_lap": true,
-          "points": 19
+          "quali_pos": 20,
+          "points": 38
         },
         {
           "driver": "Liam Dela Cruz",
           "pos": 3,
           "team": "ferrari",
           "fastest_lap": false,
-          "points": 15
+          "quali_pos": 2,
+          "points": 30
         },
         {
           "driver": "Philippe Verhaeren",
           "pos": 4,
           "team": "red_bull",
           "fastest_lap": false,
-          "points": 12
+          "quali_pos": 8,
+          "points": 24
         },
         {
           "driver": "Duarte Sardinha",
           "pos": 5,
           "team": "kick_sauber",
           "fastest_lap": false,
-          "points": 10
+          "quali_pos": 5,
+          "points": 20
         },
         {
           "driver": "Quarter Kevu",
           "pos": 6,
           "team": "vcarb",
           "fastest_lap": false,
-          "points": 8
+          "quali_pos": 3,
+          "points": 16
         },
         {
           "driver": "Jack TEF",
           "pos": 7,
           "team": "williams",
           "fastest_lap": false,
-          "points": 6
+          "quali_pos": 4,
+          "points": 12
         },
         {
           "driver": "Michiii MaraDöner",
           "pos": 8,
           "team": "alpine",
           "fastest_lap": false,
-          "points": 4
+          "quali_pos": 14,
+          "points": 8
         },
         {
           "driver": "Maikel Zwart",
           "pos": 9,
           "team": "williams",
           "fastest_lap": false,
-          "points": 2
+          "quali_pos": 15,
+          "points": 4
         },
         {
           "driver": "Eetu Väisänen",
           "pos": 10,
           "team": "ferrari",
           "fastest_lap": false,
-          "points": 1
+          "quali_pos": 18,
+          "points": 2
         },
         {
           "driver": "Nick Beier",
           "pos": 11,
           "team": "alpine",
           "fastest_lap": false,
+          "quali_pos": 6,
           "points": 0
         },
         {
@@ -4495,6 +5091,7 @@
           "pos": 12,
           "team": "kick_sauber",
           "fastest_lap": false,
+          "quali_pos": 10,
           "points": 0
         },
         {
@@ -4502,6 +5099,7 @@
           "pos": 13,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 13,
           "points": 0
         },
         {
@@ -4509,6 +5107,7 @@
           "pos": 14,
           "team": "mercedes",
           "fastest_lap": false,
+          "quali_pos": 7,
           "points": 0
         },
         {
@@ -4516,6 +5115,7 @@
           "pos": 15,
           "team": "haas",
           "fastest_lap": false,
+          "quali_pos": 12,
           "points": 0
         },
         {
@@ -4523,6 +5123,7 @@
           "pos": 16,
           "team": "mclaren",
           "fastest_lap": false,
+          "quali_pos": 1,
           "points": 0
         },
         {
@@ -4530,13 +5131,15 @@
           "pos": 17,
           "team": "vcarb",
           "fastest_lap": false,
+          "quali_pos": 16,
           "points": 0
         },
         {
           "driver": "Joshua Nathanial",
           "pos": 18,
           "team": "mclaren",
-          "fastest_lap": false,
+          "fastest_lap": true,
+          "quali_pos": 11,
           "points": 0
         },
         {
@@ -4544,6 +5147,7 @@
           "pos": 19,
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 19,
           "points": 0
         },
         {
@@ -4551,14 +5155,10 @@
           "pos": "DNF",
           "team": "aston_martin",
           "fastest_lap": false,
+          "quali_pos": 17,
           "points": 0
         }
-      ],
-      "status": "complete",
-      "id": "abu_r30",
-      "flag": "🇦🇪",
-      "circuit": "Yas Marina",
-      "date": "2025"
+      ]
     }
   ]
 }
