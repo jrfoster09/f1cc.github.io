@@ -2,314 +2,242 @@
   "meta": {
     "siteName": "F1 Community Career",
     "shortName": "F1CC",
-    "currentSeason": 2026,
+    "currentSeason": 2025,
     "lastUpdated": "2025-05-10"
   },
+
   "teams": {
-    "racing_bulls": { "id": "racing_bulls", "name": "Racing Bulls", "short": "Racing Bulls", "color": "#1E68AE", "textColor": "#ffffff" },
-    "ferrari": { "id": "ferrari", "name": "Ferrari", "short": "Ferrari", "color": "#B41E1E", "textColor": "#ffffff" },
-    "mclaren": { "id": "mclaren", "name": "McLaren", "short": "McLaren", "color": "#D26E14", "textColor": "#ffffff" },
-    "mercedes": { "id": "mercedes", "name": "Mercedes", "short": "Mercedes", "color": "#009682", "textColor": "#ffffff" },
-    "williams": { "id": "williams", "name": "Williams", "short": "Williams", "color": "#0050A0", "textColor": "#ffffff" },
-    "red_bull": { "id": "red_bull", "name": "Red Bull Racing", "short": "Red Bull", "color": "#1E3CA0", "textColor": "#ffffff" },
-    "haas": { "id": "haas", "name": "Haas", "short": "Haas", "color": "#B0B0B0", "textColor": "#111111" },
-    "aston_martin": { "id": "aston_martin", "name": "Aston Martin", "short": "Aston Martin", "color": "#2D826E", "textColor": "#ffffff" },
-    "alpine": { "id": "alpine", "name": "Alpine", "short": "Alpine", "color": "#0078C8", "textColor": "#ffffff" },
-    "kick_sauber": { "id": "kick_sauber", "name": "Audi Sport", "short": "Audi", "color": "#D40000", "textColor": "#ffffff" },
-    "reserve": { "id": "reserve", "name": "Reserve", "short": "Reserve", "color": "#555577", "textColor": "#ffffff" }
+    "racing_bulls": { "id": "racing_bulls", "name": "Racing Bulls Honda RBPT", "short": "Racing Bulls", "color": "#1E68AE", "textColor": "#ffffff" },
+    "red_bull":     { "id": "red_bull",     "name": "Red Bull Racing Honda RBPT", "short": "Red Bull",   "color": "#1E3CA0", "textColor": "#ffffff" },
+    "ferrari":      { "id": "ferrari",      "name": "Ferrari",                    "short": "Ferrari",    "color": "#B41E1E", "textColor": "#ffffff" },
+    "mclaren":      { "id": "mclaren",      "name": "McLaren Mercedes",           "short": "McLaren",    "color": "#D26E14", "textColor": "#ffffff" },
+    "mercedes":     { "id": "mercedes",     "name": "Mercedes",                   "short": "Mercedes",   "color": "#009682", "textColor": "#ffffff" },
+    "aston_martin": { "id": "aston_martin", "name": "Aston Martin Aramco",        "short": "Aston Martin","color": "#2D826E", "textColor": "#ffffff" },
+    "williams":     { "id": "williams",     "name": "Williams Mercedes",          "short": "Williams",   "color": "#0050A0", "textColor": "#ffffff" },
+    "haas":         { "id": "haas",         "name": "Haas Ferrari",               "short": "Haas",       "color": "#B0B0B0", "textColor": "#111111" },
+    "alpine":       { "id": "alpine",       "name": "Alpine Renault",             "short": "Alpine",     "color": "#0078C8", "textColor": "#ffffff" },
+    "kick_sauber":  { "id": "kick_sauber",  "name": "Kick Sauber",               "short": "Kick Sauber","color": "#00A04A", "textColor": "#ffffff" }
   },
+
   "drivers": {
-    "quarter_kevu": {
-      "id": "quarter_kevu", "name": "Quarter Kevu", "nationality": "EE", "flag": "🇪🇪",
-      "bio": "The reigning F1CC champion. Quarter Kevu burst onto the scene in 2024 and dominated the 2025 season with Racing Bulls, claiming the drivers' championship with 259 points.",
-      "seasons": {
-        "2024": { "team": "racing_bulls", "number": 21 },
-        "2025": { "team": "racing_bulls", "number": 21 },
-        "2026": { "team": "racing_bulls", "number": 21 }
-      }
-    },
-    "liam_dela_cruz": {
-      "id": "liam_dela_cruz", "name": "Liam Dela Cruz", "nationality": "DE", "flag": "🇩🇪",
-      "bio": "Ferrari's star driver and runner-up in the 2025 championship. Dela Cruz consistently challenged for victories throughout the season.",
-      "seasons": {
-        "2024": { "team": "ferrari", "number": 56 },
-        "2025": { "team": "ferrari", "number": 56 }
-      }
-    },
-    "jack_tef": {
-      "id": "jack_tef", "name": "Jack TEF", "nationality": "GB", "flag": "🇬🇧",
-      "bio": "A consistent top-three finisher for Williams in 2025, Jack TEF secured third in the drivers' championship.",
-      "seasons": {
-        "2024": { "team": "williams", "number": 94 },
-        "2025": { "team": "williams", "number": 94 }
-      }
-    },
-    "maikel_zwart": {
-      "id": "maikel_zwart", "name": "Maikel Zwart", "nationality": "NL", "flag": "🇳🇱",
-      "bio": "Mercedes' lead driver, Maikel Zwart brought consistent performances across the 2025 season to finish 4th overall.",
-      "seasons": {
-        "2024": { "team": "mercedes", "number": 13 },
-        "2025": { "team": "mercedes", "number": 13 },
-        "2026": { "team": "mercedes", "number": 13 }
-      }
-    },
-    "eren_aygen": {
-      "id": "eren_aygen", "name": "Eren Aygen", "nationality": "TR", "flag": "🇹🇷",
-      "bio": "Williams Mercedes driver who impressed in 2025, finishing 5th in the championship with a stellar late-season run.",
-      "seasons": {
-        "2024": { "team": "haas", "number": 18 },
-        "2025": { "team": "williams", "number": 18 },
-        "2026": { "team": "williams", "number": 18 }
-      }
-    },
-    "zhao_lei": {
-      "id": "zhao_lei", "name": "Zhao Lei", "nationality": "CN", "flag": "🇨🇳",
-      "bio": "McLaren's Chinese sensation, Zhao Lei delivered strong results across the 2025 season finishing 6th overall.",
-      "seasons": {
-        "2024": { "team": "mclaren", "number": 89 },
-        "2025": { "team": "mclaren", "number": 89 },
-        "2026": { "team": "mclaren", "number": 89 }
-      }
-    },
-    "eetu_vaisanen": {
-      "id": "eetu_vaisanen", "name": "Eetu Väisänen", "nationality": "FI", "flag": "🇫🇮",
-      "bio": "Ferrari's Finnish ace, Eetu Väisänen drove with flair and finished 7th in the 2025 standings.",
-      "seasons": {
-        "2024": { "team": "ferrari", "number": 69 },
-        "2025": { "team": "ferrari", "number": 69 },
-        "2026": { "team": "ferrari", "number": 69 }
-      }
-    },
+
     "lukus_wright": {
       "id": "lukus_wright", "name": "Lukus Wright", "nationality": "US", "flag": "🇺🇸",
-      "bio": "Red Bull's American charger. Lukus Wright delivered some of the season's most exciting drives to finish 8th.",
+      "bio": "The 2024 F1CC Champion. Lukus Wright dominated the inaugural season with Racing Bulls, claiming the title with 264 points.",
       "seasons": {
-        "2024": { "team": "red_bull", "number": 81 },
-        "2025": { "team": "red_bull", "number": 81 },
-        "2026": { "team": "red_bull", "number": 81 }
+        "2024": { "stints": [{ "team": "racing_bulls", "number": 4, "from_round": 1, "to_round": null }] }
       }
     },
-    "joshua_nathanial": {
-      "id": "joshua_nathanial", "name": "Joshua Nathanial", "nationality": "AU", "flag": "🇦🇺",
-      "bio": "McLaren's Australian talent, Joshua Nathanial had a solid 2025 campaign finishing 9th in the drivers' standings.",
+
+    "quarter_kevu": {
+      "id": "quarter_kevu", "name": "Quarter Kevu", "nationality": "EE", "flag": "🇪🇪",
+      "bio": "Racing Bulls driver who finished 3rd in the 2024 championship and went on to claim the 2025 title.",
       "seasons": {
-        "2024": { "team": "mclaren", "number": 11 },
-        "2025": { "team": "mclaren", "number": 11 },
-        "2026": { "team": "mclaren", "number": 11 }
+        "2024": { "stints": [{ "team": "racing_bulls", "number": 21, "from_round": 1, "to_round": null }] }
       }
     },
-    "jason_roy": {
-      "id": "jason_roy", "name": "Jason Roy", "nationality": "GB", "flag": "🇬🇧",
-      "bio": "Racing Bulls' second driver, Jason Roy had a competitive 2025 season alongside champion Quarter Kevu.",
-      "seasons": {
-        "2024": { "team": "racing_bulls", "number": 40 },
-        "2025": { "team": "racing_bulls", "number": 40 },
-        "2026": { "team": "racing_bulls", "number": 40 }
-      }
-    },
-    "philippe_verhaeren": {
-      "id": "philippe_verhaeren", "name": "Philippe Verhaeren", "nationality": "BE", "flag": "🇧🇪",
-      "bio": "Red Bull's Belgian driver, Philippe Verhaeren showed pace across the 2025 season despite a mid-season absence.",
-      "seasons": {
-        "2024": { "team": "red_bull", "number": 26 },
-        "2025": { "team": "red_bull", "number": 4 },
-        "2026": { "team": "red_bull", "number": 4 }
-      }
-    },
-    "afonso_cachinho": {
-      "id": "afonso_cachinho", "name": "Afonso Cachinho", "nationality": "PT", "flag": "🇵🇹",
-      "bio": "Haas Ferrari's Portuguese driver, Afonso Cachinho was a consistent points-scorer throughout 2025.",
-      "seasons": {
-        "2024": { "team": "reserve", "number": 16 },
-        "2025": { "team": "haas", "number": 16 },
-        "2026": { "team": "haas", "number": 16 }
-      }
-    },
-    "simon_srnicek": {
-      "id": "simon_srnicek", "name": "Simon Srnicek", "nationality": "CZ", "flag": "🇨🇿",
-      "bio": "Reserve driver Simon Srnicek made an impression in his limited appearances during the 2025 season.",
-      "seasons": {
-        "2025": { "team": "reserve", "number": 3 }
-      }
-    },
-    "sarah_springfield": {
-      "id": "sarah_springfield", "name": "Sarah Springfield", "nationality": "US", "flag": "🇺🇸",
-      "bio": "Aston Martin's American driver, Sarah Springfield brought consistent results to the team throughout 2025.",
-      "seasons": {
-        "2024": { "team": "aston_martin", "number": 87 },
-        "2025": { "team": "aston_martin", "number": 87 },
-        "2026": { "team": "aston_martin", "number": 87 }
-      }
-    },
-    "sam_fakt": {
-      "id": "sam_fakt", "name": "Sam Fakt", "nationality": "DE", "flag": "🇩🇪",
-      "bio": "Aston Martin's second driver, Sam Fakt was a solid performer across both the 2024 and 2025 seasons.",
-      "seasons": {
-        "2024": { "team": "aston_martin", "number": 25 },
-        "2025": { "team": "aston_martin", "number": 25 },
-        "2026": { "team": "aston_martin", "number": 25 }
-      }
-    },
-    "duarte_sardinha": {
-      "id": "duarte_sardinha", "name": "Duarte Sardinha", "nationality": "PT", "flag": "🇵🇹",
-      "bio": "Kick Sauber's Portuguese driver who showed impressive improvement through the 2025 season.",
-      "seasons": {
-        "2024": { "team": "kick_sauber", "number": 27 },
-        "2025": { "team": "kick_sauber", "number": 27 }
-      }
-    },
-    "robin_keisner": {
-      "id": "robin_keisner", "name": "Robin Keisner", "nationality": "DE", "flag": "🇩🇪",
-      "bio": "Kick Sauber's German driver, Robin Keisner fought hard at the back of the field throughout 2025.",
-      "seasons": {
-        "2024": { "team": "kick_sauber", "number": 99 },
-        "2025": { "team": "kick_sauber", "number": 99 },
-        "2026": { "team": "kick_sauber", "number": 99 }
-      }
-    },
-    "riley_swansson": {
-      "id": "riley_swansson", "name": "Riley Swansson", "nationality": "AU", "flag": "🇦🇺",
-      "bio": "Haas Ferrari's Australian driver, Riley Swansson provided solid performances in 2025.",
-      "seasons": {
-        "2024": { "team": "haas", "number": 22 },
-        "2025": { "team": "haas", "number": 22 },
-        "2026": { "team": "haas", "number": 22 }
-      }
-    },
-    "nick_beier": {
-      "id": "nick_beier", "name": "Nick Beier", "nationality": "DE", "flag": "🇩🇪",
-      "bio": "Alpine Renault's German driver, Nick Beier delivered some promising performances across the 2025 season.",
-      "seasons": {
-        "2025": { "team": "alpine", "number": 96 }
-      }
-    },
-    "michiii_maradoner": {
-      "id": "michiii_maradoner", "name": "Michiii MaraDöner", "nationality": "GR", "flag": "🇬🇷",
-      "bio": "Alpine Renault's Greek driver, Michiii MaraDöner put in a handful of appearances during the 2025 season.",
-      "seasons": {
-        "2024": { "team": "alpine", "number": 15 },
-        "2025": { "team": "alpine", "number": 15 },
-        "2026": { "team": "alpine", "number": 15 }
-      }
-    },
-    "wesley_vandesteene": {
-      "id": "wesley_vandesteene", "name": "Wesley Vandesteene", "nationality": "BE", "flag": "🇧🇪",
-      "bio": "Mercedes' Belgian driver, Wesley Vandesteene had a shorter season in 2025 but impressed when on track.",
-      "seasons": {
-        "2024": { "team": "mercedes", "number": 77 },
-        "2025": { "team": "mercedes", "number": 77 },
-        "2026": { "team": "mercedes", "number": 77 }
-      }
-    },
-    "ignacio_urreta": {
-      "id": "ignacio_urreta", "name": "Ignacio Urreta", "nationality": "ES", "flag": "🇪🇸",
-      "bio": "Reserve driver Ignacio Urreta made limited appearances during the 2025 season.",
-      "seasons": {
-        "2024": { "team": "reserve", "number": 26 },
-        "2025": { "team": "reserve", "number": 26 }
-      }
-    },
+
     "randy_belacik": {
       "id": "randy_belacik", "name": "Randy Belacik", "nationality": "SK", "flag": "🇸🇰",
-      "bio": "Reserve driver Randy Belacik made brief appearances in the 2025 season.",
+      "bio": "Slovakian driver who finished runner-up in the 2024 championship with Red Bull, before retiring mid-way through the 2025 season.",
       "seasons": {
-        "2024": { "team": "reserve", "number": 33 },
-        "2025": { "team": "reserve", "number": 33 }
+        "2024": { "stints": [{ "team": "red_bull", "number": 33, "from_round": 1, "to_round": null }] }
       }
     },
-    "lucas_koopman": {
-      "id": "lucas_koopman", "name": "Lucas Koopman", "nationality": "NL", "flag": "🇳🇱",
-      "bio": "Williams Mercedes' Dutch driver, Lucas Koopman partnered Eren Aygen for the 2025 and 2026 seasons.",
+
+    "sam_fakt": {
+      "id": "sam_fakt", "name": "Sam Fakt", "nationality": "DE", "flag": "🇩🇪",
+      "bio": "German driver who competed for Red Bull in the 2024 season.",
       "seasons": {
-        "2025": { "team": "williams", "number": 8 },
-        "2026": { "team": "williams", "number": 8 }
+        "2024": { "stints": [{ "team": "red_bull", "number": 25, "from_round": 1, "to_round": null }] }
       }
     },
-    "randy_belacik_2024": {
-      "id": "randy_belacik", "name": "Randy Belacik", "nationality": "SK", "flag": "🇸🇰",
-      "bio": "Reserve driver.",
+
+    "liam_dela_cruz": {
+      "id": "liam_dela_cruz", "name": "Liam Dela Cruz", "nationality": "DE", "flag": "🇩🇪",
+      "bio": "Ferrari's German driver across both F1CC seasons.",
       "seasons": {
-        "2024": { "team": "reserve", "number": 33 }
+        "2024": { "stints": [{ "team": "ferrari", "number": 56, "from_round": 1, "to_round": null }] }
+      }
+    },
+
+    "eetu_vaisanen": {
+      "id": "eetu_vaisanen", "name": "Eetu Väisänen", "nationality": "FI", "flag": "🇫🇮",
+      "bio": "Finnish driver who started 2024 at Haas before moving to Ferrari mid-season from Round 20.",
+      "seasons": {
+        "2024": { "stints": [
+          { "team": "haas",    "number": 69, "from_round": 1,  "to_round": 19, "note": "Moved to Ferrari R20" },
+          { "team": "ferrari", "number": 69, "from_round": 20, "to_round": null }
+        ]}
+      }
+    },
+
+    "car_fok": {
+      "id": "car_fok", "name": "Car Fok", "nationality": "ES", "flag": "🇪🇸",
+      "bio": "Spanish driver who competed for Ferrari in 2024 before retiring from Round 20.",
+      "seasons": {
+        "2024": { "stints": [
+          { "team": "ferrari", "number": 7, "from_round": 1, "to_round": 19, "note": "Retired from R20" }
+        ]}
+      }
+    },
+
+    "sarah_springfield": {
+      "id": "sarah_springfield", "name": "Sarah Springfield", "nationality": "US", "flag": "🇺🇸",
+      "bio": "Aston Martin's American driver across both F1CC seasons.",
+      "seasons": {
+        "2024": { "stints": [{ "team": "aston_martin", "number": 87, "from_round": 1, "to_round": null }] }
+      }
+    },
+
+    "severi_seuranen": {
+      "id": "severi_seuranen", "name": "Severi Seuranen", "nationality": "FI", "flag": "🇫🇮",
+      "bio": "Finnish Aston Martin driver who finished 4th in the 2024 championship.",
+      "seasons": {
+        "2024": { "stints": [{ "team": "aston_martin", "number": 17, "from_round": 1, "to_round": null }] }
+      }
+    },
+
+    "joshua_nathanial": {
+      "id": "joshua_nathanial", "name": "Joshua Nathanial", "nationality": "AU", "flag": "🇦🇺",
+      "bio": "McLaren's Australian driver across both F1CC seasons.",
+      "seasons": {
+        "2024": { "stints": [{ "team": "mclaren", "number": 11, "from_round": 1, "to_round": null }] }
+      }
+    },
+
+    "zhao_lei": {
+      "id": "zhao_lei", "name": "Zhao Lei", "nationality": "CN", "flag": "🇨🇳",
+      "bio": "McLaren's Chinese driver, a key part of the team across both F1CC seasons.",
+      "seasons": {
+        "2024": { "stints": [{ "team": "mclaren", "number": 89, "from_round": 1, "to_round": null }] }
+      }
+    },
+
+    "ignacio_urreta": {
+      "id": "ignacio_urreta", "name": "Ignacio Urreta", "nationality": "ES", "flag": "🇪🇸",
+      "bio": "Spanish Mercedes driver across both F1CC seasons.",
+      "seasons": {
+        "2024": { "stints": [{ "team": "mercedes", "number": 26, "from_round": 1, "to_round": null }] }
+      }
+    },
+
+    "maikel_zwart": {
+      "id": "maikel_zwart", "name": "Maikel Zwart", "nationality": "NL", "flag": "🇳🇱",
+      "bio": "Mercedes' Dutch driver across both F1CC seasons.",
+      "seasons": {
+        "2024": { "stints": [{ "team": "mercedes", "number": 13, "from_round": 1, "to_round": null }] }
+      }
+    },
+
+    "duarte_sardinha": {
+      "id": "duarte_sardinha", "name": "Duarte Sardinha", "nationality": "PT", "flag": "🇵🇹",
+      "bio": "Kick Sauber's Portuguese driver across both F1CC seasons.",
+      "seasons": {
+        "2024": { "stints": [{ "team": "kick_sauber", "number": 27, "from_round": 1, "to_round": null }] }
+      }
+    },
+
+    "kuba_sepiol": {
+      "id": "kuba_sepiol", "name": "Kuba Sepiol", "nationality": "PL", "flag": "🇵🇱",
+      "bio": "Polish Kick Sauber driver who competed in the 2024 F1CC season.",
+      "seasons": {
+        "2024": { "stints": [{ "team": "kick_sauber", "number": 9, "from_round": 1, "to_round": null }] }
+      }
+    },
+
+    "jack_tef": {
+      "id": "jack_tef", "name": "Jack TEF", "nationality": "GB", "flag": "🇬🇧",
+      "bio": "Williams' British driver who competed across the 2024 and 2025 seasons.",
+      "seasons": {
+        "2024": { "stints": [{ "team": "williams", "number": 94, "from_round": 1, "to_round": null }] }
+      }
+    },
+
+    "james_atara": {
+      "id": "james_atara", "name": "James Atara", "nationality": "GB", "flag": "🇬🇧",
+      "bio": "British Williams driver who competed in the 2024 F1CC season.",
+      "seasons": {
+        "2024": { "stints": [{ "team": "williams", "number": 3, "from_round": 1, "to_round": null }] }
+      }
+    },
+
+    "eren_aygen": {
+      "id": "eren_aygen", "name": "Eren Aygen", "nationality": "TR", "flag": "🇹🇷",
+      "bio": "Turkish driver who raced for Haas in 2024.",
+      "seasons": {
+        "2024": { "stints": [{ "team": "haas", "number": 18, "from_round": 1, "to_round": null }] }
+      }
+    },
+
+    "afonso_cachinho": {
+      "id": "afonso_cachinho", "name": "Afonso Cachinho", "nationality": "PT", "flag": "🇵🇹",
+      "bio": "Portuguese driver who joined Haas mid-season from Round 20 of the 2024 season.",
+      "seasons": {
+        "2024": { "stints": [{ "team": "haas", "number": 16, "from_round": 20, "to_round": null, "note": "Joined R20" }] }
+      }
+    },
+
+    "luis_guerrero": {
+      "id": "luis_guerrero", "name": "Luis Guerrero", "nationality": "SV", "flag": "🇸🇻",
+      "bio": "Salvadoran Alpine driver who competed in the 2024 F1CC season.",
+      "seasons": {
+        "2024": { "stints": [{ "team": "alpine", "number": 44, "from_round": 1, "to_round": null }] }
+      }
+    },
+
+    "robin_keisner": {
+      "id": "robin_keisner", "name": "Robin Keisner", "nationality": "DE", "flag": "🇩🇪",
+      "bio": "German Alpine driver across both F1CC seasons.",
+      "seasons": {
+        "2024": { "stints": [{ "team": "alpine", "number": 99, "from_round": 1, "to_round": null }] }
       }
     }
+
   },
+
   "seasons": {
     "2024": {
       "year": 2024,
       "status": "complete",
-      "champion_driver": "quarter_kevu",
+      "champion_driver": "lukus_wright",
       "champion_constructor": "racing_bulls",
-      "rounds": 23,
-      "races": []
+      "rounds": 28,
+      "notes": "Inaugural F1CC season. Lukus Wright claimed the title with 264 points. Notable: Eetu Väisänen moved from Haas to Ferrari at R20, Car Fok retired R20, Afonso Cachinho joined Haas R20.",
+      "driver_standings": [
+        { "pos": 1,  "driver": "lukus_wright",     "team": "racing_bulls", "points": 264, "wins": 7, "podiums": 14, "races": 28 },
+        { "pos": 2,  "driver": "randy_belacik",    "team": "red_bull",     "points": 238, "wins": 6, "podiums": 14, "races": 28 },
+        { "pos": 3,  "driver": "quarter_kevu",     "team": "racing_bulls", "points": 213, "wins": 4, "podiums": 10, "races": 27 },
+        { "pos": 4,  "driver": "severi_seuranen",  "team": "aston_martin", "points": 177, "wins": 3, "podiums": 9,  "races": 28 },
+        { "pos": 5,  "driver": "zhao_lei",         "team": "mclaren",      "points": 174, "wins": 2, "podiums": 8,  "races": 28 },
+        { "pos": 6,  "driver": "liam_dela_cruz",   "team": "ferrari",      "points": 158, "wins": 2, "podiums": 5,  "races": 28 },
+        { "pos": 7,  "driver": "maikel_zwart",     "team": "mercedes",     "points": 146, "wins": 3, "podiums": 7,  "races": 28 },
+        { "pos": 8,  "driver": "sam_fakt",         "team": "red_bull",     "points": 143, "wins": 1, "podiums": 6,  "races": 28 },
+        { "pos": 9,  "driver": "car_fok",          "team": "ferrari",      "points": 138, "wins": 2, "podiums": 8,  "races": 19 },
+        { "pos": 10, "driver": "duarte_sardinha",  "team": "kick_sauber",  "points": 136, "wins": 0, "podiums": 5,  "races": 28 },
+        { "pos": 11, "driver": "kuba_sepiol",      "team": "kick_sauber",  "points": 127, "wins": 2, "podiums": 6,  "races": 28 },
+        { "pos": 12, "driver": "sarah_springfield","team": "aston_martin", "points": 125, "wins": 2, "podiums": 6,  "races": 28 },
+        { "pos": 13, "driver": "ignacio_urreta",   "team": "mercedes",     "points": 120, "wins": 1, "podiums": 5,  "races": 28 },
+        { "pos": 14, "driver": "joshua_nathanial", "team": "mclaren",      "points": 92,  "wins": 1, "podiums": 3,  "races": 28 },
+        { "pos": 15, "driver": "jack_tef",         "team": "williams",     "points": 81,  "wins": 0, "podiums": 2,  "races": 28 },
+        { "pos": 16, "driver": "james_atara",      "team": "williams",     "points": 60,  "wins": 0, "podiums": 1,  "races": 28 },
+        { "pos": 17, "driver": "eetu_vaisanen",    "team": "ferrari",      "points": 46,  "wins": 0, "podiums": 1,  "races": 28 },
+        { "pos": 18, "driver": "eren_aygen",       "team": "haas",         "points": 29,  "wins": 0, "podiums": 0,  "races": 28 },
+        { "pos": 19, "driver": "robin_keisner",    "team": "alpine",       "points": 26,  "wins": 0, "podiums": 1,  "races": 28 },
+        { "pos": 20, "driver": "luis_guerrero",    "team": "alpine",       "points": 25,  "wins": 0, "podiums": 0,  "races": 28 },
+        { "pos": 21, "driver": "afonso_cachinho",  "team": "haas",         "points": 0,   "wins": 0, "podiums": 0,  "races": 9  }
+      ],
+      "constructor_standings": []
     },
     "2025": {
       "year": 2025,
       "status": "complete",
-      "champion_driver": "quarter_kevu",
-      "champion_constructor": "racing_bulls",
+      "champion_driver": null,
+      "champion_constructor": null,
       "rounds": 24,
-      "races": [
-        {
-          "id": "2025_r01", "round": 1, "name": "Bahrain Grand Prix", "circuit": "Bahrain International Circuit", "country": "BH",
-          "date": "2025-01-05", "status": "complete",
-          "summary": "The season opener saw Quarter Kevu take an early championship lead with a commanding victory.",
-          "results": []
-        },
-        {
-          "id": "2025_r24", "round": 24, "name": "Abu Dhabi Grand Prix", "circuit": "Yas Marina Circuit", "country": "AE",
-          "date": "2025-05-04", "status": "complete",
-          "summary": "The season finale confirmed Quarter Kevu as the 2025 F1CC champion. A dramatic race at Yas Marina saw the Estonian cross the line to clinch his maiden title with Racing Bulls.",
-          "results": [
-            { "pos": 1, "driver": "quarter_kevu", "team": "racing_bulls", "points": 25, "fastest_lap": false },
-            { "pos": 2, "driver": "liam_dela_cruz", "team": "ferrari", "points": 18, "fastest_lap": false },
-            { "pos": 3, "driver": "jack_tef", "team": "reserve", "points": 15, "fastest_lap": false },
-            { "pos": 4, "driver": "maikel_zwart", "team": "mercedes", "points": 12, "fastest_lap": false },
-            { "pos": 5, "driver": "eren_aygen", "team": "williams", "points": 10, "fastest_lap": true },
-            { "pos": 6, "driver": "zhao_lei", "team": "mclaren", "points": 8, "fastest_lap": false },
-            { "pos": 7, "driver": "eetu_vaisanen", "team": "ferrari", "points": 6, "fastest_lap": false },
-            { "pos": 8, "driver": "lukus_wright", "team": "red_bull", "points": 4, "fastest_lap": false }
-          ]
-        }
-      ],
-      "driver_standings": [
-        { "pos": 1, "driver": "quarter_kevu", "team": "racing_bulls", "points": 259, "wins": 2, "podiums": 8, "races": 24 },
-        { "pos": 2, "driver": "liam_dela_cruz", "team": "ferrari", "points": 226, "wins": 4, "podiums": 8, "races": 24 },
-        { "pos": 3, "driver": "jack_tef", "team": "reserve", "points": 201, "wins": 3, "podiums": 3, "races": 24 },
-        { "pos": 4, "driver": "maikel_zwart", "team": "mercedes", "points": 187, "wins": 1, "podiums": 5, "races": 24 },
-        { "pos": 5, "driver": "eren_aygen", "team": "williams", "points": 186, "wins": 2, "podiums": 4, "races": 24 },
-        { "pos": 6, "driver": "zhao_lei", "team": "mclaren", "points": 168, "wins": 2, "podiums": 5, "races": 24 },
-        { "pos": 7, "driver": "eetu_vaisanen", "team": "ferrari", "points": 165, "wins": 2, "podiums": 6, "races": 23 },
-        { "pos": 8, "driver": "lukus_wright", "team": "red_bull", "points": 161, "wins": 0, "podiums": 5, "races": 24 },
-        { "pos": 9, "driver": "joshua_nathanial", "team": "mclaren", "points": 158, "wins": 1, "podiums": 2, "races": 24 },
-        { "pos": 10, "driver": "jason_roy", "team": "racing_bulls", "points": 148, "wins": 2, "podiums": 8, "races": 24 },
-        { "pos": 11, "driver": "philippe_verhaeren", "team": "red_bull", "points": 130, "wins": 2, "podiums": 2, "races": 16 },
-        { "pos": 12, "driver": "afonso_cachinho", "team": "haas", "points": 121, "wins": 0, "podiums": 2, "races": 24 },
-        { "pos": 13, "driver": "simon_srnicek", "team": "reserve", "points": 101, "wins": 2, "podiums": 3, "races": 9 },
-        { "pos": 14, "driver": "sarah_springfield", "team": "aston_martin", "points": 92, "wins": 1, "podiums": 3, "races": 24 },
-        { "pos": 15, "driver": "sam_fakt", "team": "aston_martin", "points": 72, "wins": 0, "podiums": 2, "races": 24 },
-        { "pos": 16, "driver": "duarte_sardinha", "team": "kick_sauber", "points": 69, "wins": 0, "podiums": 1, "races": 24 },
-        { "pos": 17, "driver": "robin_keisner", "team": "kick_sauber", "points": 67, "wins": 0, "podiums": 4, "races": 24 },
-        { "pos": 18, "driver": "riley_swansson", "team": "haas", "points": 64, "wins": 0, "podiums": 3, "races": 23 },
-        { "pos": 19, "driver": "nick_beier", "team": "alpine", "points": 58, "wins": 1, "podiums": 4, "races": 24 },
-        { "pos": 20, "driver": "michiii_maradoner", "team": "alpine", "points": 43, "wins": 0, "podiums": 0, "races": 15 },
-        { "pos": 21, "driver": "wesley_vandesteene", "team": "mercedes", "points": 34, "wins": 0, "podiums": 3, "races": 17 },
-        { "pos": 22, "driver": "ignacio_urreta", "team": "reserve", "points": 31, "wins": 1, "podiums": 1, "races": 9 },
-        { "pos": 23, "driver": "randy_belacik", "team": "reserve", "points": 14, "wins": 0, "podiums": 1, "races": 8 },
-        { "pos": 24, "driver": "lucas_koopman", "team": "williams", "points": 0, "wins": 0, "podiums": 0, "races": 0 }
-      ],
-      "constructor_standings": [
-        { "pos": 1, "team": "racing_bulls", "points": 407 },
-        { "pos": 2, "team": "ferrari", "points": 391 },
-        { "pos": 3, "team": "mclaren", "points": 326 },
-        { "pos": 4, "team": "mercedes", "points": 221 },
-        { "pos": 5, "team": "red_bull", "points": 291 },
-        { "pos": 6, "team": "reserve", "points": 347 },
-        { "pos": 7, "team": "williams", "points": 186 },
-        { "pos": 8, "team": "haas", "points": 185 },
-        { "pos": 9, "team": "aston_martin", "points": 164 },
-        { "pos": 10, "team": "alpine", "points": 101 },
-        { "pos": 11, "team": "kick_sauber", "points": 136 }
-      ]
+      "notes": "2025 season — Australia Round 1. Awaiting full data.",
+      "driver_standings": [],
+      "constructor_standings": []
     }
   }
 }
