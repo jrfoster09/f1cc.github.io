@@ -99,7 +99,7 @@ function render(drivers) {
       <div class="driver-tile-flag">
         ${d.photo 
           ? `<img src="${d.photo}" alt="${d.name}" style="width:48px;height:48px;object-fit:cover;border-radius:50%;margin-bottom:4px;">` 
-          : countryFlag(d.flag)}
+          : d.flag_emoji}
       </div>
       <div class="driver-tile-name">${d.name}</div>
       <div class="driver-tile-meta">
