@@ -71,7 +71,7 @@ async function init() {
       <div class="season-year-badge">${year}</div>
       <div class="season-card-info">
         <div class="season-card-champ">
-          ${champ ? champ.flag + ' ' + champ.name : '— Season in progress'}
+          ${champ ? countryFlag(champ.flag) + ' ' + champ.name : '— Season in progress'}
           ${champ ? '<span style="font-size:14px;color:var(--gold)"> 🏆</span>' : ''}
         </div>
         <div class="season-card-meta">
