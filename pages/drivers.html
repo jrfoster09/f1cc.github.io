@@ -96,7 +96,11 @@ function render(drivers) {
     });
 
     return `<a class="driver-tile" href="driver.html?id=${id}">
-      <div class="driver-tile-flag">${d.flag||''}</div>
+      <div class="driver-tile-flag">
+        ${d.photo 
+          ? `<img src="${d.photo}" alt="${d.name}" style="width:48px;height:48px;object-fit:cover;border-radius:50%;margin-bottom:4px;">` 
+          : countryFlag(d.flag)}
+      </div>
       <div class="driver-tile-name">${d.name}</div>
       <div class="driver-tile-meta">
         ${currentTeam ? `<span class="team-pill" style="${teamStyle(currentTeamId)}">${currentTeam.short}</span>` : ''}
