@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Team — F1CC Wiki</title>
   <link rel="stylesheet" href="../css/style.css">
+<script src="https://unpkg.com/twemoji@14.0.2/dist/twemoji.min.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -120,6 +121,8 @@ async function init() {
   document.getElementById('content').innerHTML = html;
 }
 init();
+// Render flag emojis as images for cross-platform support
+setTimeout(() => { if(window.twemoji) twemoji.parse(document.body, {folder:'svg', ext:'.svg'}); }, 500);
 </script>
 </body>
 </html>

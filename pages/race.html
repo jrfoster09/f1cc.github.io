@@ -31,6 +31,7 @@
     .stat-mini-sub { font-size: 12px; color: var(--text-secondary); }
     @media (max-width: 700px) { .result-grid { grid-template-columns: 1fr; } }
   </style>
+<script src="https://unpkg.com/twemoji@14.0.2/dist/twemoji.min.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -193,6 +194,8 @@ async function init() {
   document.getElementById('content').innerHTML = html;
 }
 init();
+// Render flag emojis as images for cross-platform support
+setTimeout(() => { if(window.twemoji) twemoji.parse(document.body, {folder:'svg', ext:'.svg'}); }, 500);
 </script>
 </body>
 </html>

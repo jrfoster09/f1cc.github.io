@@ -28,6 +28,7 @@
     .result-row { display: flex; align-items: center; gap: 10px; padding: 7px 0; border-bottom: 1px solid rgba(59,141,224,0.07); font-size: 13px; }
     .result-row:last-child { border-bottom: none; }
   </style>
+<script src="https://unpkg.com/twemoji@14.0.2/dist/twemoji.min.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -192,6 +193,8 @@ async function init() {
   initTabs();
 }
 init();
+// Render flag emojis as images for cross-platform support
+setTimeout(() => { if(window.twemoji) twemoji.parse(document.body, {folder:'svg', ext:'.svg'}); }, 500);
 </script>
 </body>
 </html>
