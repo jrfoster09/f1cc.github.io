@@ -158,7 +158,7 @@
           "points": 0
         }
       },
-      "photo": "assets/photos/eren-aygen.png",
+      "photo": "https://jrfoster09.github.io/f1cc-wiki.github.io/assets/photos/eren-aygen.png",
       "flag_emoji": "🇹🇷"
     },
     "George Konstantaras": {
@@ -189,7 +189,7 @@
           "points": 31
         }
       },
-      "photo": "assets/photos/ignacio-urreta.png",
+      "photo": "https://jrfoster09.github.io/f1cc-wiki.github.io/assets/photos/ignacio-urreta.png",
       "flag_emoji": "🇪🇸"
     },
     "Jack TEF": {
@@ -261,7 +261,7 @@
           "points": 0
         }
       },
-      "photo": "assets/photos/joshua-nathaniel.png",
+      "photo": "https://jrfoster09.github.io/f1cc-wiki.github.io/assets/photos/joshua-nathaniel.png",
       "flag_emoji": "🇦🇺"
     },
     "Julian Kondra": {
@@ -354,7 +354,7 @@
           "points": 0
         }
       },
-      "photo": "assets/photos/lukus-wright.jpg",
+      "photo": "https://jrfoster09.github.io/f1cc-wiki.github.io/assets/photos/lukus-wright.jpg",
       "flag_emoji": "🇺🇸"
     },
     "Maikel Zwart": {
@@ -377,7 +377,7 @@
           "points": 0
         }
       },
-      "photo": "assets/photos/maikel-zwart.jpg",
+      "photo": "https://jrfoster09.github.io/f1cc-wiki.github.io/assets/photos/maikel-zwart.jpg",
       "flag_emoji": "🇳🇱"
     },
     "Michiii Maradöner": {
@@ -431,7 +431,7 @@
     },
     "Quarter Kevu": {
       "flag": "ee",
-      "name": "Quarter Kevu"
+      "name": "Quarter Kevu",
       "seasons": {
         "2024": {
           "team": "vcarb",
@@ -449,7 +449,7 @@
           "points": 0
         }
       },
-      "photo": "assets/photos/quarter-kevu.png"
+      "photo": "https://jrfoster09.github.io/f1cc-wiki.github.io/assets/photos/quarter-kevu.png",
       "flag_emoji": "🇪🇪"
     },
     "Randy Belacik": {
@@ -467,7 +467,7 @@
           "points": 14
         }
       },
-      "photo": "assets/photos/randy-belacik.png",
+      "photo": "https://jrfoster09.github.io/f1cc-wiki.github.io/assets/photos/randy-belacik.png",
       "flag_emoji": "🇸🇰"
     },
     "Richard Hicks": {
@@ -498,7 +498,7 @@
           "points": 0
         }
       },
-      "photo": "assets/photos/riley-swansson.png",
+      "photo": "https://jrfoster09.github.io/f1cc-wiki.github.io/assets/photos/riley-swansson.png",
       "flag_emoji": "🇦🇺"
     },
     "Robin Keisner": {
@@ -593,7 +593,7 @@
           "points": 101
         }
       },
-      "photo": "assets/photos/simon-srnicek.avif",
+      "photo": "https://jrfoster09.github.io/f1cc-wiki.github.io/assets/photos/simon-srnicek.avif",
       "flag_emoji": "🇸🇰"
     },
     "Wesley Vandesteene": {
