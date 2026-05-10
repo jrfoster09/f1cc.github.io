@@ -1,0 +1,170 @@
+[
+  {
+    "round": 1,
+    "name": "BAH",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 2,
+    "name": "SAU",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 3,
+    "name": "AUS",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 4,
+    "name": "JAP",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 5,
+    "name": "CHNS",
+    "sprint": true,
+    "results": []
+  },
+  {
+    "round": 6,
+    "name": "CHI",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 7,
+    "name": "MIAS",
+    "sprint": true,
+    "results": []
+  },
+  {
+    "round": 8,
+    "name": "MIA",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 9,
+    "name": "IMO",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 10,
+    "name": "MON",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 11,
+    "name": "CAN",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 12,
+    "name": "SPA",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 13,
+    "name": "AUTS",
+    "sprint": true,
+    "results": []
+  },
+  {
+    "round": 14,
+    "name": "AUT",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 15,
+    "name": "GBR",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 16,
+    "name": "HUN",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 17,
+    "name": "NED",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 18,
+    "name": "ITA",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 19,
+    "name": "AZE",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 20,
+    "name": "SGP",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 21,
+    "name": "USAS",
+    "sprint": true,
+    "results": []
+  },
+  {
+    "round": 22,
+    "name": "USA",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 23,
+    "name": "MEX",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 24,
+    "name": "BRAS",
+    "sprint": true,
+    "results": []
+  },
+  {
+    "round": 25,
+    "name": "BRA",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 26,
+    "name": "VEG",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 27,
+    "name": "QAT",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 28,
+    "name": "UAE",
+    "sprint": false,
+    "results": []
+  }
+]

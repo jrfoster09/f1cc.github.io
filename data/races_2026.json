@@ -1,0 +1,170 @@
+[
+  {
+    "round": 1,
+    "name": "AUS",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 2,
+    "name": "CHNS",
+    "sprint": true,
+    "results": []
+  },
+  {
+    "round": 3,
+    "name": "CHN",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 4,
+    "name": "JPN",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 5,
+    "name": "BAH",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 6,
+    "name": "SAUS",
+    "sprint": true,
+    "results": []
+  },
+  {
+    "round": 7,
+    "name": "SAU",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 8,
+    "name": "MIA",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 9,
+    "name": "CAN",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 10,
+    "name": "MON",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 11,
+    "name": "SPA",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 12,
+    "name": "AUSS",
+    "sprint": true,
+    "results": []
+  },
+  {
+    "round": 13,
+    "name": "AUS",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 14,
+    "name": "BRI",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 15,
+    "name": "BEL",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 16,
+    "name": "HUN",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 17,
+    "name": "NETS",
+    "sprint": true,
+    "results": []
+  },
+  {
+    "round": 18,
+    "name": "NET",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 19,
+    "name": "ITA",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 20,
+    "name": "AZE",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 21,
+    "name": "SIN",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 22,
+    "name": "USAS",
+    "sprint": true,
+    "results": []
+  },
+  {
+    "round": 23,
+    "name": "USA",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 24,
+    "name": "MEX",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 25,
+    "name": "BRAS",
+    "sprint": true,
+    "results": []
+  },
+  {
+    "round": 26,
+    "name": "BRA",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 27,
+    "name": "LVG",
+    "sprint": false,
+    "results": []
+  },
+  {
+    "round": 28,
+    "name": "ABU",
+    "sprint": false,
+    "results": []
+  }
+]
