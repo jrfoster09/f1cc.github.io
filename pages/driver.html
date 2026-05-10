@@ -71,7 +71,7 @@ async function init() {
   }
 
   document.title = `${driver.name} — F1CC Wiki`;
-  document.getElementById('hero-eye').textContent = `Driver Profile · ${driver.flag} ${driver.nationality}`;
+  document.getElementById('hero-eye').textContent = `Driver Profile`;
   document.getElementById('hero-title').textContent = driver.name;
 
   const seasons = Object.keys(driver.seasons || {}).sort((a,b) => b-a);
@@ -130,11 +130,15 @@ async function init() {
 
   // Driver header
   html += `<div class="driver-header">
-    <div class="driver-avatar-lg">${driver.flag}</div>
+    <div class="driver-avatar-lg">
+      ${driver.photo 
+        ? `<img src="${driver.photo}" alt="${driver.name}" style="width:100%;height:100%;object-fit:cover;border-radius:50%;">` 
+        : countryFlag(driver.flag)}
+    </div>
     <div class="driver-header-info">
       <h2>${driver.name}</h2>
       <div class="driver-header-meta">
-        <span>${driver.flag} ${driver.nationality}</span>`;
+        <span>${countryFlag(driver.flag)}</span>`;
   if (currentTeam) html += `<span class="team-pill" style="${teamStyle(currentTeamId)}">${currentTeam.name}</span>`;
   html += `<span style="color:var(--text-muted)">Active ${seasons[seasons.length-1]}–${seasons[0]}</span>
       </div>
