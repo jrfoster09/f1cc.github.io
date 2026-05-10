@@ -124,7 +124,7 @@ async function init() {
     const label = ['🥇 Winner','🥈 Runner-up','🥉 Third'][i];
     html += `<div class="podium-card ${cls}">
       <div class="podium-pos">${label}</div>
-      <div class="podium-driver">${d?countryFlag(d.flag)+' '+d.name:r.driver}</div>
+      <div class="podium-driver">${d?d.flag_emoji+' '+d.name:r.driver}</div>
       <div class="podium-team">${t?t.name:r.team}</div>
       <div style="margin-top:6px;font-family:var(--font-display);font-size:13px;color:var(--text-muted)">${r.points ?? '—'} pts</div>
     </div>`;
@@ -151,7 +151,7 @@ async function init() {
     html += `<tr class="${i===0?'leader':''}">
       <td><div class="pos-badge ${cls}">${r.pos}</div></td>
       <td><div style="display:flex;align-items:center;gap:6px">
-        <span>${d?countryFlag(d.flag):''}</span>
+        <span>${d?d.flag_emoji:''}</span>
         <a class="driver-name-link" href="driver.html?id=${r.driver}">${d?d.name:r.driver}</a>
         ${r.fastest_lap?'<span class="fl-badge">FL</span>':''}
       </div></td>
