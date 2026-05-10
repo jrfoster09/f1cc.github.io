@@ -60,7 +60,7 @@
 <script src="../js/core.js"></script>
 <script>
 async function init() {
-  const DB = await fetch('../data/db.json').then(r=>r.json());
+  DB = await fetch('../data/db.json').then(r=>r.json());
   const params = new URLSearchParams(window.location.search);
   const driverId = params.get('id');
 
