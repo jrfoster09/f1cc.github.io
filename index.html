@@ -178,6 +178,12 @@
 </footer>
 
 <script>
+
+function countryFlag(code) {
+  if (!code) return '';
+  return code.toUpperCase().replace(/./g, c => String.fromCodePoint(c.charCodeAt(0) + 127397));
+}
+
 async function init() {
   const resp = await fetch('data/db.json');
   const db = await resp.json();
@@ -214,9 +220,11 @@ async function init() {
 
   // Standings preview (top 8 current season)
   const curSeason = db.seasons[currentYear];
-  if (curSeason && curSeason.driver_standings) {
-    const top8 = curSeason.driver_standings.slice(0,8);
-    if (!top8.length) { document.getElementById('standings-preview').innerHTML = '<p style="color:var(--text-muted)">No data yet.</p>'; } else {
+  const driverStandings = curSeason?.driver_standings || [];
+  if (driverStandings.length === 0) {
+    document.getElementById('standings-preview').innerHTML = '<p style="color:var(--text-muted);font-size:13px;padding:1rem 0">No standings data yet.</p>';
+  } else {
+    const top8 = driverStandings.slice(0,8);
     const leader = top8[0]?.points || 0;
     let html = `<table class="standings-table"><thead><tr><th style="width:36px">Pos</th><th>Driver</th><th>Team</th><th>Pts</th><th>Gap</th></tr></thead><tbody>`;
     top8.forEach((s, i) => {
@@ -236,7 +244,6 @@ async function init() {
     });
     html += `</tbody></table>`;
     document.getElementById('standings-preview').innerHTML = html;
-    } // end if top8.length
   }
 
   // Latest race (from current season)
@@ -265,9 +272,11 @@ async function init() {
   }
 
   // Constructor leaders (top 5)
-  if (curSeason && curSeason.constructor_standings) {
-    const top5 = curSeason.constructor_standings.slice(0,5);
-    if (!top5.length) { document.getElementById('constructor-leaders').innerHTML = '<p style="color:var(--text-muted);font-size:12px">No data yet.</p>'; } else {
+  const conStandings = curSeason?.constructor_standings || [];
+  if (conStandings.length === 0) {
+    document.getElementById('constructor-leaders').innerHTML = '<p style="color:var(--text-muted);font-size:12px">No data yet.</p>';
+  } else {
+    const top5 = conStandings.slice(0,5);
     const leader = top5[0]?.points || 0;
     let html = '';
     top5.forEach((s,i) => {
@@ -282,7 +291,6 @@ async function init() {
       </div>`;
     });
     document.getElementById('constructor-leaders').innerHTML = html;
-    } // end if top5
   }
 }
 init();
