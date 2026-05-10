@@ -125,7 +125,7 @@ async function init() {
   const teamStats = {};
   const initTeam = (id) => { if (!teamStats[id]) teamStats[id] = { wins:0, podiums:0, points:0, titles:0 }; };
   Object.entries(DB.seasons).forEach(([,s]) => {
-    (s.constructor_standings||[]).forEach(row => { initTeam(row.team); teamStats[row.team].points += row.points||0; });
+    (s.constructor_standings||[]).forEach(row => { if(row.team){initTeam(row.team); teamStats[row.team].points += row.points||0;} });
     if (s.champion_constructor) { initTeam(s.champion_constructor); teamStats[s.champion_constructor].titles++; }
   });
   for (const year of seasonYears) {
