@@ -126,7 +126,7 @@ async function init() {
       <div class="podium-pos">${label}</div>
       <div class="podium-driver">${d?d.flag+' '+d.name:r.driver}</div>
       <div class="podium-team">${t?t.name:r.team}</div>
-      <div style="margin-top:6px;font-family:var(--font-display);font-size:13px;color:var(--text-muted)">${r.points} pts</div>
+      <div style="margin-top:6px;font-family:var(--font-display);font-size:13px;color:var(--text-muted)">${r.points ?? '—'} pts</div>
     </div>`;
   });
   html += `</div>`;
@@ -157,7 +157,7 @@ async function init() {
       </div></td>
       <td><span class="team-pill" style="${teamStyle(r.team)}">${t?t.short:r.team}</span></td>
       <td style="color:var(--text-muted);font-family:var(--font-mono);font-size:12px">${r.quali_pos ? 'P'+r.quali_pos : '—'}</td>
-      <td class="pts-cell">${r.points}</td>
+      <td class="pts-cell">${r.points ?? '—'}</td>
     </tr>`;
   });
 
