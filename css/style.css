@@ -558,3 +558,24 @@ footer a { color: var(--blue-accent); text-decoration: none; }
   .nav-links { display: none; }
   .race-grid { grid-template-columns: 1fr 1fr; }
 }
+
+/* Twemoji flag sizing */
+img.emoji {
+  height: 1.2em;
+  width: 1.2em;
+  vertical-align: -0.2em;
+  display: inline-block;
+}
+.driver-tile-flag img.emoji {
+  height: 2em;
+  width: 2em;
+  vertical-align: middle;
+}
+.driver-avatar-lg img.emoji {
+  height: 3em;
+  width: 3em;
+}
+.nav-tile-icon img.emoji {
+  height: 1.4em;
+  width: 1.4em;
+}
