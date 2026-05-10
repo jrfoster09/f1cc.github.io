@@ -1,1 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin — F1CC Wiki</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    /* ── LOCK SCREEN ── */
+    #lock-screen {
+      position: fixed; inset: 0; z-index: 999;
+      background: var(--navy-deepest);
+      display: flex; align-items: center; justify-content: center;
+    }
+    .lock-box {
+      background: var(--navy-mid);
+      border: 1px solid var(--blue-border);
+      border-radius: var(--radius-lg);
+      padding: 2.5rem 2rem;
+      width: 340px; text-align: center;
+    }
+    .lock-icon { font-size: 36px; margin-bottom: 1rem; }
+    .lock-title { font-family: var(--font-display); font-size: 22px; font-weight: 700; color: var(--text-primary); margin-bottom: 0.5rem; }
+    .lock-sub { font-size: 13px; color: var(--text-secondary); margin-bottom: 1.5rem; }
+    .lock-input {
+      width: 100%; background: var(--navy-light);
+      border: 1px solid var(--blue-border); border-radius: var(--radius);
+      padding: 10px 14px; color: var(--text-primary);
+      font-family: var(--font-body); font-size: 15px;
+      outline: none; margin-bottom: 10px; text-align: center; letter-spacing: 3px;
+    }
+    .lock-input:focus { border-color: var(--blue-accent); }
+    .lock-error { color: #f06060; font-size: 13px; margin-top: 8px; min-height: 20px; }
 
+    /* ── ADMIN LAYOUT ── */
+    .admin-grid { display: grid; grid-template-columns: 1fr 400px; gap: 1.5rem; }
+    @media (max-width: 900px) { .admin-grid { grid-template-columns: 1fr; } }
+
+    /* ── FORM STYLES ── */
+    .form-section { margin-bottom: 1.5rem; }
+    .form-section-title {
+      font-family: var(--font-display); font-size: 13px; font-weight: 600;
+      letter-spacing: 1px; text-transform: uppercase;
+      color: var(--text-secondary); margin-bottom: 0.75rem;
+      padding-bottom: 6px; border-bottom: 1px solid var(--blue-border);
+    }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 10px; }
+    .form-row-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-bottom: 10px; }
+    .form-group { display: flex; flex-direction: column; gap: 4px; margin-bottom: 10px; }
+    .form-label { font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+    .form-input, .form-select, .form-textarea {
+      background: var(--navy-light); border: 1px solid var(--blue-border);
+      border-radius: var(--radius); padding: 8px 12px;
+      color: var(--text-primary); font-family: var(--font-body); font-size: 14px;
+      outline: none; transition: border-color 0.15s; width: 100%;
+    }
+    .form-input:focus, .form-select:focus, .form-textarea:focus { border-color: var(--blue-accent); }
+    .form-select option { background: var(--navy-mid); }
+    .form-textarea { resize: vertical; min-height: 80px; }
+
+    /* ── RESULT ROWS ── */
+    .result-entry-list { display: flex; flex-direction: column; gap: 6px; margin-bottom: 10px; }
+    .result-entry-row {
+      display: grid; grid-template-columns: 36px 1fr 1fr 60px 40px 36px;
+      gap: 6px; align-items: center;
+      background: var(--navy-light); border: 1px solid var(--blue-border);
+      border-radius: var(--radius); padding: 6px 10px;
+    }
+    .pos-label {
+      font-family: var(--font-display); font-size: 14px; font-weight: 700;
+      color: var(--text-muted); text-align: center;
+    }
+    .pos-label.p1 { color: var(--gold); }
+    .pos-label.p2 { color: var(--silver); }
+    .pos-label.p3 { color: var(--bronze); }
+    .fl-check { display: flex; align-items: center; justify-content: center; }
+    .fl-check input[type=checkbox] { width: 16px; height: 16px; accent-color: #a040c8; cursor: pointer; }
+    .del-btn {
+      background: none; border: none; color: var(--text-muted);
+      cursor: pointer; font-size: 16px; padding: 0; transition: color 0.15s;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .del-btn:hover { color: #f06060; }
+    .add-row-btn {
+      background: var(--blue-dim); border: 1px dashed var(--blue-border);
+      border-radius: var(--radius); color: var(--blue-bright);
+      font-family: var(--font-display); font-size: 13px; font-weight: 500;
+      padding: 8px; width: 100%; cursor: pointer; transition: all 0.15s;
+    }
+    .add-row-btn:hover { background: rgba(59,141,224,0.2); border-color: var(--blue-accent); }
+
+    /* ── OUTPUT PANEL ── */
+    .output-panel { position: sticky; top: 72px; }
+    .output-box {
+      background: var(--navy-deepest); border: 1px solid var(--blue-border);
+      border-radius: var(--radius-lg); padding: 1rem;
+      font-family: var(--font-mono); font-size: 12px;
+      color: var(--text-secondary); line-height: 1.6;
+      max-height: 500px; overflow-y: auto;
+      white-space: pre; word-break: break-all;
+    }
+    .copy-btn {
+      width: 100%; margin-top: 8px;
+      background: var(--blue-accent); border: none; color: #fff;
+      font-family: var(--font-display); font-size: 13px; font-weight: 600;
+      padding: 10px; border-radius: var(--radius); cursor: pointer;
+      transition: background 0.15s; letter-spacing: 0.5px;
+    }
+    .copy-btn:hover { background: var(--blue-bright); }
+    .copy-btn.copied { background: #30a860; }
+
+    /* ── TABS ── */
+    .admin-tabs { display: flex; gap: 4px; margin-bottom: 1.5rem; }
+    .admin-tab {
+      font-family: var(--font-display); font-size: 13px; font-weight: 600;
+      padding: 8px 16px; border-radius: var(--radius);
+      border: 1px solid var(--blue-border);
+      background: none; color: var(--text-muted); cursor: pointer; transition: all 0.15s;
+    }
+    .admin-tab:hover { color: var(--text-secondary); background: var(--blue-dim); }
+    .admin-tab.active { background: var(--blue-accent); color: #fff; border-color: var(--blue-accent); }
+    .admin-panel { display: none; }
+    .admin-panel.active { display: block; }
+
+    /* ── INSTRUCTIONS ── */
+    .instruction-steps { counter-reset: step; }
+    .step {
+      display: flex; gap: 12px; align-items: flex-start;
+      padding: 10px 0; border-bottom: 1px solid rgba(59,141,224,0.08);
+      font-size: 13px; color: var(--text-secondary); line-height: 1.5;
+    }
+    .step:last-child { border-bottom: none; }
+    .step-num {
+      counter-increment: step;
+      content: counter(step);
+      width: 24px; height: 24px; border-radius: 50%;
+      background: var(--blue-accent); color: #fff;
+      font-family: var(--font-display); font-size: 13px; font-weight: 700;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0; margin-top: 1px;
+    }
+    .step-text strong { color: var(--text-primary); }
+    code { background: var(--navy-deepest); padding: 1px 5px; border-radius: 3px; font-family: var(--font-mono); font-size: 12px; color: var(--blue-bright); }
+
+    /* ── STANDINGS UPDATER ── */
+    .standings-row {
+      display: grid; grid-template-columns: 36px 1fr 80px 60px 60px 70px;
+      gap: 6px; align-items: center;
+      background: var(--navy-light); border: 1px solid var(--blue-border);
+      border-radius: var(--radius); padding: 6px 10px; margin-bottom: 6px; font-size: 13px;
+    }
+    .standings-row .driver-label { color: var(--text-primary); font-weight: 500; }
+    .warn-badge {
+      display: inline-block; background: rgba(200,168,40,0.15);
+      border: 1px solid rgba(200,168,40,0.3); color: var(--gold);
+      font-size: 11px; padding: 2px 8px; border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- LOCK SCREEN -->
+<div id="lock-screen">
+  <div class="lock-box">
+    <div class="lock-icon">🔐</div>
+    <div class="lock-title">F1CC Admin Panel</div>
+    <div class="lock-sub">Enter the admin password to continue</div>
+    <input class="lock-input" type="password" id="pw-input" placeholder="••••••••" maxlength="30">
+    <button class="btn btn-primary" style="width:100%" onclick="checkPw()">Unlock →</button>
+    <div class="lock-error" id="pw-error"></div>
+    <div style="margin-top:1.5rem;font-size:11px;color:var(--text-muted)">
+      Default password: <code style="color:var(--gold)">f1cc2025</code><br>
+      Change it in the HTML before going public.
+    </div>
+  </div>
+</div>
+
+<!-- MAIN ADMIN (hidden until unlocked) -->
+<div id="admin-main" style="display:none">
+
+<nav id="nav">
+  <a class="nav-logo" href="../index.html"><div class="nav-logo-pip"></div>F1CC WIKI</a>
+  <ul class="nav-links">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="seasons.html">Seasons</a></li>
+    <li><a href="drivers.html">Drivers</a></li>
+    <li><a href="teams.html">Teams</a></li>
+    <li><a href="records.html">Records</a></li>
+    <li><a href="admin.html" class="active" style="color:#f0a040">⚙ Admin</a></li>
+  </ul>
+</nav>
+
+<div class="hero-strip">
+  <div class="hero-eyebrow">Admin Panel · Restricted Access</div>
+  <h1 class="hero-title">Race Result Entry</h1>
+  <p class="hero-sub">Fill in the race result below. The panel will generate the exact JSON to paste into GitHub — no coding needed.</p>
+</div>
+
+<div class="page-container">
+
+  <!-- Tab switcher -->
+  <div class="admin-tabs">
+    <button class="admin-tab active" onclick="switchTab('race')">🏁 Add Race Result</button>
+    <button class="admin-tab" onclick="switchTab('standings')">📊 Update Standings</button>
+    <button class="admin-tab" onclick="switchTab('guide')">📖 How To Update</button>
+  </div>
+
+  <!-- ═══ TAB 1: RACE RESULT ═══ -->
+  <div class="admin-panel active" id="tab-race">
+    <div class="admin-grid">
+
+      <!-- LEFT: Form -->
+      <div>
+        <!-- Race Info -->
+        <div class="form-section">
+          <div class="form-section-title">Race Information</div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Season Year</label>
+              <select class="form-select" id="r-season" onchange="onSeasonChange()"></select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Round Number</label>
+              <input class="form-input" type="number" id="r-round" min="1" max="30" placeholder="e.g. 5" oninput="generateJSON()">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Race Name</label>
+              <input class="form-input" type="text" id="r-name" placeholder="Monaco Grand Prix" oninput="generateJSON()">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Circuit Name</label>
+              <input class="form-input" type="text" id="r-circuit" placeholder="Circuit de Monaco" oninput="generateJSON()">
+            </div>
+          </div>
+          <div class="form-row-3">
+            <div class="form-group">
+              <label class="form-label">Country Code</label>
+              <input class="form-input" type="text" id="r-country" placeholder="MC" maxlength="3" oninput="generateJSON()">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Flag Emoji</label>
+              <input class="form-input" type="text" id="r-flag" placeholder="🇲🇨" oninput="generateJSON()">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Date</label>
+              <input class="form-input" type="date" id="r-date" oninput="generateJSON()">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">YouTube VOD URL</label>
+            <input class="form-input" type="url" id="r-vod" placeholder="https://youtube.com/watch?v=..." oninput="generateJSON()">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Race Summary / Report</label>
+            <textarea class="form-textarea" id="r-summary" placeholder="Describe what happened in the race..." oninput="generateJSON()"></textarea>
+          </div>
+        </div>
+
+        <!-- Results -->
+        <div class="form-section">
+          <div class="form-section-title">Race Results</div>
+          <div style="display:grid;grid-template-columns:36px 1fr 1fr 60px 40px 36px;gap:6px;padding:0 10px;margin-bottom:4px">
+            <div style="font-size:10px;color:var(--text-muted);text-align:center">POS</div>
+            <div style="font-size:10px;color:var(--text-muted)">DRIVER</div>
+            <div style="font-size:10px;color:var(--text-muted)">TEAM</div>
+            <div style="font-size:10px;color:var(--text-muted)">QUALI</div>
+            <div style="font-size:10px;color:var(--text-muted);text-align:center" title="Fastest Lap">FL</div>
+            <div></div>
+          </div>
+          <div class="result-entry-list" id="result-rows"></div>
+          <button class="add-row-btn" onclick="addRow()">+ Add Driver</button>
+          <div style="margin-top:8px;font-size:12px;color:var(--text-muted)">
+            FL = Fastest Lap checkbox. Points are auto-calculated (25-18-15-12-10-8-6-4-2-1).
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: JSON Output -->
+      <div class="output-panel">
+        <div class="card">
+          <div class="section-title mb-1">Generated JSON</div>
+          <p style="font-size:12px;color:var(--text-muted);margin-bottom:10px">
+            Copy this and paste it into the correct entry in
+            <code>data/races_YYYY.json</code> on GitHub.
+          </p>
+          <div class="output-box" id="json-output">Fill in the form to generate JSON...</div>
+          <button class="copy-btn" id="copy-btn" onclick="copyJSON()">📋 Copy JSON</button>
+        </div>
+
+        <div class="card mt-2">
+          <div class="section-title mb-1">Points Preview</div>
+          <div id="points-preview" style="font-size:13px;color:var(--text-secondary)">Enter results to see points breakdown.</div>
+        </div>
+
+        <!-- Validation -->
+        <div class="card mt-2" id="validation-card">
+          <div class="section-title mb-1">Validation</div>
+          <div id="validation-output" style="font-size:13px"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ═══ TAB 2: STANDINGS UPDATER ═══ -->
+  <div class="admin-panel" id="tab-standings">
+    <div class="card mb-2">
+      <div class="section-title mb-1">Season Standings JSON Generator</div>
+      <p style="font-size:13px;color:var(--text-secondary);margin-bottom:1rem">
+        After entering all race results for a round, use this to generate the updated
+        <code>driver_standings</code> array for <code>db.json</code>.
+        Fill in each driver's running totals.
+      </p>
+
+      <div class="form-row mb-2">
+        <div class="form-group">
+          <label class="form-label">Season</label>
+          <select class="form-select" id="s-season" onchange="buildStandingsForm()"></select>
+        </div>
+        <div class="form-group" style="align-self:flex-end">
+          <button class="btn btn-primary" onclick="buildStandingsForm()">Load Drivers →</button>
+        </div>
+      </div>
+
+      <div id="standings-form-area"></div>
+      <div id="standings-output-area"></div>
+    </div>
+  </div>
+
+  <!-- ═══ TAB 3: GUIDE ═══ -->
+  <div class="admin-panel" id="tab-guide">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem">
+      <div class="card">
+        <div class="section-title mb-1">🏁 Adding a Race Result (Weekly)</div>
+        <div class="instruction-steps">
+          <div class="step"><div class="step-num">1</div><div class="step-text">Fill in the <strong>Race Information</strong> section — name, circuit, date, VOD link and a short summary.</div></div>
+          <div class="step"><div class="step-num">2</div><div class="step-text">Add each finisher using <strong>+ Add Driver</strong>. Select driver, team, qualifying position. Check <strong>FL</strong> for the fastest lap setter.</div></div>
+          <div class="step"><div class="step-num">3</div><div class="step-text"><strong>Copy the JSON</strong> from the output panel on the right.</div></div>
+          <div class="step"><div class="step-num">4</div><div class="step-text">On GitHub, open <code>data/races_YYYY.json</code>. Find the matching race entry (by round number) and <strong>replace the entire object</strong> with the copied JSON.</div></div>
+          <div class="step"><div class="step-num">5</div><div class="step-text"><strong>Commit the change</strong> on GitHub. The site updates within 30 seconds.</div></div>
+          <div class="step"><div class="step-num">6</div><div class="step-text">Then go to the <strong>Update Standings</strong> tab and update the season standings in <code>db.json</code> too.</div></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="section-title mb-1">➕ Starting a New Season</div>
+        <div class="instruction-steps">
+          <div class="step"><div class="step-num">1</div><div class="step-text">In <code>db.json</code>, add a new entry inside <code>"seasons"</code> with <code>status: "live"</code> and empty standings arrays.</div></div>
+          <div class="step"><div class="step-num">2</div><div class="step-text">Update <code>"currentSeason"</code> in <code>db.json → meta</code> to the new year.</div></div>
+          <div class="step"><div class="step-num">3</div><div class="step-text">Create <code>data/races_YYYY.json</code> (copy the template from README) with all planned rounds set to <code>status: "upcoming"</code>.</div></div>
+          <div class="step"><div class="step-num">4</div><div class="step-text">For new drivers, add them to <code>db.json → drivers</code> with their season entry. The site picks them up everywhere automatically.</div></div>
+        </div>
+        <div class="section-title mt-2 mb-1">🔑 Changing the Password</div>
+        <p style="font-size:13px;color:var(--text-secondary)">Open <code>pages/admin.html</code> and search for <code>f1cc2025</code>. Replace it with your chosen password. Do this before sharing the site publicly.</p>
+      </div>
+    </div>
+  </div>
+
+</div><!-- end page-container -->
+</div><!-- end admin-main -->
+
+<script>
+// ── POINTS SCALE ──
+const POINTS = [25,18,15,12,10,8,6,4,2,1];
+
+// ── PASSWORD ──
+// PASSWORD IS 'aygen2026wdc'
+const ADMIN_PASSWORD = 'aygen2026wdc';
+
+function checkPw() {
+  const val = document.getElementById('pw-input').value;
+  if (val === ADMIN_PASSWORD) {
+    document.getElementById('lock-screen').style.display = 'none';
+    document.getElementById('admin-main').style.display = 'block';
+    init();
+  } else {
+    document.getElementById('pw-error').textContent = 'Incorrect password. Try again.';
+    document.getElementById('pw-input').value = '';
+    document.getElementById('pw-input').focus();
+  }
+}
+document.getElementById('pw-input').addEventListener('keydown', e => { if (e.key==='Enter') checkPw(); });
+
+// ── TABS ──
+function switchTab(tab) {
+  document.querySelectorAll('.admin-tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.admin-panel').forEach(p => p.classList.remove('active'));
+  event.target.classList.add('active');
+  document.getElementById('tab-' + tab).classList.add('active');
+}
+
+// ── DATA ──
+let DB = null;
+let rowCount = 0;
+
+async function init() {
+  DB = await fetch('../data/db.json').then(r => r.json());
+
+  // Populate season dropdowns
+  const seasons = Object.keys(DB.seasons).sort((a,b) => b-a);
+  ['r-season','s-season'].forEach(id => {
+    const sel = document.getElementById(id);
+    sel.innerHTML = seasons.map(y => `<option value="${y}">${y}</option>`).join('');
+  });
+
+  // Set default date to today
+  document.getElementById('r-date').value = new Date().toISOString().split('T')[0];
+
+  // Add default 10 rows
+  for (let i = 0; i < 10; i++) addRow();
+}
+
+function onSeasonChange() {
+  // Reset rows when season changes to avoid stale driver/team combos
+  generateJSON();
+}
+
+// ── DRIVER / TEAM OPTIONS ──
+function driverOptions(selectedId) {
+  const drivers = Object.entries(DB.drivers)
+    .filter(([id]) => !id.endsWith('_2024'))
+    .sort((a,b) => a[1].name.localeCompare(b[1].name));
+  return `<option value="">— Driver —</option>` +
+    drivers.map(([id,d]) => `<option value="${id}" ${id===selectedId?'selected':''}>${d.flag} ${d.name}</option>`).join('');
+}
+
+function teamOptions(selectedId) {
+  const teams = Object.entries(DB.teams).sort((a,b) => a[1].name.localeCompare(b[1].name));
+  return `<option value="">— Team —</option>` +
+    teams.map(([id,t]) => `<option value="${id}" ${id===selectedId?'selected':''}>${t.short}</option>`).join('');
+}
+
+// Auto-fill team when driver selected
+function onDriverChange(rowEl) {
+  const driverId = rowEl.querySelector('.row-driver').value;
+  const season = document.getElementById('r-season').value;
+  const driver = DB.drivers[driverId];
+  if (driver && driver.seasons && driver.seasons[season]) {
+    rowEl.querySelector('.row-team').value = driver.seasons[season].team;
+  }
+  generateJSON();
+}
+
+// ── ADD ROW ──
+function addRow(pos) {
+  rowCount++;
+  const list = document.getElementById('result-rows');
+  const currentPos = list.children.length + 1;
+  const cls = currentPos===1?'p1':currentPos===2?'p2':currentPos===3?'p3':'';
+
+  const row = document.createElement('div');
+  row.className = 'result-entry-row';
+  row.dataset.rowId = rowCount;
+  row.innerHTML = `
+    <div class="pos-label ${cls}">${currentPos}</div>
+    <select class="form-select row-driver" style="padding:5px 8px;font-size:13px" onchange="onDriverChange(this.closest('.result-entry-row'));generateJSON()">${driverOptions()}</select>
+    <select class="form-select row-team" style="padding:5px 8px;font-size:13px" onchange="generateJSON()">${teamOptions()}</select>
+    <input class="form-input row-quali" type="number" min="1" max="30" placeholder="Q?" style="padding:5px 8px;font-size:13px;text-align:center" oninput="generateJSON()">
+    <div class="fl-check"><input type="checkbox" class="row-fl" title="Fastest Lap" onchange="generateJSON()"></div>
+    <button class="del-btn" onclick="removeRow(this)" title="Remove">✕</button>
+  `;
+  list.appendChild(row);
+  renumberRows();
+  generateJSON();
+}
+
+function removeRow(btn) {
+  btn.closest('.result-entry-row').remove();
+  renumberRows();
+  generateJSON();
+}
+
+function renumberRows() {
+  document.querySelectorAll('.result-entry-row').forEach((row, i) => {
+    const lbl = row.querySelector('.pos-label');
+    lbl.textContent = i + 1;
+    lbl.className = 'pos-label' + (i===0?' p1':i===1?' p2':i===2?' p3':'');
+  });
+}
+
+// ── GENERATE JSON ──
+function generateJSON() {
+  if (!DB) return;
+
+  const season = document.getElementById('r-season').value;
+  const round = document.getElementById('r-round').value;
+  const name = document.getElementById('r-name').value.trim();
+  const circuit = document.getElementById('r-circuit').value.trim();
+  const country = document.getElementById('r-country').value.trim().toUpperCase();
+  const flag = document.getElementById('r-flag').value.trim();
+  const date = document.getElementById('r-date').value;
+  const vod = document.getElementById('r-vod').value.trim();
+  const summary = document.getElementById('r-summary').value.trim();
+
+  // Build race ID
+  const raceId = season && round ? `${season}_r${String(round).padStart(2,'0')}` : 'YYYY_rXX';
+
+  // Collect results
+  const rows = document.querySelectorAll('.result-entry-row');
+  const results = [];
+  const errors = [];
+  const usedDrivers = new Set();
+
+  rows.forEach((row, i) => {
+    const driverId = row.querySelector('.row-driver').value;
+    const teamId = row.querySelector('.row-team').value;
+    const qualiPos = row.querySelector('.row-quali').value;
+    const fl = row.querySelector('.row-fl').checked;
+    const pos = i + 1;
+    const pts = pos <= 10 ? POINTS[pos-1] : 0;
+
+    if (!driverId) return; // skip empty rows
+    if (usedDrivers.has(driverId)) errors.push(`⚠ ${DB.drivers[driverId]?.name || driverId} appears more than once`);
+    usedDrivers.add(driverId);
+    if (!teamId) errors.push(`⚠ P${pos} ${DB.drivers[driverId]?.name || driverId} has no team`);
+
+    results.push({ pos, driver: driverId, team: teamId || '', points: pts, fastest_lap: fl, quali_pos: qualiPos ? parseInt(qualiPos) : null });
+  });
+
+  // Validation
+  const flCount = results.filter(r => r.fastest_lap).length;
+  if (flCount > 1) errors.push('⚠ More than one fastest lap set — only one driver can have FL');
+  if (results.length === 0) errors.push('⚠ No drivers added yet');
+  if (!name) errors.push('⚠ Race name is required');
+  if (!round) errors.push('⚠ Round number is required');
+
+  const validEl = document.getElementById('validation-output');
+  if (errors.length > 0) {
+    validEl.innerHTML = errors.map(e => `<div style="color:#f09060;margin-bottom:4px">${e}</div>`).join('');
+  } else {
+    validEl.innerHTML = '<div style="color:#40c878">✓ All good — ready to copy!</div>';
+  }
+
+  // Points preview
+  const preview = results.map(r => {
+    const d = DB.drivers[r.driver];
+    return `<div style="display:flex;justify-content:space-between;padding:3px 0;border-bottom:1px solid rgba(59,141,224,0.07)">
+      <span>${r.pos}. ${d?d.flag+' '+d.name:r.driver}${r.fastest_lap?' <span style="color:#c070e8;font-size:11px">(FL)</span>':''}</span>
+      <span style="color:var(--blue-accent);font-family:var(--font-display);font-weight:700">${r.points} pts</span>
+    </div>`;
+  }).join('');
+  document.getElementById('points-preview').innerHTML = preview || 'Enter results to see points breakdown.';
+
+  // Build JSON object
+  const raceObj = {
+    id: raceId,
+    round: round ? parseInt(round) : null,
+    name: name || 'Race Name',
+    circuit: circuit || 'Circuit Name',
+    country: country || 'XX',
+    flag: flag || '🏁',
+    date: date || 'YYYY-MM-DD',
+    status: 'complete',
+    vod_url: vod || '',
+    summary: summary || '',
+    results: results.map(r => {
+      const obj = { pos: r.pos, driver: r.driver, team: r.team, points: r.points, fastest_lap: r.fastest_lap };
+      if (r.quali_pos) obj.quali_pos = r.quali_pos;
+      return obj;
+    })
+  };
+
+  document.getElementById('json-output').textContent = JSON.stringify(raceObj, null, 2);
+}
+
+// ── COPY JSON ──
+function copyJSON() {
+  const text = document.getElementById('json-output').textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = document.getElementById('copy-btn');
+    btn.textContent = '✓ Copied!';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = '📋 Copy JSON'; btn.classList.remove('copied'); }, 2000);
+  });
+}
+
+// ── STANDINGS FORM ──
+function buildStandingsForm() {
+  const year = document.getElementById('s-season').value;
+  const season = DB.seasons[year];
+  const drivers = Object.entries(DB.drivers).filter(([id]) => !id.endsWith('_2024'))
+    .filter(([id,d]) => d.seasons && d.seasons[year])
+    .sort((a,b) => a[1].name.localeCompare(b[1].name));
+
+  const existing = {};
+  (season.driver_standings || []).forEach(s => { existing[s.driver] = s; });
+
+  let html = `<div style="display:grid;grid-template-columns:36px 1fr 80px 60px 60px 70px;gap:6px;padding:0 10px;margin-bottom:4px">
+    <div style="font-size:10px;color:var(--text-muted)">#</div>
+    <div style="font-size:10px;color:var(--text-muted)">DRIVER</div>
+    <div style="font-size:10px;color:var(--text-muted)">TEAM</div>
+    <div style="font-size:10px;color:var(--text-muted)">WINS</div>
+    <div style="font-size:10px;color:var(--text-muted)">POD</div>
+    <div style="font-size:10px;color:var(--text-muted)">POINTS</div>
+  </div>`;
+
+  drivers.forEach(([id,d], i) => {
+    const ex = existing[id] || {};
+    const teamId = d.seasons[year]?.team;
+    const team = DB.teams[teamId];
+    const tc = team ? team.color : '#3b8de0';
+    html += `<div class="standings-row" data-driver="${id}" data-team="${teamId||''}">
+      <div style="font-size:13px;color:var(--text-muted)">${i+1}</div>
+      <div class="driver-label">${d.flag} ${d.name}</div>
+      <div style="font-size:11px;color:${tc}">${team?team.short:'—'}</div>
+      <input class="form-input s-wins" type="number" min="0" value="${ex.wins||0}" style="padding:4px 6px;font-size:13px;text-align:center" oninput="generateStandingsJSON()">
+      <input class="form-input s-pods" type="number" min="0" value="${ex.podiums||0}" style="padding:4px 6px;font-size:13px;text-align:center" oninput="generateStandingsJSON()">
+      <input class="form-input s-pts" type="number" min="0" value="${ex.points||0}" style="padding:4px 6px;font-size:13px;text-align:center" oninput="generateStandingsJSON()">
+    </div>`;
+  });
+
+  html += `<div class="mt-2" style="display:flex;gap:8px;align-items:center">
+    <button class="btn btn-primary" onclick="generateStandingsJSON()">Generate JSON →</button>
+    <span class="warn-badge">⚠ Also update constructor_standings manually in db.json</span>
+  </div>`;
+
+  document.getElementById('standings-form-area').innerHTML = html;
+  generateStandingsJSON();
+}
+
+function generateStandingsJSON() {
+  const year = document.getElementById('s-season').value;
+  const rows = document.querySelectorAll('#standings-form-area .standings-row');
+  const standings = [];
+
+  rows.forEach((row, i) => {
+    const driverId = row.dataset.driver;
+    const teamId = row.dataset.team;
+    const wins = parseInt(row.querySelector('.s-wins').value) || 0;
+    const pods = parseInt(row.querySelector('.s-pods').value) || 0;
+    const pts = parseInt(row.querySelector('.s-pts').value) || 0;
+    if (pts > 0 || wins > 0) {
+      standings.push({ pos: i+1, driver: driverId, team: teamId, wins, podiums: pods, points: pts, races: 0 });
+    }
+  });
+
+  // Sort by points desc
+  standings.sort((a,b) => b.points - a.points);
+  standings.forEach((s,i) => s.pos = i+1);
+
+  const jsonStr = JSON.stringify(standings, null, 2);
+  const existing = document.getElementById('standings-output-area');
+  existing.innerHTML = `
+    <div class="card mt-2">
+      <div class="section-title mb-1">Generated <code>driver_standings</code> array</div>
+      <p style="font-size:12px;color:var(--text-muted);margin-bottom:8px">Copy and paste this as the <code>driver_standings</code> value inside the <code>${year}</code> season in <code>db.json</code>.</p>
+      <div class="output-box" id="standings-json">${jsonStr}</div>
+      <button class="copy-btn mt-1" onclick="navigator.clipboard.writeText(document.getElementById('standings-json').textContent).then(()=>{this.textContent='✓ Copied!';setTimeout(()=>this.textContent='📋 Copy JSON',2000)})">📋 Copy JSON</button>
+    </div>`;
+}
+</script>
+</body>
+</html>
