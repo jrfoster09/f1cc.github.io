@@ -216,7 +216,8 @@ async function init() {
   const curSeason = db.seasons[currentYear];
   if (curSeason && curSeason.driver_standings) {
     const top8 = curSeason.driver_standings.slice(0,8);
-    const leader = top8[0].points;
+    if (!top8.length) { document.getElementById('standings-preview').innerHTML = '<p style="color:var(--text-muted)">No data yet.</p>'; } else {
+    const leader = top8[0]?.points || 0;
     let html = `<table class="standings-table"><thead><tr><th style="width:36px">Pos</th><th>Driver</th><th>Team</th><th>Pts</th><th>Gap</th></tr></thead><tbody>`;
     top8.forEach((s, i) => {
       const d = db.drivers[s.driver];
@@ -235,6 +236,7 @@ async function init() {
     });
     html += `</tbody></table>`;
     document.getElementById('standings-preview').innerHTML = html;
+    } // end if top8.length
   }
 
   // Latest race (from current season)
@@ -265,7 +267,8 @@ async function init() {
   // Constructor leaders (top 5)
   if (curSeason && curSeason.constructor_standings) {
     const top5 = curSeason.constructor_standings.slice(0,5);
-    const leader = top5[0].points;
+    if (!top5.length) { document.getElementById('constructor-leaders').innerHTML = '<p style="color:var(--text-muted);font-size:12px">No data yet.</p>'; } else {
+    const leader = top5[0]?.points || 0;
     let html = '';
     top5.forEach((s,i) => {
       const t = db.teams[s.team];
@@ -279,6 +282,7 @@ async function init() {
       </div>`;
     });
     document.getElementById('constructor-leaders').innerHTML = html;
+    } // end if top5
   }
 }
 init();
