@@ -133,12 +133,12 @@ async function init() {
     <div class="driver-avatar-lg">
       ${driver.photo 
         ? `<img src="${driver.photo}" alt="${driver.name}" style="width:100%;height:100%;object-fit:cover;border-radius:50%;">` 
-        : countryFlag(driver.flag)}
+        : driver.flag_emoji}
     </div>
     <div class="driver-header-info">
       <h2>${driver.name}</h2>
       <div class="driver-header-meta">
-        <span>${countryFlag(driver.flag)}</span>`;
+        <span>${driver.flag_emoji}</span>`;
   if (currentTeam) html += `<span class="team-pill" style="${teamStyle(currentTeamId)}">${currentTeam.name}</span>`;
   html += `<span style="color:var(--text-muted)">Active ${seasons[seasons.length-1]}–${seasons[0]}</span>
       </div>
