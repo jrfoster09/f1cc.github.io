@@ -1,0 +1,77 @@
+{
+  "season": 2025,
+  "races": [
+    {
+      "id": "2025_r01", "round": 1, "name": "Bahrain Grand Prix", "circuit": "Bahrain International Circuit",
+      "country": "BH", "flag": "🇧🇭", "date": "2025-01-05", "status": "complete",
+      "vod_url": "https://youtube.com/@ccf1m25",
+      "summary": "The 2025 season opener at Bahrain set the tone for an incredible championship. Quarter Kevu led from lights-out to flag in dominant fashion, with Liam Dela Cruz keeping the pressure on throughout.",
+      "results": [
+        {"pos":1,"driver":"quarter_kevu","team":"racing_bulls","points":25,"fastest_lap":false,"quali_pos":1},
+        {"pos":2,"driver":"liam_dela_cruz","team":"ferrari","points":18,"fastest_lap":false,"quali_pos":3},
+        {"pos":3,"driver":"jack_tef","team":"reserve","points":15,"fastest_lap":false,"quali_pos":5},
+        {"pos":4,"driver":"maikel_zwart","team":"mercedes","points":12,"fastest_lap":false,"quali_pos":4},
+        {"pos":5,"driver":"eren_aygen","team":"williams","points":10,"fastest_lap":false,"quali_pos":6},
+        {"pos":6,"driver":"zhao_lei","team":"mclaren","points":8,"fastest_lap":false,"quali_pos":2},
+        {"pos":7,"driver":"eetu_vaisanen","team":"ferrari","points":6,"fastest_lap":false,"quali_pos":8},
+        {"pos":8,"driver":"lukus_wright","team":"red_bull","points":4,"fastest_lap":true,"quali_pos":9},
+        {"pos":9,"driver":"jason_roy","team":"racing_bulls","points":2,"fastest_lap":false,"quali_pos":10},
+        {"pos":10,"driver":"joshua_nathanial","team":"mclaren","points":1,"fastest_lap":false,"quali_pos":7}
+      ]
+    },
+    {
+      "id": "2025_r02", "round": 2, "name": "Saudi Arabian Grand Prix", "circuit": "Jeddah Corniche Circuit",
+      "country": "SA", "flag": "🇸🇦", "date": "2025-01-12", "status": "complete",
+      "vod_url": "https://youtube.com/@ccf1m25",
+      "summary": "A dramatic night race in Jeddah saw Liam Dela Cruz take his first win of the season ahead of Jason Roy in a surprise podium for Racing Bulls.",
+      "results": [
+        {"pos":1,"driver":"liam_dela_cruz","team":"ferrari","points":25,"fastest_lap":false,"quali_pos":1},
+        {"pos":2,"driver":"jason_roy","team":"racing_bulls","points":18,"fastest_lap":false,"quali_pos":4},
+        {"pos":3,"driver":"quarter_kevu","team":"racing_bulls","points":15,"fastest_lap":false,"quali_pos":2},
+        {"pos":4,"driver":"zhao_lei","team":"mclaren","points":12,"fastest_lap":false,"quali_pos":5},
+        {"pos":5,"driver":"jack_tef","team":"reserve","points":10,"fastest_lap":false,"quali_pos":6},
+        {"pos":6,"driver":"maikel_zwart","team":"mercedes","points":8,"fastest_lap":false,"quali_pos":3},
+        {"pos":7,"driver":"eren_aygen","team":"williams","points":6,"fastest_lap":false,"quali_pos":8},
+        {"pos":8,"driver":"eetu_vaisanen","team":"ferrari","points":4,"fastest_lap":true,"quali_pos":7},
+        {"pos":9,"driver":"philippe_verhaeren","team":"red_bull","points":2,"fastest_lap":false,"quali_pos":11},
+        {"pos":10,"driver":"afonso_cachinho","team":"haas","points":1,"fastest_lap":false,"quali_pos":12}
+      ]
+    },
+    {
+      "id": "2025_r03", "round": 3, "name": "Australian Grand Prix", "circuit": "Albert Park Circuit",
+      "country": "AU", "flag": "🇦🇺", "date": "2025-01-19", "status": "complete",
+      "vod_url": "https://youtube.com/@ccf1m25",
+      "summary": "Melbourne produced a thrilling race with Zhao Lei claiming a superb victory for McLaren. Safety cars and strategy calls shook up the order throughout.",
+      "results": [
+        {"pos":1,"driver":"zhao_lei","team":"mclaren","points":25,"fastest_lap":false,"quali_pos":3},
+        {"pos":2,"driver":"eetu_vaisanen","team":"ferrari","points":18,"fastest_lap":false,"quali_pos":5},
+        {"pos":3,"driver":"lukus_wright","team":"red_bull","points":15,"fastest_lap":false,"quali_pos":8},
+        {"pos":4,"driver":"quarter_kevu","team":"racing_bulls","points":12,"fastest_lap":false,"quali_pos":1},
+        {"pos":5,"driver":"maikel_zwart","team":"mercedes","points":10,"fastest_lap":true,"quali_pos":4},
+        {"pos":6,"driver":"jack_tef","team":"reserve","points":8,"fastest_lap":false,"quali_pos":6},
+        {"pos":7,"driver":"liam_dela_cruz","team":"ferrari","points":6,"fastest_lap":false,"quali_pos":2},
+        {"pos":8,"driver":"jason_roy","team":"racing_bulls","points":4,"fastest_lap":false,"quali_pos":9},
+        {"pos":9,"driver":"joshua_nathanial","team":"mclaren","points":2,"fastest_lap":false,"quali_pos":7},
+        {"pos":10,"driver":"eren_aygen","team":"williams","points":1,"fastest_lap":false,"quali_pos":10}
+      ]
+    },
+    {
+      "id": "2025_r24", "round": 24, "name": "Abu Dhabi Grand Prix", "circuit": "Yas Marina Circuit",
+      "country": "AE", "flag": "🇦🇪", "date": "2025-05-04", "status": "complete",
+      "vod_url": "https://youtube.com/@ccf1m25",
+      "summary": "The season finale confirmed Quarter Kevu as the 2025 F1CC Champion. A lights-to-flag victory at Yas Marina sealed the deal, with the Estonian crossing the line to claim his maiden title. Liam Dela Cruz finished second to secure the runner-up spot, while Jack TEF completed the podium.",
+      "results": [
+        {"pos":1,"driver":"quarter_kevu","team":"racing_bulls","points":25,"fastest_lap":false,"quali_pos":1},
+        {"pos":2,"driver":"liam_dela_cruz","team":"ferrari","points":18,"fastest_lap":false,"quali_pos":2},
+        {"pos":3,"driver":"jack_tef","team":"reserve","points":15,"fastest_lap":false,"quali_pos":4},
+        {"pos":4,"driver":"maikel_zwart","team":"mercedes","points":12,"fastest_lap":false,"quali_pos":5},
+        {"pos":5,"driver":"eren_aygen","team":"williams","points":10,"fastest_lap":true,"quali_pos":7},
+        {"pos":6,"driver":"zhao_lei","team":"mclaren","points":8,"fastest_lap":false,"quali_pos":3},
+        {"pos":7,"driver":"eetu_vaisanen","team":"ferrari","points":6,"fastest_lap":false,"quali_pos":6},
+        {"pos":8,"driver":"lukus_wright","team":"red_bull","points":4,"fastest_lap":false,"quali_pos":9},
+        {"pos":9,"driver":"jason_roy","team":"racing_bulls","points":2,"fastest_lap":false,"quali_pos":8},
+        {"pos":10,"driver":"afonso_cachinho","team":"haas","points":1,"fastest_lap":false,"quali_pos":12}
+      ]
+    }
+  ]
+}
