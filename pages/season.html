@@ -87,7 +87,7 @@ function teamStyle(teamId) {
 
 function renderSeason(year) {
   YEAR = year;
-  const s = DB.seasons[year];
+  const s = DB.seasons[String(year)];
   if (!s) return;
 
   // Update URL
@@ -206,7 +206,7 @@ async function init() {
   const seasons = Object.keys(DB.seasons).sort((a,b) => b-a);
   const params = new URLSearchParams(window.location.search);
   const requestedYear = parseInt(params.get('year')) || DB.meta.currentSeason;
-  YEAR = seasons.includes(String(requestedYear)) ? requestedYear : parseInt(seasons[0]);
+  YEAR = seasons.includes(String(requestedYear)) ? String(requestedYear) : seasons[0];
 
   const sel = document.getElementById('season-selector');
   seasons.forEach(y => {
@@ -216,7 +216,7 @@ async function init() {
     btn.onclick = () => {
       document.querySelectorAll('.season-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
-      loadRaces(parseInt(y)).then(() => renderSeason(parseInt(y)));
+      loadRaces(y).then(() => renderSeason(y));
     };
     sel.appendChild(btn);
   });
