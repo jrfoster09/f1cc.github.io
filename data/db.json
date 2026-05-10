@@ -595,8 +595,10 @@
             }
           ],
           "team": "vcarb",
-          "wins": 0,
-          "podiums": 0
+          "wins": 6,
+          "podiums": 11,
+          "fastest_laps": 2,
+          "races": 28
         },
         {
           "pos": 2,
@@ -611,8 +613,10 @@
             }
           ],
           "team": "red_bull",
-          "wins": 0,
-          "podiums": 0
+          "wins": 3,
+          "podiums": 9,
+          "fastest_laps": 3,
+          "races": 28
         },
         {
           "pos": 3,
@@ -627,8 +631,10 @@
             }
           ],
           "team": "vcarb",
-          "wins": 0,
-          "podiums": 0
+          "wins": 3,
+          "podiums": 10,
+          "fastest_laps": 1,
+          "races": 27
         },
         {
           "pos": 4,
@@ -643,8 +649,10 @@
             }
           ],
           "team": "aston_martin",
-          "wins": 0,
-          "podiums": 0
+          "wins": 2,
+          "podiums": 5,
+          "fastest_laps": 1,
+          "races": 28
         },
         {
           "pos": 5,
@@ -659,8 +667,10 @@
             }
           ],
           "team": "mclaren",
-          "wins": 0,
-          "podiums": 0
+          "wins": 2,
+          "podiums": 5,
+          "fastest_laps": 2,
+          "races": 28
         },
         {
           "pos": 6,
@@ -675,8 +685,10 @@
             }
           ],
           "team": "ferrari",
-          "wins": 0,
-          "podiums": 0
+          "wins": 2,
+          "podiums": 6,
+          "fastest_laps": 0,
+          "races": 28
         },
         {
           "pos": 7,
@@ -691,8 +703,10 @@
             }
           ],
           "team": "mercedes",
-          "wins": 0,
-          "podiums": 0
+          "wins": 2,
+          "podiums": 6,
+          "fastest_laps": 1,
+          "races": 28
         },
         {
           "pos": 8,
@@ -707,8 +721,10 @@
             }
           ],
           "team": "red_bull",
-          "wins": 0,
-          "podiums": 0
+          "wins": 1,
+          "podiums": 3,
+          "fastest_laps": 1,
+          "races": 28
         },
         {
           "pos": 9,
@@ -723,8 +739,10 @@
             }
           ],
           "team": "ferrari",
-          "wins": 0,
-          "podiums": 0
+          "wins": 2,
+          "podiums": 6,
+          "fastest_laps": 1,
+          "races": 20
         },
         {
           "pos": 10,
@@ -740,7 +758,9 @@
           ],
           "team": "kick_sauber",
           "wins": 0,
-          "podiums": 0
+          "podiums": 3,
+          "fastest_laps": 0,
+          "races": 28
         },
         {
           "pos": 11,
@@ -755,8 +775,10 @@
             }
           ],
           "team": "kick_sauber",
-          "wins": 0,
-          "podiums": 0
+          "wins": 2,
+          "podiums": 5,
+          "fastest_laps": 2,
+          "races": 28
         },
         {
           "pos": 12,
@@ -771,8 +793,10 @@
             }
           ],
           "team": "aston_martin",
-          "wins": 0,
-          "podiums": 0
+          "wins": 2,
+          "podiums": 4,
+          "fastest_laps": 1,
+          "races": 28
         },
         {
           "pos": 13,
@@ -788,7 +812,9 @@
           ],
           "team": "mercedes",
           "wins": 0,
-          "podiums": 0
+          "podiums": 5,
+          "fastest_laps": 0,
+          "races": 28
         },
         {
           "pos": 14,
@@ -803,8 +829,10 @@
             }
           ],
           "team": "mclaren",
-          "wins": 0,
-          "podiums": 0
+          "wins": 1,
+          "podiums": 1,
+          "fastest_laps": 0,
+          "races": 28
         },
         {
           "pos": 15,
@@ -820,7 +848,9 @@
           ],
           "team": "williams",
           "wins": 0,
-          "podiums": 0
+          "podiums": 2,
+          "fastest_laps": 0,
+          "races": 28
         },
         {
           "pos": 16,
@@ -836,7 +866,9 @@
           ],
           "team": "williams",
           "wins": 0,
-          "podiums": 0
+          "podiums": 2,
+          "fastest_laps": 0,
+          "races": 28
         },
         {
           "pos": 17,
@@ -857,7 +889,9 @@
           ],
           "team": "ferrari",
           "wins": 0,
-          "podiums": 0
+          "podiums": 0,
+          "fastest_laps": 0,
+          "races": 28
         },
         {
           "pos": 18,
@@ -873,7 +907,9 @@
           ],
           "team": "haas",
           "wins": 0,
-          "podiums": 0
+          "podiums": 0,
+          "fastest_laps": 0,
+          "races": 28
         },
         {
           "pos": 19,
@@ -889,7 +925,9 @@
           ],
           "team": "alpine",
           "wins": 0,
-          "podiums": 0
+          "podiums": 1,
+          "fastest_laps": 1,
+          "races": 28
         },
         {
           "pos": 20,
@@ -905,7 +943,9 @@
           ],
           "team": "alpine",
           "wins": 0,
-          "podiums": 0
+          "podiums": 0,
+          "fastest_laps": 0,
+          "races": 28
         },
         {
           "pos": 21,
@@ -921,7 +961,9 @@
           ],
           "team": "haas",
           "wins": 0,
-          "podiums": 0
+          "podiums": 0,
+          "fastest_laps": 0,
+          "races": 9
         }
       ],
       "constructor_standings": [],
