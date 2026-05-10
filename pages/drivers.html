@@ -114,6 +114,7 @@ function render(drivers) {
       </div>
     </a>`;
   }).join('');
+  setTimeout(() => { if(window.twemoji) twemoji.parse(grid, {folder:'svg',ext:'.svg'}); }, 50);
 }
 
 function filter() {

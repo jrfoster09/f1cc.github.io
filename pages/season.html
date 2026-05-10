@@ -196,6 +196,8 @@ function renderSeason(year) {
       </a>`;
     });
     document.getElementById('race-calendar').innerHTML = html || '<p style="color:var(--text-muted)">No races yet.</p>';
+  // Re-parse emoji after all dynamic content is set
+  setTimeout(() => { if(window.twemoji) twemoji.parse(document.body, {folder:'svg',ext:'.svg'}); }, 50);
   }
 }
 
@@ -243,7 +245,7 @@ async function loadDBRoot() {
 
 init();
 // Render flag emojis as images for cross-platform support
-setTimeout(() => { if(window.twemoji) twemoji.parse(document.body, {folder:'svg', ext:'.svg'}); }, 500);
+// Initial parse handled by renderSeason()
 </script>
 </body>
 </html>
