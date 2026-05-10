@@ -106,7 +106,11 @@ async function init() {
   ${teamDrivers.map(([id, d]) => {
     const driverSeasons = Object.entries(d.seasons||{}).filter(([,s])=>s.team===teamId).map(([y])=>y).sort().join(', ');
     return `<a class="driver-card" href="driver.html?id=${id}">
-      <div class="driver-avatar" style="border-color:${tc}">${d.flag}</div>
+      <div class="driver-avatar" style="border-color:${tc}">
+      ${d.photo 
+        ? `<img src="${d.photo}" alt="${d.name}" style="width:100%;height:100%;object-fit:cover;border-radius:50%;">` 
+        : countryFlag(d.flag)}
+    </div>
       <div class="driver-card-name">${d.name}</div>
       <div class="driver-card-meta">${driverSeasons}</div>
     </a>`;
