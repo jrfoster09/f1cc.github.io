@@ -63,131 +63,515 @@
   "drivers": {
     "Afonso Cachinho": {
       "flag": "pt",
-      "name": "Afonso Cachinho"
+      "name": "Afonso Cachinho",
+      "seasons": {
+        "2024": {
+          "team": "haas",
+          "pos": 21,
+          "points": 0
+        },
+        "2025": {
+          "team": "haas",
+          "pos": 12,
+          "points": 121
+        },
+        "2026": {
+          "team": "ferrari",
+          "pos": 4,
+          "points": 0
+        }
+      }
     },
     "Car Fok": {
       "flag": "es",
-      "name": "Car Fok"
+      "name": "Car Fok",
+      "seasons": {
+        "2024": {
+          "team": "ferrari",
+          "pos": 9,
+          "points": 138
+        }
+      }
     },
     "Duarte Sardinha": {
       "flag": "pt",
-      "name": "Duarte Sardinha"
+      "name": "Duarte Sardinha",
+      "seasons": {
+        "2024": {
+          "team": "kick_sauber",
+          "pos": 10,
+          "points": 136
+        },
+        "2025": {
+          "team": "kick_sauber",
+          "pos": 16,
+          "points": 69
+        }
+      }
     },
     "Eetu Väisänen": {
       "flag": "fi",
-      "name": "Eetu Väisänen"
+      "name": "Eetu Väisänen",
+      "seasons": {
+        "2024": {
+          "team": "ferrari",
+          "pos": 17,
+          "points": 46
+        },
+        "2025": {
+          "team": "ferrari",
+          "pos": 7,
+          "points": 165
+        },
+        "2026": {
+          "team": "ferrari",
+          "pos": 3,
+          "points": 0
+        }
+      }
     },
     "Eren Aygen": {
       "flag": "tr",
-      "name": "Eren Aygen"
+      "name": "Eren Aygen",
+      "seasons": {
+        "2024": {
+          "team": "haas",
+          "pos": 18,
+          "points": 29
+        },
+        "2025": {
+          "team": "mercedes",
+          "pos": 5,
+          "points": 186
+        },
+        "2026": {
+          "team": "williams",
+          "pos": 5,
+          "points": 0
+        }
+      }
     },
     "George Konstantaras": {
       "flag": "pt",
-      "name": "George Konstantaras"
+      "name": "George Konstantaras",
+      "seasons": {
+        "2026": {
+          "team": "haas",
+          "pos": 13,
+          "points": 0
+        }
+      }
     },
     "Ignacio Urreta": {
       "flag": "es",
-      "name": "Ignacio Urreta"
+      "name": "Ignacio Urreta",
+      "seasons": {
+        "2024": {
+          "team": "mercedes",
+          "pos": 13,
+          "points": 120
+        },
+        "2025": {
+          "team": "mercedes",
+          "pos": 22,
+          "points": 31
+        }
+      }
     },
     "Jack TEF": {
       "flag": "gb",
-      "name": "Jack TEF"
+      "name": "Jack TEF",
+      "seasons": {
+        "2024": {
+          "team": "williams",
+          "pos": 15,
+          "points": 81
+        },
+        "2025": {
+          "team": "williams",
+          "pos": 3,
+          "points": 201
+        }
+      }
     },
     "James Atara": {
       "flag": "gb",
-      "name": "James Atara"
+      "name": "James Atara",
+      "seasons": {
+        "2024": {
+          "team": "williams",
+          "pos": 16,
+          "points": 60
+        }
+      }
     },
     "Jason Roy": {
       "flag": "gb",
-      "name": "Jason Roy"
+      "name": "Jason Roy",
+      "seasons": {
+        "2025": {
+          "team": "vcarb",
+          "pos": 10,
+          "points": 148
+        },
+        "2026": {
+          "team": "red_bull",
+          "pos": 7,
+          "points": 0
+        }
+      }
     },
     "Joshua Nathanial": {
       "flag": "au",
-      "name": "Joshua Nathanial"
+      "name": "Joshua Nathanial",
+      "seasons": {
+        "2024": {
+          "team": "mclaren",
+          "pos": 14,
+          "points": 92
+        },
+        "2025": {
+          "team": "mclaren",
+          "pos": 9,
+          "points": 158
+        },
+        "2026": {
+          "team": "mclaren",
+          "pos": 9,
+          "points": 0
+        }
+      }
     },
     "Julian Kondra": {
       "flag": "bg",
-      "name": "Julian Kondra"
+      "name": "Julian Kondra",
+      "seasons": {
+        "2026": {
+          "team": "alpine",
+          "pos": 19,
+          "points": 0
+        }
+      }
     },
     "Kuba Sepiol": {
       "flag": "pl",
-      "name": "Kuba Sepiol"
+      "name": "Kuba Sepiol",
+      "seasons": {
+        "2024": {
+          "team": "kick_sauber",
+          "pos": 11,
+          "points": 127
+        }
+      }
     },
     "Liam Dela Cruz": {
       "flag": "de",
-      "name": "Liam Dela Cruz"
+      "name": "Liam Dela Cruz",
+      "seasons": {
+        "2024": {
+          "team": "ferrari",
+          "pos": 6,
+          "points": 158
+        },
+        "2025": {
+          "team": "ferrari",
+          "pos": 2,
+          "points": 226
+        }
+      }
     },
     "Lucas Koopman": {
       "flag": "nl",
-      "name": "Lucas Koopman"
+      "name": "Lucas Koopman",
+      "seasons": {
+        "2026": {
+          "team": "williams",
+          "pos": 6,
+          "points": 0
+        }
+      }
     },
     "Luis Guerrero": {
       "flag": "sv",
-      "name": "Luis Guerrero"
+      "name": "Luis Guerrero",
+      "seasons": {
+        "2024": {
+          "team": "alpine",
+          "pos": 20,
+          "points": 25
+        }
+      }
     },
     "Lukus Wright": {
       "flag": "us",
-      "name": "Lukus Wright"
+      "name": "Lukus Wright",
+      "seasons": {
+        "2024": {
+          "team": "vcarb",
+          "pos": 1,
+          "points": 264
+        },
+        "2025": {
+          "team": "red_bull",
+          "pos": 8,
+          "points": 163
+        },
+        "2026": {
+          "team": "vcarb",
+          "pos": 2,
+          "points": 0
+        }
+      }
     },
     "Maikel Zwart": {
       "flag": "nl",
-      "name": "Maikel Zwart"
+      "name": "Maikel Zwart",
+      "seasons": {
+        "2024": {
+          "team": "mercedes",
+          "pos": 7,
+          "points": 146
+        },
+        "2025": {
+          "team": "williams",
+          "pos": 4,
+          "points": 187
+        },
+        "2026": {
+          "team": "mercedes",
+          "pos": 11,
+          "points": 0
+        }
+      }
     },
     "Michiii Maradöner": {
       "flag": "gr",
-      "name": "Michiii Maradöner"
+      "name": "Michiii Maradöner",
+      "seasons": {
+        "2025": {
+          "team": "alpine",
+          "pos": 20,
+          "points": 43
+        },
+        "2026": {
+          "team": "alpine",
+          "pos": 20,
+          "points": 0
+        }
+      }
     },
     "Nick Beier": {
       "flag": "de",
-      "name": "Nick Beier"
+      "name": "Nick Beier",
+      "seasons": {
+        "2025": {
+          "team": "alpine",
+          "pos": 19,
+          "points": 58
+        }
+      }
     },
     "Philippe Verhaeren": {
       "flag": "be",
-      "name": "Philippe Verhaeren"
+      "name": "Philippe Verhaeren",
+      "seasons": {
+        "2025": {
+          "team": "red_bull",
+          "pos": 11,
+          "points": 130
+        },
+        "2026": {
+          "team": "red_bull",
+          "pos": 8,
+          "points": 0
+        }
+      }
     },
     "Quarter Kevu": {
       "flag": "ee",
-      "name": "Quarter Kevu"
+      "name": "Quarter Kevu",
+      "seasons": {
+        "2024": {
+          "team": "vcarb",
+          "pos": 3,
+          "points": 213
+        },
+        "2025": {
+          "team": "vcarb",
+          "pos": 1,
+          "points": 259
+        },
+        "2026": {
+          "team": "vcarb",
+          "pos": 1,
+          "points": 0
+        }
+      }
     },
     "Randy Belacik": {
       "flag": "sk",
-      "name": "Randy Belacik"
+      "name": "Randy Belacik",
+      "seasons": {
+        "2024": {
+          "team": "red_bull",
+          "pos": 2,
+          "points": 238
+        },
+        "2025": {
+          "team": "red_bull",
+          "pos": 23,
+          "points": 14
+        }
+      }
     },
     "Richard Hicks": {
       "flag": "au",
-      "name": "Richard Hicks"
+      "name": "Richard Hicks",
+      "seasons": {
+        "2026": {
+          "team": "audi",
+          "pos": 17,
+          "points": 0
+        }
+      }
     },
     "Riley Swansson": {
       "flag": "au",
-      "name": "Riley Swansson"
+      "name": "Riley Swansson",
+      "seasons": {
+        "2025": {
+          "team": "haas",
+          "pos": 18,
+          "points": 64
+        },
+        "2026": {
+          "team": "haas",
+          "pos": 14,
+          "points": 0
+        }
+      }
     },
     "Robin Keisner": {
       "flag": "de",
-      "name": "Robin Keisner"
+      "name": "Robin Keisner",
+      "seasons": {
+        "2024": {
+          "team": "alpine",
+          "pos": 19,
+          "points": 26
+        },
+        "2025": {
+          "team": "kick_sauber",
+          "pos": 17,
+          "points": 67
+        },
+        "2026": {
+          "team": "audi",
+          "pos": 18,
+          "points": 0
+        }
+      }
     },
     "Sam Fakt": {
       "flag": "de",
-      "name": "Sam Fakt"
+      "name": "Sam Fakt",
+      "seasons": {
+        "2024": {
+          "team": "red_bull",
+          "pos": 8,
+          "points": 143
+        },
+        "2025": {
+          "team": "aston_martin",
+          "pos": 15,
+          "points": 72
+        },
+        "2026": {
+          "team": "aston_martin",
+          "pos": 15,
+          "points": 0
+        }
+      }
     },
     "Sarah Springfield": {
       "flag": "us",
-      "name": "Sarah Springfield"
+      "name": "Sarah Springfield",
+      "seasons": {
+        "2024": {
+          "team": "aston_martin",
+          "pos": 12,
+          "points": 125
+        },
+        "2025": {
+          "team": "aston_martin",
+          "pos": 14,
+          "points": 92
+        },
+        "2026": {
+          "team": "aston_martin",
+          "pos": 16,
+          "points": 0
+        }
+      }
     },
     "Severi Seuranen": {
       "flag": "fi",
-      "name": "Severi Seuranen"
+      "name": "Severi Seuranen",
+      "seasons": {
+        "2024": {
+          "team": "aston_martin",
+          "pos": 4,
+          "points": 177
+        }
+      }
     },
     "Simon Srnicek": {
       "flag": "sk",
-      "name": "Simon Srnicek"
+      "name": "Simon Srnicek",
+      "seasons": {
+        "2025": {
+          "team": "vcarb",
+          "pos": 13,
+          "points": 101
+        }
+      }
     },
     "Wesley Vandesteene": {
       "flag": "be",
-      "name": "Wesley Vandesteene"
+      "name": "Wesley Vandesteene",
+      "seasons": {
+        "2025": {
+          "team": "mercedes",
+          "pos": 21,
+          "points": 32
+        },
+        "2026": {
+          "team": "mercedes",
+          "pos": 12,
+          "points": 0
+        }
+      }
     },
     "Zhao Lei": {
       "flag": "cn",
-      "name": "Zhao Lei"
+      "name": "Zhao Lei",
+      "seasons": {
+        "2024": {
+          "team": "mclaren",
+          "pos": 5,
+          "points": 174
+        },
+        "2025": {
+          "team": "mclaren",
+          "pos": 6,
+          "points": 168
+        },
+        "2026": {
+          "team": "mclaren",
+          "pos": 10,
+          "points": 0
+        }
+      }
     }
   },
   "seasons": {
@@ -704,8 +1088,10 @@
             }
           ],
           "team": "vcarb",
-          "wins": 0,
-          "podiums": 0
+          "wins": 4,
+          "podiums": 11,
+          "fastest_laps": 2,
+          "races": 30
         },
         {
           "pos": 2,
@@ -720,8 +1106,10 @@
             }
           ],
           "team": "ferrari",
-          "wins": 0,
-          "podiums": 0
+          "wins": 8,
+          "podiums": 13,
+          "fastest_laps": 1,
+          "races": 30
         },
         {
           "pos": 3,
@@ -736,8 +1124,10 @@
             }
           ],
           "team": "williams",
-          "wins": 0,
-          "podiums": 0
+          "wins": 3,
+          "podiums": 5,
+          "fastest_laps": 2,
+          "races": 30
         },
         {
           "pos": 4,
@@ -757,8 +1147,10 @@
             }
           ],
           "team": "williams",
-          "wins": 0,
-          "podiums": 0
+          "wins": 1,
+          "podiums": 6,
+          "fastest_laps": 0,
+          "races": 30
         },
         {
           "pos": 5,
@@ -778,8 +1170,10 @@
             }
           ],
           "team": "mercedes",
-          "wins": 0,
-          "podiums": 0
+          "wins": 2,
+          "podiums": 5,
+          "fastest_laps": 0,
+          "races": 30
         },
         {
           "pos": 6,
@@ -794,8 +1188,10 @@
             }
           ],
           "team": "mclaren",
-          "wins": 0,
-          "podiums": 0
+          "wins": 2,
+          "podiums": 7,
+          "fastest_laps": 0,
+          "races": 30
         },
         {
           "pos": 7,
@@ -813,8 +1209,10 @@
             11
           ],
           "team": "ferrari",
-          "wins": 0,
-          "podiums": 0
+          "wins": 2,
+          "podiums": 8,
+          "fastest_laps": 2,
+          "races": 29
         },
         {
           "pos": 8,
@@ -835,7 +1233,9 @@
           ],
           "team": "red_bull",
           "wins": 0,
-          "podiums": 0
+          "podiums": 7,
+          "fastest_laps": 1,
+          "races": 30
         },
         {
           "pos": 9,
@@ -851,7 +1251,9 @@
           ],
           "team": "mclaren",
           "wins": 0,
-          "podiums": 0
+          "podiums": 2,
+          "fastest_laps": 1,
+          "races": 30
         },
         {
           "pos": 10,
@@ -871,8 +1273,10 @@
             }
           ],
           "team": "vcarb",
-          "wins": 0,
-          "podiums": 0
+          "wins": 2,
+          "podiums": 8,
+          "fastest_laps": 0,
+          "races": 30
         },
         {
           "pos": 11,
@@ -887,8 +1291,10 @@
             }
           ],
           "team": "red_bull",
-          "wins": 0,
-          "podiums": 0
+          "wins": 2,
+          "podiums": 2,
+          "fastest_laps": 3,
+          "races": 20
         },
         {
           "pos": 12,
@@ -904,7 +1310,9 @@
           ],
           "team": "haas",
           "wins": 0,
-          "podiums": 0
+          "podiums": 3,
+          "fastest_laps": 0,
+          "races": 30
         },
         {
           "pos": 13,
@@ -925,8 +1333,10 @@
             }
           ],
           "team": "vcarb",
-          "wins": 0,
-          "podiums": 0
+          "wins": 2,
+          "podiums": 2,
+          "fastest_laps": 0,
+          "races": 11
         },
         {
           "pos": 14,
@@ -941,8 +1351,10 @@
             }
           ],
           "team": "aston_martin",
-          "wins": 0,
-          "podiums": 0
+          "wins": 1,
+          "podiums": 2,
+          "fastest_laps": 0,
+          "races": 30
         },
         {
           "pos": 15,
@@ -958,7 +1370,9 @@
           ],
           "team": "aston_martin",
           "wins": 0,
-          "podiums": 0
+          "podiums": 1,
+          "fastest_laps": 0,
+          "races": 30
         },
         {
           "pos": 16,
@@ -974,7 +1388,9 @@
           ],
           "team": "kick_sauber",
           "wins": 0,
-          "podiums": 0
+          "podiums": 0,
+          "fastest_laps": 0,
+          "races": 30
         },
         {
           "pos": 17,
@@ -990,7 +1406,9 @@
           ],
           "team": "kick_sauber",
           "wins": 0,
-          "podiums": 0
+          "podiums": 2,
+          "fastest_laps": 0,
+          "races": 30
         },
         {
           "pos": 18,
@@ -1009,7 +1427,9 @@
           ],
           "team": "haas",
           "wins": 0,
-          "podiums": 0
+          "podiums": 1,
+          "fastest_laps": 1,
+          "races": 29
         },
         {
           "pos": 19,
@@ -1024,8 +1444,10 @@
             }
           ],
           "team": "alpine",
-          "wins": 0,
-          "podiums": 0
+          "wins": 1,
+          "podiums": 3,
+          "fastest_laps": 0,
+          "races": 30
         },
         {
           "pos": 20,
@@ -1041,7 +1463,9 @@
           ],
           "team": "alpine",
           "wins": 0,
-          "podiums": 0
+          "podiums": 0,
+          "fastest_laps": 0,
+          "races": 0
         },
         {
           "pos": 21,
@@ -1069,7 +1493,9 @@
           ],
           "team": "mercedes",
           "wins": 0,
-          "podiums": 0
+          "podiums": 1,
+          "fastest_laps": 0,
+          "races": 21
         },
         {
           "pos": 22,
@@ -1085,7 +1511,9 @@
           ],
           "team": "mercedes",
           "wins": 0,
-          "podiums": 0
+          "podiums": 1,
+          "fastest_laps": 0,
+          "races": 11
         },
         {
           "pos": 23,
@@ -1101,7 +1529,9 @@
           ],
           "team": "red_bull",
           "wins": 0,
-          "podiums": 0
+          "podiums": 0,
+          "fastest_laps": 0,
+          "races": 10
         }
       ],
       "constructor_standings": [],
