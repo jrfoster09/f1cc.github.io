@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teams — F1CC Wiki</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .team-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px,1fr)); gap: 12px; }
+    .team-tile {
+      background: var(--navy-light); border: 1px solid var(--blue-border);
+      border-radius: var(--radius-lg); padding: 1.25rem;
+      text-decoration: none; display: block; transition: all 0.15s;
+      border-top: 3px solid var(--team-color, var(--blue-accent));
+    }
+    .team-tile:hover { transform: translateY(-2px); background: rgba(59,141,224,0.05); }
+    .team-tile-name { font-family: var(--font-display); font-size: 18px; font-weight: 700; color: var(--text-primary); margin-bottom: 6px; }
+    .team-tile-drivers { font-size: 12px; color: var(--text-secondary); margin-bottom: 10px; }
+    .team-tile-stats { display: flex; gap: 16px; border-top: 1px solid rgba(59,141,224,0.1); padding-top: 10px; }
+    .ts-val { font-family: var(--font-display); font-size: 17px; font-weight: 700; color: var(--text-primary); }
+    .ts-lbl { font-size: 10px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+
+<nav id="nav">
+  <a class="nav-logo" href="../index.html"><div class="nav-logo-pip"></div>F1CC WIKI</a>
+  <ul class="nav-links">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="seasons.html">Seasons</a></li>
+    <li><a href="drivers.html">Drivers</a></li>
+    <li><a href="teams.html" class="active">Teams</a></li>
+    <li><a href="records.html">Records</a></li>
+  </ul>
+</nav>
+
+<div class="hero-strip">
+  <div class="hero-eyebrow">F1CC Database</div>
+  <h1 class="hero-title">Teams</h1>
+  <p class="hero-sub">All constructors that have competed in the F1 Community Career. Click a team for their full history and driver lineups.</p>
+</div>
+
+<div class="page-container">
+  <div class="section-header mb-2"><span class="section-title" id="team-count">Teams</span></div>
+  <div class="team-grid" id="team-grid"><div style="color:var(--text-muted)">Loading…</div></div>
+</div>
+
+<footer><p>F1CC Wiki · <a href="../index.html">Home</a></p></footer>
+
+<script src="../js/core.js"></script>
+<script>
+async function init() {
+  const DB = await fetch('../data/db.json').then(r=>r.json());
+
+  // Compute team stats
+  const teamStats = {};
+  Object.entries(DB.teams).forEach(([id]) => { teamStats[id] = {wins:0, points:0, titles:0, seasons:new Set()}; });
+
+  Object.entries(DB.seasons).forEach(([year, s]) => {
+    (s.constructor_standings||[]).forEach(row => {
+      if (!teamStats[row.team]) teamStats[row.team] = {wins:0,points:0,titles:0,seasons:new Set()};
+      teamStats[row.team].points += row.points||0;
+      teamStats[row.team].seasons.add(year);
+    });
+    if (s.champion_constructor && teamStats[s.champion_constructor]) teamStats[s.champion_constructor].titles++;
+  });
+
+  // Get current season drivers per team
+  const currentYear = DB.meta.currentSeason;
+  const currentSeason = DB.seasons[currentYear];
+  const teamDrivers = {};
+  Object.entries(DB.drivers).forEach(([id, d]) => {
+    const tId = d.seasons?.[currentYear]?.team;
+    if (tId) { if(!teamDrivers[tId]) teamDrivers[tId]=[]; teamDrivers[tId].push(d.name); }
+  });
+
+  const teams = Object.entries(DB.teams);
+  document.getElementById('team-count').textContent = `${teams.length} Teams`;
+
+  document.getElementById('team-grid').innerHTML = teams.map(([id, t]) => {
+    const stats = teamStats[id] || {};
+    const drivers = teamDrivers[id] || [];
+    return `<a class="team-tile" href="team.html?id=${id}" style="--team-color:${t.color}">
+      <div class="team-tile-name">${t.name}</div>
+      <div class="team-tile-drivers">${drivers.length > 0 ? drivers.slice(0,2).join(' · ') : 'No drivers this season'}</div>
+      <div class="team-tile-stats">
+        <div><div class="ts-val" style="color:${t.color}">${stats.points||0}</div><div class="ts-lbl">Points</div></div>
+        <div><div class="ts-val" style="color:var(--gold)">${stats.titles||0}</div><div class="ts-lbl">Titles</div></div>
+        <div><div class="ts-val">${stats.seasons?.size||0}</div><div class="ts-lbl">Seasons</div></div>
+      </div>
+    </a>`;
+  }).join('');
+}
+init();
+</script>
+</body>
+</html>
