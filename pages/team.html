@@ -88,6 +88,17 @@ async function init() {
     <div class="stat-card"><div class="s-label">Titles</div><div class="s-val">${totalTitles}</div></div>
   </div>`;
 
+  // Team Principal
+  if (team.team_principal) {
+    html += `<div style="background:var(--navy-deep);border:1px solid var(--blue-border);border-radius:var(--radius-md);padding:1rem 1.25rem;margin-bottom:1.5rem;display:flex;align-items:center;gap:1rem;">
+      <div style="font-size:1.6rem">🎯</div>
+      <div>
+        <div style="font-size:10px;font-family:var(--font-display);letter-spacing:1px;color:var(--text-muted);text-transform:uppercase;margin-bottom:2px">Team Principal</div>
+        <div style="font-size:1.1rem;font-weight:600;color:var(--text-primary)">${team.team_principal}</div>
+      </div>
+    </div>`;
+  }
+
   // Season history
   html += `<div class="section-header mb-1"><span class="section-title">Season History</span></div>
   <table class="standings-table mb-3">

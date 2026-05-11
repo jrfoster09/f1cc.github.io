@@ -22,6 +22,7 @@
     .record-val { font-family: var(--font-display); font-size: 16px; font-weight: 700; color: var(--blue-accent); }
     .update-note { font-size: 12px; color: var(--text-muted); text-align: center; padding: 1rem 0; }
   </style>
+<script src="https://unpkg.com/twemoji@14.0.2/dist/twemoji.min.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -111,7 +112,7 @@ async function init() {
   }
 
   const driverName = (id) => DB.drivers[id]?.name || id;
-  const flag = (id) => DB.drivers[id]?.flag || '';
+  const flag = (id) => DB.drivers[id]?.flag_emoji || '';
   const label = (id) => `${flag(id)} ${driverName(id)}`;
 
   const sorted = (key, desc=true) => {
@@ -171,6 +172,7 @@ async function init() {
   ].join('');
 }
 init();
+setTimeout(() => { if(window.twemoji) twemoji.parse(document.body, {folder:"svg",ext:".svg"}); }, 300);
 </script>
 </body>
 </html>
