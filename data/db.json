@@ -7,57 +7,68 @@
     "red_bull": {
       "name": "Red Bull",
       "color": "#3671C6",
-      "short": "Red Bull"
+      "short": "Red Bull",
+      "team_principal": null
     },
     "ferrari": {
       "name": "Ferrari",
       "color": "#E8002D",
-      "short": "Ferrari"
+      "short": "Ferrari",
+      "team_principal": "Randy Belacik"
     },
     "mclaren": {
       "name": "McLaren",
       "color": "#FF8000",
-      "short": "McLaren"
+      "short": "McLaren",
+      "team_principal": null
     },
     "mercedes": {
       "name": "Mercedes",
       "color": "#27F4D2",
-      "short": "Mercedes"
+      "short": "Mercedes",
+      "team_principal": null
     },
     "aston_martin": {
       "name": "Aston Martin",
       "color": "#229971",
-      "short": "Aston Martin"
+      "short": "Aston Martin",
+      "team_principal": null
     },
     "alpine": {
       "name": "Alpine",
       "color": "#FF87BC",
-      "short": "Alpine"
+      "short": "Alpine",
+      "team_principal": null
     },
     "williams": {
       "name": "Williams",
       "color": "#64C4FF",
-      "short": "Williams"
+      "short": "Williams",
+      "team_principal": "Jack TEF"
     },
     "vcarb": {
       "name": "VCARB",
       "color": "#6692FF",
-      "short": "VCARB"
+      "short": "VCARB",
+      "team_principal": null
     },
     "kick_sauber": {
       "name": "Kick Sauber",
       "color": "#52E252",
-      "short": "Kick Sauber"
+      "short": "Kick Sauber",
+      "team_principal": null
     },
     "haas": {
       "name": "Haas",
       "color": "#B6BABD",
-      "short": "Haas"
+      "short": "Haas",
+      "team_principal": null
     },
     "audi": {
       "name": "Audi",
       "color": "#C00000",
-      "short": "Audi"
+      "short": "Audi",
+      "team_principal": null
     }
   },
   "drivers": {
