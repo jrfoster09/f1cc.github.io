@@ -1,0 +1,406 @@
+﻿[
+  {
+    "round": 1,
+    "feature": {
+      "id": "aus_feature",
+      "name": "AUS",
+      "results": {
+        "Philippe Verhaeren": 22,
+        "Michiii Maradöner": 13,
+        "Jaromir Grunt": 9,
+        "Lucas Koopman": 1,
+        "Wesley Vandesteene": 2,
+        "Julian Kondra": 6,
+        "Tim Mittens": 5,
+        "George Konstantaras": 3
+      }
+    },
+    "sprint": {
+      "id": "aus_sprint",
+      "name": "AUS",
+      "results": {
+        "Philippe Verhaeren": 22,
+        "Michiii Maradöner": 16,
+        "Jaromir Grunt": 11,
+        "Lucas Koopman": 2,
+        "Wesley Vandesteene": 1,
+        "Julian Kondra": 3,
+        "Tim Mittens": 4,
+        "George Konstantaras": 20
+      }
+    }
+  },
+  {
+    "round": 2,
+    "feature": {
+      "id": "bah_feature",
+      "name": "BAH",
+      "results": {
+        "Philippe Verhaeren": 2,
+        "Michiii Maradöner": 16,
+        "Jaromir Grunt": 14,
+        "Lucas Koopman": 1,
+        "Julian Kondra": 6,
+        "Tim Mittens": 5,
+        "George Konstantaras": 4
+      }
+    },
+    "sprint": {
+      "id": "bah_sprint",
+      "name": "BAH",
+      "results": {
+        "Philippe Verhaeren": 16,
+        "Michiii Maradöner": 1,
+        "Jaromir Grunt": 14,
+        "Lucas Koopman": 2,
+        "Julian Kondra": 3,
+        "Tim Mittens": 5,
+        "George Konstantaras": 7
+      }
+    }
+  },
+  {
+    "round": 3,
+    "feature": {
+      "id": "sau_feature",
+      "name": "SAU",
+      "results": {
+        "Philippe Verhaeren": 22,
+        "Michiii Maradöner": 8,
+        "Jaromir Grunt": 19,
+        "Lucas Koopman": 13,
+        "Wesley Vandesteene": 5,
+        "Julian Kondra": 10,
+        "Tim Mittens": 12,
+        "George Konstantaras": 2
+      }
+    },
+    "sprint": {
+      "id": "sau_sprint",
+      "name": "SAU",
+      "results": {
+        "Philippe Verhaeren": 2,
+        "Michiii Maradöner": 9,
+        "Jaromir Grunt": 17,
+        "Lucas Koopman": 12,
+        "Wesley Vandesteene": 10,
+        "Julian Kondra": 1,
+        "Tim Mittens": 11,
+        "George Konstantaras": 8
+      }
+    }
+  },
+  {
+    "round": 4,
+    "feature": {
+      "id": "imo_feature",
+      "name": "IMO",
+      "results": {
+        "Philippe Verhaeren": 2,
+        "Michiii Maradöner": 4,
+        "Jaromir Grunt": 3,
+        "Lucas Koopman": 18,
+        "Wesley Vandesteene": 11,
+        "Julian Kondra": 8,
+        "Tim Mittens": 14,
+        "George Konstantaras": 5
+      }
+    },
+    "sprint": {
+      "id": "imo_sprint",
+      "name": "IMO",
+      "results": {
+        "Philippe Verhaeren": 1,
+        "Michiii Maradöner": 3,
+        "Jaromir Grunt": 7,
+        "Lucas Koopman": 18,
+        "Wesley Vandesteene": 15,
+        "Julian Kondra": 11,
+        "Tim Mittens": 14,
+        "George Konstantaras": 2
+      }
+    }
+  },
+  {
+    "round": 5,
+    "feature": {
+      "id": "mon_feature",
+      "name": "MON",
+      "results": {
+        "Philippe Verhaeren": 12,
+        "Michiii Maradöner": 9,
+        "Jaromir Grunt": 2,
+        "Lucas Koopman": 3,
+        "Wesley Vandesteene": 4,
+        "Julian Kondra": 8,
+        "Tim Mittens": 6,
+        "George Konstantaras": 1
+      }
+    },
+    "sprint": {
+      "id": "mon_sprint",
+      "name": "MON",
+      "results": {
+        "Philippe Verhaeren": 13,
+        "Michiii Maradöner": 10,
+        "Jaromir Grunt": 11,
+        "Lucas Koopman": 7,
+        "Wesley Vandesteene": 4,
+        "Julian Kondra": 2,
+        "Tim Mittens": 3,
+        "George Konstantaras": 5
+      }
+    }
+  },
+  {
+    "round": 6,
+    "feature": {
+      "id": "spa_feature",
+      "name": "SPA",
+      "results": {
+        "Michiii Maradöner": 2,
+        "Jaromir Grunt": 3,
+        "Lucas Koopman": 13,
+        "Julian Kondra": 11,
+        "Tim Mittens": 7,
+        "George Konstantaras": 14
+      }
+    },
+    "sprint": {
+      "id": "spa_sprint",
+      "name": "SPA",
+      "results": {
+        "Michiii Maradöner": 2,
+        "Jaromir Grunt": 5,
+        "Lucas Koopman": 10,
+        "Julian Kondra": 8,
+        "Tim Mittens": 3,
+        "George Konstantaras": 18
+      }
+    }
+  },
+  {
+    "round": 7,
+    "feature": {
+      "id": "aut_feature",
+      "name": "AUT",
+      "results": {
+        "Jaromir Grunt": 7,
+        "Lucas Koopman": 10,
+        "Julian Kondra": 2,
+        "Tim Mittens": 6,
+        "George Konstantaras": 15
+      }
+    },
+    "sprint": {
+      "id": "aut_sprint",
+      "name": "AUT",
+      "results": {
+        "Jaromir Grunt": 11,
+        "Lucas Koopman": 8,
+        "Julian Kondra": 7,
+        "Tim Mittens": 2,
+        "George Konstantaras": 16
+      }
+    }
+  },
+  {
+    "round": 8,
+    "feature": {
+      "id": "gbr_feature",
+      "name": "GBR",
+      "results": {
+        "Jaromir Grunt": 3,
+        "Lucas Koopman": 6,
+        "Julian Kondra": 7,
+        "Tim Mittens": 11,
+        "George Konstantaras": 8
+      }
+    },
+    "sprint": {
+      "id": "gbr_sprint",
+      "name": "GBR",
+      "results": {
+        "Jaromir Grunt": 8,
+        "Lucas Koopman": 9,
+        "Julian Kondra": 3,
+        "Tim Mittens": 10,
+        "George Konstantaras": 6
+      }
+    }
+  },
+  {
+    "round": 9,
+    "feature": {
+      "id": "bel_feature",
+      "name": "BEL",
+      "results": {
+        "Jaromir Grunt": 5,
+        "Lucas Koopman": 14,
+        "Julian Kondra": 15,
+        "Tim Mittens": 16,
+        "George Konstantaras": 1
+      }
+    },
+    "sprint": {
+      "id": "bel_sprint",
+      "name": "BEL",
+      "results": {
+        "Jaromir Grunt": 14,
+        "Lucas Koopman": 11,
+        "Julian Kondra": 10,
+        "Tim Mittens": 16,
+        "George Konstantaras": 7
+      }
+    }
+  },
+  {
+    "round": 10,
+    "feature": {
+      "id": "hun_feature",
+      "name": "HUN",
+      "results": {
+        "Jaromir Grunt": 8,
+        "Lucas Koopman": 12,
+        "Julian Kondra": 1,
+        "Tim Mittens": 4,
+        "George Konstantaras": 15
+      }
+    },
+    "sprint": {
+      "id": "hun_sprint",
+      "name": "HUN",
+      "results": {
+        "Jaromir Grunt": 12,
+        "Lucas Koopman": 10,
+        "Julian Kondra": 9,
+        "Tim Mittens": 3,
+        "George Konstantaras": 15
+      }
+    }
+  },
+  {
+    "round": 11,
+    "feature": {
+      "id": "ita_feature",
+      "name": "ITA",
+      "results": {
+        "Jaromir Grunt": 10,
+        "Lucas Koopman": 1,
+        "Julian Kondra": 8,
+        "Tim Mittens": 2,
+        "George Konstantaras": 12,
+        "Frederik Frid": 9,
+        "Richard Hicks": 22,
+        "Alex Thomspon": 21
+      }
+    },
+    "sprint": {
+      "id": "ita_sprint",
+      "name": "ITA",
+      "results": {
+        "Jaromir Grunt": 2,
+        "Lucas Koopman": 3,
+        "Julian Kondra": 7,
+        "Tim Mittens": 1,
+        "George Konstantaras": 11,
+        "Frederik Frid": 10,
+        "Richard Hicks": 15,
+        "Alex Thomspon": 16
+      }
+    }
+  },
+  {
+    "round": 12,
+    "feature": {
+      "id": "aze_feature",
+      "name": "AZE",
+      "results": {
+        "Jaromir Grunt": 6,
+        "Lucas Koopman": 2,
+        "Julian Kondra": 9,
+        "Tim Mittens": 4,
+        "George Konstantaras": 11,
+        "Frederik Frid": 22,
+        "Richard Hicks": 16,
+        "Alex Thomspon": 18
+      }
+    },
+    "sprint": {
+      "id": "aze_sprint",
+      "name": "AZE",
+      "results": {
+        "Jaromir Grunt": 7,
+        "Lucas Koopman": 5,
+        "Julian Kondra": 1,
+        "Tim Mittens": 11,
+        "George Konstantaras": 16,
+        "Frederik Frid": 4,
+        "Richard Hicks": 13,
+        "Alex Thomspon": 22
+      }
+    }
+  },
+  {
+    "round": 13,
+    "feature": {
+      "id": "qat_feature",
+      "name": "QAT",
+      "results": {
+        "Jaromir Grunt": 5,
+        "Lucas Koopman": 6,
+        "Julian Kondra": 9,
+        "Tim Mittens": 4,
+        "George Konstantaras": 11,
+        "Frederik Frid": 3,
+        "Richard Hicks": 21,
+        "Alex Thomspon": 22
+      }
+    },
+    "sprint": {
+      "id": "qat_sprint",
+      "name": "QAT",
+      "results": {
+        "Jaromir Grunt": 2,
+        "Lucas Koopman": 6,
+        "Julian Kondra": 7,
+        "Tim Mittens": 4,
+        "George Konstantaras": 10,
+        "Frederik Frid": 5,
+        "Richard Hicks": 22,
+        "Alex Thomspon": 19
+      }
+    }
+  },
+  {
+    "round": 14,
+    "feature": {
+      "id": "uae_feature",
+      "name": "UAE",
+      "results": {
+        "Jaromir Grunt": 6,
+        "Lucas Koopman": 1,
+        "Julian Kondra": 5,
+        "Tim Mittens": 8,
+        "George Konstantaras": 4,
+        "Frederik Frid": 7,
+        "Richard Hicks": 19,
+        "Alex Thomspon": 21
+      }
+    },
+    "sprint": {
+      "id": "uae_sprint",
+      "name": "UAE",
+      "results": {
+        "Jaromir Grunt": 1,
+        "Lucas Koopman": 5,
+        "Julian Kondra": 2,
+        "Tim Mittens": 4,
+        "George Konstantaras": 8,
+        "Frederik Frid": 11,
+        "Richard Hicks": 20,
+        "Alex Thomspon": 17
+      }
+    }
+  }
+]
