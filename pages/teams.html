@@ -64,6 +64,14 @@ async function init() {
       teamStats[row.team].seasons.add(year);
     });
     if (s.champion_constructor && teamStats[s.champion_constructor]) teamStats[s.champion_constructor].titles++;
+    // Also count seasons from driver stints (catches seasons with no constructor_standings yet)
+    (s.driver_standings||[]).forEach(row => {
+      const t = row.team;
+      if (t) {
+        if (!teamStats[t]) teamStats[t] = {wins:0,points:0,titles:0,seasons:new Set()};
+        teamStats[t].seasons.add(year);
+      }
+    });
   });
 
   // Get current season drivers per team
