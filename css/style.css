@@ -38,7 +38,8 @@
   --gold: #c8a840;
   --silver: #9daab8;
   --bronze: #b06030;
-  --font-display: 'Formula1Wide', 'Formula1', sans-serif;
+  --font-display: 'Formula1', sans-serif;
+  --font-wide: 'Formula1Wide', sans-serif;
   --font-body: 'Formula1', sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
   --radius: 8px;
@@ -72,8 +73,8 @@ body {
 .nav-logo {
   display: flex; align-items: center; gap: 10px;
   text-decoration: none; color: var(--text-primary);
-  font-family: var(--font-display);
-  font-size: 20px; font-weight: 700; letter-spacing: 1px;
+  font-family: var(--font-wide);
+  font-size: 13px; font-weight: 400; letter-spacing: 1px;
 }
 
 .nav-logo-pip {
@@ -127,8 +128,8 @@ body {
 }
 
 .hero-title {
-  font-family: var(--font-display);
-  font-size: 32px; font-weight: 700;
+  font-family: var(--font-wide);
+  font-size: 24px; font-weight: 400;
   color: #fff; line-height: 1.1;
   margin-bottom: 0.5rem;
 }
@@ -144,7 +145,7 @@ body {
 
 .hero-stat .val {
   font-family: var(--font-display);
-  font-size: 28px; font-weight: 700;
+  font-size: 20px; font-weight: 700;
   color: var(--blue-accent); line-height: 1;
 }
 
@@ -196,7 +197,7 @@ body {
 
 .stat-card .s-val {
   font-family: var(--font-display);
-  font-size: 22px; font-weight: 700;
+  font-size: 16px; font-weight: 700;
   color: var(--text-primary);
 }
 
@@ -304,7 +305,7 @@ body {
 
 .pts-cell {
   font-family: var(--font-display);
-  font-size: 15px; font-weight: 700;
+  font-size: 13px; font-weight: 700;
   color: var(--text-primary);
 }
 
@@ -345,7 +346,7 @@ body {
 
 .race-name {
   font-family: var(--font-display);
-  font-size: 16px; font-weight: 700;
+  font-size: 13px; font-weight: 700;
   color: var(--text-primary); margin-bottom: 2px;
   line-height: 1.2;
 }
@@ -411,7 +412,7 @@ body {
 
 .driver-card-name {
   font-family: var(--font-display);
-  font-size: 16px; font-weight: 700;
+  font-size: 13px; font-weight: 700;
   color: var(--text-primary);
   line-height: 1.2; margin-bottom: 4px;
 }
@@ -500,7 +501,7 @@ body {
 
 .podium-driver {
   font-family: var(--font-display);
-  font-size: 17px; font-weight: 700;
+  font-size: 14px; font-weight: 700;
   color: var(--text-primary);
 }
 
@@ -576,7 +577,7 @@ footer a { color: var(--blue-accent); text-decoration: none; }
 /* ── RESPONSIVE ── */
 @media (max-width: 700px) {
   .hero-stats { gap: 1rem; }
-  .hero-title { font-size: 24px; }
+  .hero-title { font-size: 18px; }
   .podium-row { grid-template-columns: 1fr; }
   .nav-links { display: none; }
   .race-grid { grid-template-columns: 1fr 1fr; }

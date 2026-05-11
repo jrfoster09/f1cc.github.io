@@ -1,6 +1,6 @@
 # F1CC Wiki
 
-The official wiki and database for the F1 Manager Community Career.
+The development and testing git for the F1 Manager Community Career Wiki.
 
 **TO DO LIST (Eren add if need be)**
 - Fix Records no Emoji bug
