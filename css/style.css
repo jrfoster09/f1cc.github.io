@@ -1,4 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Barlow:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+/* F1 Fonts */
+@font-face {
+  font-family: 'Formula1';
+  src: url('../assets/fonts/Formula1-Regular_web_0.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Formula1';
+  src: url('../assets/fonts/Formula1-Bold_web_0.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Formula1Wide';
+  src: url('../assets/fonts/Formula1-Wide_web_0.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
 
 :root {
   --navy-deepest: #060e1c;
@@ -16,8 +38,8 @@
   --gold: #c8a840;
   --silver: #9daab8;
   --bronze: #b06030;
-  --font-display: 'Barlow Condensed', sans-serif;
-  --font-body: 'Barlow', sans-serif;
+  --font-display: 'Formula1Wide', 'Formula1', sans-serif;
+  --font-body: 'Formula1', sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
   --radius: 8px;
   --radius-lg: 12px;
@@ -31,8 +53,9 @@ body {
   font-family: var(--font-body);
   background: var(--navy-deepest);
   color: var(--text-primary);
-  font-size: 15px;
+  font-size: 13px;
   line-height: 1.6;
+  letter-spacing: 0.01em;
   min-height: 100vh;
 }
 
