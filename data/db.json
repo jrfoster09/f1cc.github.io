@@ -26,7 +26,7 @@
       "name": "Mercedes",
       "color": "#27F4D2",
       "short": "Mercedes",
-      "team_principal": CMDesigns
+      "team_principal": "CMDesigns"
     },
     "aston_martin": {
       "name": "Aston Martin",
